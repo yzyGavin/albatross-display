@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2009 SkySoft-ATM 
+ * Copyright (C) 2013 SkySoft-ATM 
  *		ROUTE DE PRE-BOIS 15-17
  *		CH-1215 GENEVA
  *		SWITZERLAND
@@ -41,7 +41,7 @@
 // 
 //  CHANGE HISTORY
 // 
-//  Revision 1  2009/08/31 dalleins
+//  Revision 2  2013/12/29 dalleins
 //
 //
 //
@@ -49,6 +49,7 @@
 //-----------------------------------------------------------------------------
 #include "StdAfx.h"
 #include "Asterix.h"
+#include "AsdApp.h"
 
 	typedef enum {fix,var,rep,exl,sub} typfld;
 	typedef enum {intval,strval,pospol,posxy,bytearray,vectors} kindfld;
@@ -110,8 +111,8 @@
 														{2,rep,NoFld,intval},{8,fix,NoFld,intval},{1,fix,NoFld,intval},{8,fix,NoFld,intval},{2,fix,NoFld,intval},{1,sub,NoFld,intval},{1,sub,NoFld,intval}};
 	//cat 08 Weather
 	const int FldNbr08=13;
-	const itemdef UAP08[FldNbr08]={{0,fix,NoFld,intval},{2,fix,SicSac,intval},{1,fix,MsgType,intval},{1,var,WthrLevel,intval},{3,rep,WthrCartVectors,bytearray},{4,rep,WthrPolarVectors,bytearray},{2,fix,NoFld,intval},{2,rep,NoFld,intval},
-									{3,fix,NoFld,intval},{3,var,WthrScale,bytearray},{1,var,NoFld,intval},{2,fix,WthrTotal,intval},{4,rep,NoFld,intval}};
+	const itemdef UAP08[FldNbr08]={{0,fix,NoFld,intval},{2,fix,SicSac,intval},{1,fix,MsgType,intval},{1,var,WthrLevel,intval},{3,rep,WthrCartRangeVectors,bytearray},{4,rep,WthrPolarVectors,bytearray},{2,fix,NoFld,intval},{2,rep,NoFld,intval},
+									{3,fix,NoFld,intval},{3,var,WthrScale,bytearray},{1,var,NoFld,intval},{2,fix,WthrTotal,intval},{4,rep,WthrCartXYVectors,bytearray}};
 	//cat 04 Safety
 	const int FldNbr04=29;
 	const itemdef UAP04[FldNbr04]={{0,fix,NoFld,intval},{2,fix,SicSac,intval},{1,fix,MsgType,intval},{2,fix,NoFld,intval},{3,fix,NoFld,intval},{2,fix,TrkNb1,intval},{2,fix,AlarmNb,intval},{1,var,AlarmState,bytearray},
@@ -153,26 +154,25 @@
 	//cat 62 new Artas
 
 	const int SubFldNbr62_380=28;
-	const itemdef SubUAP62_380[SubFldNbr62_380]={{3,fix,TrkAddr,intval},{6,fix,TrkAircraft,bytearray},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},
-												{1,var,NoFld,intval},{15,rep,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{7,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},
-												{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval},{8,fix,NoFld,intval},{1,fix,NoFld,intval},
-												{6,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval},{8,rep,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval}};
+	const itemdef SubUAP62_380[SubFldNbr62_380]={{3,fix,TrkAddr,intval},{6,fix,TrkAircraft,bytearray},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,IAcSelAlt,bytearray},{2,fix,FAcSelAlt,bytearray},
+                                                {1,var,NoFld,intval},{15,rep,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{7,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},
+                                                {2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval},{8,fix,NoFld,intval},{1,fix,NoFld,intval},
+                                                {6,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval},{8,rep,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval}};;
 
 	const int SubFldNbr62_290=10;
 	const itemdef SubUAP62_290[SubFldNbr62_290]={{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},
-												{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval}};
+                                                {1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval}};
 	const int SubFldNbr62_295=31;
-	const itemdef SubUAP62_295[SubFldNbr62_295]={{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},
-												{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},
-												{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},
-												{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},
+	const itemdef SubUAP62_295[SubFldNbr62_295]={{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},// Error iem 12  : {2,fix,NoFld,intval} instead of {1,fix,NoFld,intval}
+												{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},// Error iem 19  : {2,fix,NoFld,intval} instead of {1,fix,NoFld,intval}
+												{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},// Error iem 26  : {2,fix,NoFld,intval} instead of {1,fix,NoFld,intval}
+												{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},
 												{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval}};
 
 	const int SubFldNbr62_390=18;
 	const itemdef SubUAP62_390[SubFldNbr62_390]={{2,fix,NoFld,intval},{7,fix,TrkCls,strval},{4,fix,NoFld,intval},{1,fix,NoFld,intval},{4,fix,NoFld,intval},{1,fix,NoFld,intval},{4,fix,NoFld,intval},
-												{4,fix,NoFld,intval},{3,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{4,rep,NoFld,intval},{6,fix,NoFld,intval},{1,fix,NoFld,intval},
-												{7,fix,NoFld,intval},{7,fix,NoFld,intval},{2,fix,NoFld,intval},{7,fix,NoFld,intval}};
-
+                                                {4,fix,NoFld,intval},{3,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{4,rep,NoFld,intval},{6,fix,NoFld,intval},{1,fix,NoFld,intval},
+                                                {7,fix,NoFld,intval},{7,fix,NoFld,intval},{2,fix,NoFld,intval},{7,fix,NoFld,intval}};
 
 	const int SubFldNbr62_110=7;
 	const itemdef SubUAP62_110[SubFldNbr62_110]={{1,fix,NoFld,intval},{4,fix,NoFld,intval},{6,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval}};
@@ -181,19 +181,60 @@
 	const itemdef SubUAP62_500[SubFldNbr62_500]={{4,fix,NoFld,intval},{2,fix,NoFld,intval},{4,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},
 												{1,fix,NoFld,intval}};
 
-	const int SubFldNbr62_340=7;
+
+    const int SubFldNbr62_REF=4;  // 
+
+    const itemdef SubUAP62_REF[SubFldNbr62_REF]={{5,rep,NoFld,intval},{3,rep,NoFld,intval},{4,fix,NoFld,intval},{1,fix,NoFld,intval}};
+
+	const int SubFldNbr62_340=6;
 	const itemdef SubUAP62_340[SubFldNbr62_340]={{2,fix,NoFld,intval},{4,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval}};
 
 	const int FldNbr62=36;
-	const itemdef UAP62[FldNbr62]={{0,fix,NoFld,intval},{2,fix,SicSac,intval},{0,fix,NoFld,intval},{1,fix,NoFld,intval},{3,fix,NoFld,intval},{8,fix,NoFld,intval},{6,fix,TrkPos,posxy},{4,fix,TrkSpd,posxy},
+	const itemdef UAP62[FldNbr62]={{0,fix,NoFld,intval},{2,fix,SicSac,intval},{0,fix,NoFld,intval},{1,fix,NoFld,intval},{3,fix,NoFld,intval},{8,fix,NoFld,posxy},{6,fix,TrkPos,posxy},{4,fix,TrkSpd,posxy},
 														{2,fix,NoFld,intval},{2,fix,TrkSsr,intval},{7,fix,NoFld,posxy},{(int)&SubUAP62_380,sub,NoFld,intval},{2,fix,TrkNum,intval},{1,var,TrkStatus,bytearray},{(int)&SubUAP62_290,sub,NoFld,bytearray},
-														{1,fix,NoFld,intval},{(int)&SubUAP62_295,sub,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,TrkAlt,intval},{2,fix,TrkVSpd,intval},{(int)&SubUAP62_390,sub,NoFld,intval},
+														{1,fix,TrkFlMod,intval},{(int)&SubUAP62_295,sub,NoFld,intval},{2,fix,TrkAlt,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,TrkVSpd,intval},{(int)&SubUAP62_390,sub,NoFld,intval},
 														{1,var,NoFld,intval},{1,fix,NoFld,intval},{(int)&SubUAP62_110,sub,NoFld,bytearray},{2,fix,NoFld,intval},{3,var,NoFld,intval},{(int)&SubUAP62_500,sub,NoFld,bytearray},{(int)&SubUAP62_340,sub,NoFld,bytearray},
-														{0,fix,NoFld,intval},{0,fix,NoFld,intval},{0,fix,NoFld,intval},{0,fix,NoFld,intval},{0,fix,NoFld,intval},{0,fix,NoFld,intval},{0,fix,NoFld,intval}};
+														{0,fix,NoFld,intval},{0,fix,NoFld,intval},{0,fix,NoFld,intval},{0,fix,NoFld,intval},{0,fix,NoFld,intval},{(int)&SubUAP62_REF,ref,NoFld,intval},{1,exl,NoFld,intval}};
 
 
+	//cat 63
+	const int FldNbr63=17;
+	const itemdef UAP63[FldNbr63]={{0,fix,NoFld,intval},{2,fix,SicSac,intval},{1,fix,NoFld,intval},{3,fix,NoFld,intval},{2,fix,SensorId,intval},{1,var,SensorStatus,intval},{2,fix,NoFld,intval},{4,var,NoFld,intval},
+														{2,fix,NoFld,intval},{4,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval},{1,var,NoFld,intval},{1,var,NoFld,intval}};
+
+	//cat 65
+	const int FldNbr65=17;
+	const itemdef UAP65[FldNbr65]={{0,fix,NoFld,intval},{2,fix,SicSac,intval},{1,fix,MsgType,intval},{1,fix,NoFld,intval},{3,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,SensorStatus,intval},{1,fix,ServiceStatus,intval},
+														{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,var,NoFld,intval},{1,var,NoFld,intval}};
+
+	//cat 21 ADS B
+	const int SubFldNbr21_220=4;
+	const itemdef SubUAP21_220[SubFldNbr21_220]={{2,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},{1,fix,NoFld,intval}};
+
+	const int SubFldNbr21_110=2;
+	const itemdef SubUAP21_110[SubFldNbr21_110]={{1,var,NoFld,intval},{15,rep,NoFld,intval}};
+
+
+	const int FldNbr21=29;
+	    const itemdef UAP21[FldNbr21]={{0,fix,NoFld,intval},{2,fix,SicSac,intval},{2,fix,NoFld,intval},{3,fix,NoFld,intval},{6,fix,TrkPos,posxy},{3,fix,TrkAddr,intval},{2,fix,NoFld,intval},{2,fix,NoFld,intval},
+									    {1,fix,NoFld,intval},{2,fix,NoFld,intval},{2,fix,TrkAlt,intval},{2,fix,NoFld,intval},{2,fix,TrkSpd,intval},{2,fix,NoFld,intval},{2,fix,TrkVSpd,intval},
+									    {2,fix,NoFld,intval},{4,fix,TrkSpdVector,pospol},{1,var,NoFld,intval},{6,fix,TrkAircraft,bytearray},{1,fix,NoFld,intval},{1,fix,NoFld,intval},{1,fix,NoFld,intval},
+									    {1,fix,NoFld,intval},{(int)&SubUAP21_220,sub,NoFld,intval},{2,fix,IAcSelAlt,bytearray},{2,fix,FAcSelAlt,bytearray},{(int)&SubUAP21_110,sub,TrkTraj,bytearray},{2,fix,NoFld,intval},{1,fix,NoFld,intval}};
+
+														
 	const int MaxFldNbr=FldNbr242;
 
+//-FUNCTION PROTOTYPES---------------------------------------------------------
+
+
+//-----------------------------------------------------------------------------
+//
+/// \class CAsterixMsg
+/// This class is used to parse messages from buffer complient with ASTERIX format.
+/// The categories implemented are 01, 30, 08, 04, 252.
+// 
+//
+//-----------------------------------------------------------------------------
 	CAsterixMsg::CAsterixMsg()
 	{
 		m_CurPos=0;
@@ -206,17 +247,48 @@
 		delete m_pMsg;
 	}
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method is the constructor used to initialise one instance with 
+///		the buffer compliant with ASTERIX format 
+/// 
+//-----------------------------------------------------------------------------
 	CAsterixMsg::CAsterixMsg(BYTE* pMsg,int TotalLen)
 	{
-		m_pMsg = new BYTE[TotalLen];
-		for (int i=0;i<TotalLen;i++)
-			m_pMsg[i]=pMsg[i];
-		m_TotalLen=TotalLen;
+	        if (TotalLen == 0 || pMsg == NULL)
+		{
+			QString mess;
+			mess.sprintf("Empty message received");
+			CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+			m_pMsg = NULL;
+			m_TotalLen=0;
+		}
+		else
+		{
+		  m_pMsg = new BYTE[TotalLen];
+		  for (int i=0;i<TotalLen;i++)
+			  m_pMsg[i]=pMsg[i];
+		  m_TotalLen=TotalLen;
+		  QString mess;
+		  mess.sprintf("Received asterix message %d bytes", m_TotalLen);
+		  CAsdApp::GetApp()->WriteLogAsterix(mess, LogInformation);
+		  CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogInformation);
+		}
 		m_CurPos=0;
 		m_BlockPos=0;
 		m_BlockLen=0;
 	}
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method parses the next message in the buffer and fills m_FldTable
+/// 
+///  RETURNS: true if there is still a message to parse
+///			  false if this was the last message in the buffer
+///
+//-----------------------------------------------------------------------------
 bool CAsterixMsg::DecodeInternalMessage()
 {
 	bool fldexist[MaxFldNbr];
@@ -243,6 +315,10 @@ bool CAsterixMsg::DecodeInternalMessage()
 		fldnbr=FldNbr08;
 		UAP=UAP08;
 		break;
+	case 21:
+		fldnbr=FldNbr21;
+		UAP=UAP21;
+		break;
 	case 30:
 		fldnbr=FldNbr30;
 		UAP=UAP30;
@@ -254,10 +330,18 @@ bool CAsterixMsg::DecodeInternalMessage()
 	case 48:
 		fldnbr=FldNbr48;
 		UAP=UAP48;
-		break;
+		break;	  
 	case 62:
 		fldnbr=FldNbr62;
 		UAP=UAP62;
+		break;
+	case 63:
+		fldnbr=FldNbr63;
+		UAP=UAP63;
+		break;
+	case 65:
+		fldnbr=FldNbr65;
+		UAP=UAP65;
 		break;
 	case 242:
 		fldnbr=FldNbr242;
@@ -271,14 +355,35 @@ bool CAsterixMsg::DecodeInternalMessage()
 		fldnbr=FldNbr252;
 		UAP=UAP252;
 		break;
+	default:
+		{
+			QString mess;
+			mess.sprintf("byte %d: Category %d not supported", m_BlockPos, m_Category);
+			CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+			CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+			CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+			return false;
+		}
+		break;
 	}
+	
+	int startpos = curpos;
+	
 	for (i=0;i<fldnbr;i++)
 		fldexist[i] = false;
-	int lenfld=0;
 	int tmppos,tmppos2;
 	//decode fspec
 	do
 	{
+	        if (curpos >= m_TotalLen)
+		{
+			QString mess;
+			mess.sprintf("byte %d: message ending while UAP not complete", curpos);
+			CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+			CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+			CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+			return false;
+		}
 		for (i=0;i<7;i++)
 		{
 			if (m_pMsg[curpos]&(1<<(7-i)))
@@ -287,65 +392,205 @@ bool CAsterixMsg::DecodeInternalMessage()
 		}
 	}
 	while (m_pMsg[curpos++]&1);
+	
+	QString mess;
+	mess.sprintf("      UAP begining at %d", startpos);
+	CAsdApp::GetApp()->WriteLogAsterix(mess, LogInformation);
+	CAsdApp::GetApp()->WriteTraceBufferAsterix("      ", &m_pMsg[startpos], curpos- startpos, false, true, NULL, LogInformation);
+	
 	for (fld=1;fld<fldnbr;fld++)
 	{
 		if (fldexist[fld])
 		{
+			if (curpos >= m_TotalLen)
+			{
+			      QString mess;
+			      mess.sprintf("byte %d: message too short to contain UAP datas", curpos);
+			      CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+			      CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+			      CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+			      return false;
+			}
+
+			int lenfld=0;
+			tmppos=curpos;
+			QString fieldtype;
 			switch (UAP[fld].typ)
 			{
 			case fix:
+				fieldtype = "fix";
 				lenfld=UAP[fld].len;
 				break;
 			case var:
-				lenfld=UAP[fld].len;
-				while (m_pMsg[curpos+lenfld-1]&1)
+				fieldtype = "var";
+				do
+				{
+					tmppos+=UAP[fld].len;
 					lenfld+=UAP[fld].len;
-				break;
+					if (tmppos-1 >= m_TotalLen)
+					{
+						QString mess;
+						mess.sprintf("byte %d: var datas reached the end of message unexpectidly", tmppos-1);
+						CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+						CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+						CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+						return false;
+					}
+				}
+				while (m_pMsg[tmppos-1]&1);
+		                break;
 			case rep:
-				lenfld=1+m_pMsg[curpos]*UAP[fld].len;
-				break;
+				fieldtype = "rep";
+				{
+					int repcnt = m_pMsg[tmppos++];
+					lenfld++;
+					for (i=0;i<repcnt;i++)
+					{
+						tmppos+=UAP[fld].len;
+						lenfld+=UAP[fld].len;
+					}
+				}
+		                break;
 			case exl:
+				fieldtype = "exl";
 				lenfld = m_pMsg[curpos];
 				break;
 			case sub:
+				fieldtype = "";
+				startpos = curpos;
 				subfldnbr=0;
 				tmppos=curpos;
 				tmppos2=curpos+1;
 				while (m_pMsg[tmppos2-1]&1)
+				{
 					tmppos2++;
+					if (tmppos2-1 >= m_TotalLen)
+					{
+						QString mess;
+						mess.sprintf("byte %d: sub datas reached the end of message unexpectidly", tmppos2-1);
+						CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+						CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+						CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+						return false;
+					}
+				}
+				mess;
+				mess.sprintf("        field type=sub with UAP starting at %d", startpos);
+				CAsdApp::GetApp()->WriteLogAsterix(mess, LogInformation);
+				CAsdApp::GetApp()->WriteTraceBufferAsterix("          ", &m_pMsg[startpos], tmppos2 - startpos, false, true, NULL, LogInformation);
 				lenfld=0;
 				SubUAP=(itemdef*)UAP[fld].len;
 				do
 				{
-					for (int i=subfldnbr;i<subfldnbr+7;i++)
+					for (int i=0;i<7;i++)
 					{
-						subfldpos[i]=-1;
+					    subfldpos[i+subfldnbr]=-1;
+				  
+					  QString fieldtype;
+					  int fieldlength=0;
+					  int possubfield=0;
+					  if (m_pMsg[tmppos]&(1<<(7-i)))
+					  {
+						  subfldpos[i+subfldnbr]=tmppos2;
+						  switch (SubUAP[i+subfldnbr].typ)
+						  {
+						  case fix:
+							  fieldtype = "fix";
+							  possubfield = tmppos2;
+							  subfldlen[i+subfldnbr]=SubUAP[i+subfldnbr].len;
+							  lenfld+=SubUAP[i+subfldnbr].len;
+							  tmppos2+=SubUAP[i+subfldnbr].len;
+							  fieldlength = SubUAP[i+subfldnbr].len;
+							  break;
+						  case var:
+							  fieldtype = "var";
+							  possubfield = tmppos2;
+							  subfldlen[i+subfldnbr]=SubUAP[i+subfldnbr].len;
+							  lenfld+=SubUAP[i+subfldnbr].len;
+							  tmppos2+=SubUAP[i+subfldnbr].len;
+							  fieldlength+= SubUAP[i+subfldnbr].len;
+						    //Ph Q Correction :
+						    //while (m_pMsg[tmppos2+SubUAP[i].len-1]&1)
+							  while (m_pMsg[tmppos2-1]&1)
+							  {
+								  subfldlen[i+subfldnbr]+=SubUAP[i+subfldnbr].len;
+								  lenfld+=SubUAP[i+subfldnbr].len;
+								  tmppos2+=SubUAP[i+subfldnbr].len;
+								  fieldlength+= SubUAP[i+subfldnbr].len;
+							  }
+							  break;
+						  case rep:
+							  fieldtype = "rep";
+							  possubfield = tmppos2;
+							  {
+								  subfldlen[i+subfldnbr]=1+m_pMsg[tmppos2]*SubUAP[i+subfldnbr].len;
+								  // Correction Ph.Q 20110923
+								  //lenfld=1+m_pMsg[tmppos2]*SubUAP[i+subfldnbr].len;
+								  lenfld+=1+m_pMsg[tmppos2]*SubUAP[i+subfldnbr].len;
+								  tmppos2+=1+m_pMsg[tmppos2]*SubUAP[i+subfldnbr].len;
+								  fieldlength+= 1+m_pMsg[tmppos2]*SubUAP[i+subfldnbr].len;
+							  }
+							  break;
+						  default:
+							  {
+							  }
+							  break;
+						  }
+					  }
+					  if (fieldtype != "")
+					  {
+					    mess.sprintf("              sub field type=%s pos = %d length = %d", (LPCSTR)fieldtype, possubfield, fieldlength);
+					    CAsdApp::GetApp()->WriteLogAsterix(mess, LogInformation);
+					  }
+					}
+					subfldnbr+=7;
+					tmppos++;
+					lenfld++;
+				} while (m_pMsg[tmppos-1]&1);
+				break;
+			case ref :
+				fieldtype = "ref";
+				subfldnbr=0;
+				tmppos=curpos+1;
+				tmppos2=curpos+2;
+				while (m_pMsg[tmppos2-1]&1)
+					tmppos2++;
+
+				lenfld =1; // BYTE containing size of the field
+				SubUAP=(itemdef*)UAP[fld].len;
+
+				do
+		                {
+					for (int i=0;i<7;i++)
+					{
+						subfldpos[i+subfldnbr]=-1;
 						if (m_pMsg[tmppos]&(1<<(7-i)))
 						{
-							subfldpos[i]=tmppos2;
-							switch (SubUAP[i].typ)
+							subfldpos[i+subfldnbr]=tmppos2;
+							switch (SubUAP[i+subfldnbr].typ)
 							{
 							case fix:
-								subfldlen[i]=SubUAP[i].len;
-								lenfld+=SubUAP[i].len;
-								tmppos2+=SubUAP[i].len;
+								subfldlen[i+subfldnbr]=SubUAP[i+subfldnbr].len;
+								lenfld+=SubUAP[i+subfldnbr].len;
+								tmppos2+=SubUAP[i+subfldnbr].len;
 								break;
 							case var:
-								subfldlen[i]=SubUAP[i].len;
-								lenfld+=SubUAP[i].len;
-								tmppos2+=SubUAP[i].len;
-								while (m_pMsg[tmppos2+SubUAP[i].len-1]&1)
+								subfldlen[i+subfldnbr]=SubUAP[i+subfldnbr].len;
+								lenfld+=SubUAP[i+subfldnbr].len;
+								tmppos2+=SubUAP[i+subfldnbr].len;
+								//while (m_pMsg[tmppos2+SubUAP[i].len-1]&1)
+								while (m_pMsg[tmppos2-1]&1)
 								{
-									subfldlen[i]=SubUAP[i].len;
-									lenfld+=SubUAP[i].len;
-									tmppos2+=SubUAP[i].len;
+									subfldlen[i+subfldnbr]=SubUAP[i+subfldnbr].len;
+									lenfld+=SubUAP[i+subfldnbr].len;
+									tmppos2+=SubUAP[i+subfldnbr].len;
 								}
 								break;
 							case rep:
 								{
-									subfldlen[i]=1+m_pMsg[tmppos2]*SubUAP[i].len;
-									lenfld=1+m_pMsg[tmppos2]*SubUAP[i].len;
-									tmppos2+=1+m_pMsg[tmppos2]*SubUAP[i].len;
+									subfldlen[i+subfldnbr]=1+m_pMsg[tmppos2]*SubUAP[i+subfldnbr].len;
+									lenfld=+1+m_pMsg[tmppos2]*SubUAP[i+subfldnbr].len;
+									tmppos2+=1+m_pMsg[tmppos2]*SubUAP[i+subfldnbr].len;
 								}
 								break;
 							}
@@ -385,6 +630,15 @@ bool CAsterixMsg::DecodeInternalMessage()
 					m_FldTable[UAP[fld].fld].Len=lenfld;
 				}
 				m_FldTable[UAP[fld].fld].Kind=UAP[fld].kind;
+				if (m_FldTable[UAP[fld].fld].FirstPos + m_FldTable[UAP[fld].fld].Len > m_TotalLen)
+				{
+					QString mess;
+					mess.sprintf("byte %d: datas size %d is over the message size", m_FldTable[UAP[fld].fld].FirstPos, m_FldTable[UAP[fld].fld].Len);
+					CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+					CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+					CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+					return false;
+				}
 			}
 			if (UAP[fld].typ==sub)
 			{
@@ -407,6 +661,12 @@ bool CAsterixMsg::DecodeInternalMessage()
 					}
 				}
 			}
+			if (fieldtype != "")
+			{
+			  QString mess;
+			  mess.sprintf("        field type=%s pos = %d length = %d", (LPCSTR)fieldtype, curpos, lenfld);
+			  CAsdApp::GetApp()->WriteLogAsterix(mess, LogInformation);
+			}
 			curpos+=lenfld;
 		}
 	}
@@ -415,36 +675,159 @@ bool CAsterixMsg::DecodeInternalMessage()
 }
 
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This methods decodes the asterix messages.
+///		This method must be called in a while loop to parse the next message 
+///		in the ASTERIX buffer
+/// 
+//-----------------------------------------------------------------------------
 bool CAsterixMsg::DecodeMessage()
 {
+	try
+	{
+	if (m_TotalLen == 0)
+	{
+		QString mess;
+		mess.sprintf("Decoding of empty message aborted");
+		CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+		return false;
+	}
 	if (m_CurPos==m_TotalLen) 
+	{
+		QString mess;
+		mess.sprintf("End of message reached normally");
+		CAsdApp::GetApp()->WriteLogAsterix(mess, LogInformation);
 		return false;
-	if ((m_CurPos>=m_TotalLen) || (m_CurPos>m_BlockPos+m_BlockLen))
-		return false;
+	}
 	//first message, find category
+	if (m_CurPos>=m_TotalLen)
+	{
+		QString mess;
+		mess.sprintf("byte %d: unexpected end of message", m_BlockPos);
+		CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+		CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+		CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+		return false;
+	}
+	if (m_CurPos>m_BlockPos+m_BlockLen)
+	{
+		QString mess;
+		mess.sprintf("byte %d: data exceeds data block size %d", m_BlockPos, m_BlockLen);
+		CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+		CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+		CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+		return false;
+	}
 	if (m_CurPos==m_BlockPos+m_BlockLen)
 	{
-		m_Category=m_pMsg[m_CurPos];
-		m_BlockLen=m_pMsg[m_CurPos+1]*256+m_pMsg[m_CurPos+2];
-		m_BlockPos=m_CurPos;
-		m_CurPos+=3;
+		bool cr = false;
+		do 
+		{
+		  if (m_TotalLen - m_BlockPos < 4)
+		  {
+		    QString mess;
+		    mess.sprintf("byte %d: message header shorter than 4 bytes", m_BlockPos);
+		    CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+		    CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+		    CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+		    return false;
+		  }
+		  m_Category=m_pMsg[m_CurPos];
+		  m_BlockLen=m_pMsg[m_CurPos+1]*256+m_pMsg[m_CurPos+2];
+		  m_BlockPos=m_CurPos;
+		  QString mess;
+		  mess.sprintf("    index %d: start of data block %d bytes category %d", m_BlockPos, m_BlockLen, m_Category);
+		  CAsdApp::GetApp()->WriteLogAsterix(mess, LogInformation);
+		  if (m_TotalLen - m_BlockPos < m_BlockLen)
+		  {
+		    QString mess;
+		    mess.sprintf("byte %d: message too short according to block length %d", m_BlockPos, m_BlockLen);
+		    CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+		    CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+		    CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+		    return false;
+		  }
+		  m_CurPos+=3;
+		  for (int i=0;i<AlarmStatus+1;i++)
+			  m_FldTable[i].Presence=false;
+		  cr = DecodeInternalMessage();
+		  if (!cr)
+		  {
+		    m_CurPos = m_BlockPos+m_BlockLen;
+		    if (m_CurPos==m_TotalLen) 
+			    return false;
+		    if (m_CurPos>=m_TotalLen)
+		    {
+			    QString mess;
+			    mess.sprintf("byte %d: unexpected end of message", m_BlockPos);
+			    CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+			    CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+			    CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+			    return false;
+		    }
+		    if (m_CurPos>m_BlockPos+m_BlockLen)
+		    {
+			    QString mess;
+			    mess.sprintf("byte %d: data exceeds data block size %d", m_BlockPos, m_BlockLen);
+			    CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+			    CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+			    CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+			    return false;
+		    }
+		  }
+		} while (!cr);
+		return cr;
 	}
 	for (int i=0;i<AlarmStatus+1;i++)
 		m_FldTable[i].Presence=false;
-	return DecodeInternalMessage();
+	  bool cr = DecodeInternalMessage();
+	  return cr;
+	}
+	catch(...)
+	{
+	    QString mess;
+	    mess.sprintf("byte %d: exception raised", m_BlockPos);
+	    CAsdApp::GetApp()->WriteLogAsterix(mess, LogError);
+	    CAsdApp::GetApp()->WriteLogAsterix("Log of the asterix buffer:", LogError);
+	    CAsdApp::GetApp()->WriteTraceBufferAsterix("", m_pMsg, m_TotalLen, false, true, NULL, LogError);
+	    return false;
+	}
 
 }
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method returns the category of the current ASTERIX message 
+/// 
+//-----------------------------------------------------------------------------
 int CAsterixMsg::GetCategory()
 {
 	return m_Category;
 }
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method returns the presence of a field in the current ASTERIX 
+///		message parsed by DecodeMessage
+/// 
+//-----------------------------------------------------------------------------
 bool CAsterixMsg::IsFieldPresent(AsterixFields field)
 {
 	return m_FldTable[field].Presence;
 }
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method returns the value of an unsigned interger field in the 
+///		current ASTERIX message parsed by DecodeMessage
+/// 
+///  RETURNS: the value of the field. 0 if field not present
+//-----------------------------------------------------------------------------
 int CAsterixMsg::GetUIntVal(AsterixFields field)
 {
 	int CurVal=0;
@@ -458,6 +841,15 @@ int CAsterixMsg::GetUIntVal(AsterixFields field)
 	}
 	return CurVal;
 }
+
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method returns the value of an interger field in the 
+///		current ASTERIX message parsed by DecodeMessage
+/// 
+///  RETURNS: the value of the field. 0 if field not present
+//-----------------------------------------------------------------------------
 int CAsterixMsg::GetIntVal(AsterixFields field)
 {
 	int CurVal=0;
@@ -481,6 +873,14 @@ int CAsterixMsg::GetIntVal(AsterixFields field)
 		return CurVal;
 }
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method returns the value of a string field in the 
+///		current ASTERIX message parsed by DecodeMessage
+/// 
+///  RETURNS: the value of the field. empty if field not present
+//-----------------------------------------------------------------------------
 CString CAsterixMsg::GetStrVal(AsterixFields field)
 {
 	CString str;
@@ -492,6 +892,14 @@ CString CAsterixMsg::GetStrVal(AsterixFields field)
 	return str;
 }
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method returns the value of a byte field in the 
+///		current ASTERIX message parsed by DecodeMessage
+/// 
+///  RETURNS: the value of the field. 0 if field not present
+//-----------------------------------------------------------------------------
 BYTE CAsterixMsg::GetByteVal(AsterixFields field,int bytenb)
 {
 	if ((m_FldTable[field].Presence) && (m_FldTable[field].Kind==bytearray))
@@ -502,6 +910,14 @@ BYTE CAsterixMsg::GetByteVal(AsterixFields field,int bytenb)
 	return 0;
 }
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method returns the value of a first position of the vectors Type field 
+///		in the current ASTERIX message parsed by DecodeMessage
+/// 
+///  RETURNS: the value of the field. 0 if field not present
+//-----------------------------------------------------------------------------
 int CAsterixMsg::GetVectorsTotal(AsterixFields field)
 {
 	if ((m_FldTable[field].Presence) && (m_FldTable[field].Kind==vectors))
@@ -512,6 +928,14 @@ int CAsterixMsg::GetVectorsTotal(AsterixFields field)
 }
 	
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method returns the value of a Polar Vector field in the 
+///		current ASTERIX message parsed by DecodeMessage
+/// 
+///  RETURNS: the value of the field. 0 if field not present
+//-----------------------------------------------------------------------------
 PolarVectors CAsterixMsg::GetVectorNb(AsterixFields field,int VectorNb)
 {
 	PolarVectors CurVector={0,0,0};
@@ -526,6 +950,14 @@ PolarVectors CAsterixMsg::GetVectorNb(AsterixFields field,int VectorNb)
 }
 
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method returns the value of a Polar range field in the 
+///		current ASTERIX message parsed by DecodeMessage
+/// 
+///  RETURNS: the value of the field. 0 if field not present
+//-----------------------------------------------------------------------------
 PolarCoord CAsterixMsg::GetPolarCoord(AsterixFields field)
 {
 	PolarCoord CurCoord={0,0};
@@ -538,6 +970,14 @@ PolarCoord CAsterixMsg::GetPolarCoord(AsterixFields field)
 	return CurCoord;
 }
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method returns the coordinates of a posxy field in the 
+///		current ASTERIX message parsed by DecodeMessage
+/// 
+///  RETURNS: the value of the field. 0,0 if field not present
+//-----------------------------------------------------------------------------
 QPoint CAsterixMsg::GetPos(AsterixFields field)
 {
 	QPoint CurPos=QPoint(0,0);
@@ -582,9 +1022,20 @@ QPoint CAsterixMsg::GetPos(AsterixFields field)
 	return CurPos;
 }
 
+//-----------------------------------------------------------------------------
+// 
+///  DESCRIPTION: 
+///		This method returns the length of the field given in argument in the 
+///		current ASTERIX message parsed by DecodeMessage
+/// 
+///  RETURNS: the length of the Asterix field
+//-----------------------------------------------------------------------------
 int CAsterixMsg::GetFieldLength(AsterixFields field)
 {
 	if (m_FldTable[field].Presence)
 		return m_FldTable[field].Len;
 	return 0;
 }
+
+
+//--------------------------------< THE END >----------------------------------

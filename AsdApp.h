@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2009 SkySoft-ATM 
+ * Copyright (C) 2013 SkySoft-ATM 
  *		ROUTE DE PRE-BOIS 15-17
  *		CH-1215 GENEVA
  *		SWITZERLAND
@@ -41,7 +41,7 @@
 // 
 //  CHANGE HISTORY
 // 
-//  Revision 1  2009/08/31 dalleins
+//  Revision 2  2013/12/29 dalleins
 //
 //
 //
@@ -258,6 +258,8 @@ public:
 	static CAsdApp* GetApp();
 	//Log information in log file depending on the Debug Level
 	void WriteLogMsg(const QString & strMessage, const LogTypes &Type, int nDebugLevel=0);
+	void WriteLogAsterix(const QString & strMessage, const LogTypes &Type, int nDebugLevel=0);
+	void WriteLogMsgInternal(QString header, const QString & fileName, const QString & strMessage, const LogTypes &Type, int nDebugLevel);
 	
 	//methods
 	//due to namespace CDataMngr, CColorMngr, CWdwMngr these methods must be public
@@ -303,6 +305,7 @@ public:
 	bool SetMinMaxAttributes(QWidget* w,int ewName, bool FromCustomSet);
 	//logs information in log file depending on the Debug Level
 	void WriteTraceMsg(const QString & strMessage, bool bReceive = true, sockaddr_in* addr=NULL);
+	void WriteTraceMsgInternal(QString header, const QString & fileName, const QString & strMessage, bool bReceive, sockaddr_in* addr, const LogTypes &Type, int nDebugLevel=0);
 	//checks if a window has a title
 	bool HasWindowTitle(QWidget* w,int ewName);	
 	//moves a window to its default position according to the sreen number
@@ -315,6 +318,8 @@ public:
 	bool IsAppPos();
 	//Logs information in Trace file
 	void WriteTraceBuffer(BYTE* buffer, int len, bool bOnOneLine, bool bReceive = true, sockaddr_in* addr=NULL);
+	void WriteTraceBufferAsterix(QString header, BYTE* buffer, int len, bool bOnOneLine, bool bReceive, sockaddr_in* addr, const LogTypes &Type, int nDebugLevel=0);
+	void WriteTraceBufferInternal(QString header, const QString & fileName, BYTE* buffer, int len, bool bOnOneLine, bool bReceive, sockaddr_in* addr, const LogTypes &Type, int nDebugLevel=0);
 	//checks if the main radar window is collapsible
 	bool IsMainCollapsible();	
 	// removes the called windows after a reconfiguration
@@ -341,10 +346,6 @@ public:
 	CTrackMngr* GetTrackMngr();	
 	//retrieves a pointer of type CInfoMngr
 	CInfoMngr* GetInfoMngr();
-	//retrieves an object of type CFIRList
-	CFIRList GetFirCopxList();
-	////retrieves an object of type CCsuCopxList
-	CCsuCopxList GetCsuCopxList();
 	// pointer of type CTrackMngr for the management of tracks
 	CTrackMngr* m_pTrackMngr;
 	// pointer of type CFplMngr for the management of flight plan
@@ -502,10 +503,6 @@ private:
 	CAdesList m_AdesList;
 	//object of type m_DiscreteSsr
 	CDiscreteSSRList m_DiscreteSsr;	
-	//object of type CFIRList
-	CFIRList m_FirCopx;	
-	//object of type CCsuCopxList
-	CCsuCopxList m_CsuCopx;	
 	//object of type CDefTlmPosList
 	CDefTlmPosList m_DefTlmPosList;
 	//check if the offline color for ASD application have been set
@@ -573,6 +570,7 @@ private:
 	// timer to update the FPL Lists content
 	int m_TimerFillList;
 	
+	bool m_asterixdbg;
 	//dynamic methods	
 	
 	// gets the object of type CDefTlmPosList

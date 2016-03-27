@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2009 SkySoft-ATM 
+ * Copyright (C) 2013 SkySoft-ATM 
  *		ROUTE DE PRE-BOIS 15-17
  *		CH-1215 GENEVA
  *		SWITZERLAND
@@ -42,7 +42,7 @@
 // 
 //  CHANGE HISTORY
 // 
-//  Revision 1  2009/08/31 dalleins
+//  Revision 2  2013/12/29 dalleins
 //
 //
 //
@@ -52,6 +52,7 @@
 //-INCLUDE FILES---------------------------------------------------------------
 #include "StdAfx.h"
 #include <stdlib.h>
+#include "Asterix.h"
 #include "AsdApp.h"
 #include "WdwMngr.h"
 #include "FontMngr.h"
@@ -122,6 +123,7 @@ CAsdApp* CurApp=NULL;
 CAsdApp::CAsdApp ( int & argc, char ** argv )
 : QApplication(argc,argv), m_pMode(NULL), m_InitTimerId(-1)
 {
+	m_asterixdbg = 0;
 	m_Connectionless = false;
 	m_pTrackMngr = NULL;
 	m_pFplMngr = NULL;
@@ -246,12 +248,9 @@ bool CAsdApp::ComputeDataSetPath()
 ///  DESCRIPTION: 
 ///		This method extract the following parameters from the 
 ///		<version>.ini file of the adaptation data set:
-///				- the Direction Finder parameters
 ///				- the radar and weather service parameters,
-///				- the CCS sources parameters,
 ///				- the time after which the message is discarded if no reception 
-///				  safety, radar or weather is received,
-///				- time duration to hide STCA, APW, MSAW alerts,
+///				  radar or weather is received,
 ///				- the Range marker parameters,
 ///				- time of framing for windows,
 ///				- time after which a window is automatically closed 
@@ -300,6 +299,15 @@ void CAsdApp::ReadVersionIni()
 		m_OfflineOk=false;
 		return ;
 	}
+	
+	m_asterixdbg = 0;
+	QString asterdbg;
+	len=IniFile.GetIniProfileString("GENERAL","ASTERIX_DBG",asterdbg);
+	if (len)
+	{
+		m_asterixdbg=atoi(asterdbg.ascii());
+	}
+
 
 	if (LogDir.length())
 	{
@@ -356,7 +364,6 @@ void CAsdApp::ReadVersionIni()
 	}
 
 	QStringList PortNumberList;
-
 	CString KeyRead,CurArg,KeyName;
 
 
@@ -375,6 +382,8 @@ void CAsdApp::ReadVersionIni()
 	m_RadarDiscard=strTemp.toInt();
 	strTemp=QString::null;
 
+	// retrieves the time for automatic closure of windows having the auto-close behavior
+	// from the <version>.ini file if it exists otherwise the ASD logs an error and stops
 	len=IniFile.GetIniProfileString("TIMES","AUTO_CLOSE",strTemp);
 	if(!len)
 	{
@@ -384,6 +393,19 @@ void CAsdApp::ReadVersionIni()
 		return ;
 	}
 	m_AutoCloseTime=strTemp.toInt()*1000;
+	strTemp=QString::null;
+
+	// retrieves the time to discard a weather radar message from the <version>.ini file
+	// if it exists otherwise the ASD logs an error and stops
+	len=IniFile.GetIniProfileString("TIMES","WEATHER_DISCARD",strTemp);
+	if(!len)
+	{
+		Error="No WEATHER_DISCARD found in version.ini [TIMES]. Stopping ASD.";
+		WriteLogMsg(Error, LogError);
+		m_OfflineOk=false;
+		return ;
+	}
+	m_WeatherDiscard=strTemp.toInt()*1000;
 	strTemp=QString::null;
 
 	// retrieves the range marker parameters from the <version>.ini file
@@ -441,12 +463,10 @@ void CAsdApp::ReadVersionIni()
 	m_FramingTimer=strTemp.toInt();
 	strTemp=QString::null;
 
-	// Read the data set for Aircraft type/Wake turbulence category, FIR and its associated COPX
-	// CSU and its associated COPX, Discrete SSR code, default windows opens from the top level menu (Tlm)
+	// Read the data set for Aircraft type/Wake turbulence category, 
+	// Discrete SSR code, default windows opens from the top level menu (Tlm)
 	m_ATypWtc.ReadDataSet(IniFile);	
 	m_AdesList.ReadDataSet(IniFile);
-//	m_FirCopx.ReadDataSet(IniFile);
-//	m_CsuCopx.ReadDataSet(IniFile);
 	m_DiscreteSsr.ReadDataSet(IniFile);
 	m_DefTlmPosList.ReadDataSet(IniFile);
 }
@@ -492,7 +512,7 @@ void CAsdApp::SetConnections()
 {
 	if (!m_Connectionless)
 	{
-		m_pTrackMngr->Init(m_pEventMngr, 2.5);//TIMEOUT_RATIO
+		m_pTrackMngr->Init(m_pEventMngr, 2.5);
 		m_pWeatherMngr->Init();
 		m_pFplMngr->Init(m_pEventMngr);
 		m_pCouplingMngr->Init(m_pEventMngr, 2.5, 2.5);
@@ -523,7 +543,6 @@ void CAsdApp::SetRadarCursors()
 {
 	QPixmap pix1((const char**) NormalSelect);
 	m_CursorTable[MPNormalSelect]=QCursor(pix1,2,4);// if those values
-	
 	// are changed the values in CMenuWnd::TrackPopupMenu should also
 	//be changed to display the menu under the hot spot of the mouse 
 	//pointer.
@@ -540,7 +559,7 @@ void CAsdApp::SetRadarCursors()
 ///  DESCRIPTION: 
 ///		This method looks for the adaptation data set if exists
 ///		Then it creates the track, flight plan object but also the Coupling, 
-///		Alerts, Weather, CCS, Sequence list, Local tag objects
+///		and Weather
 ///		This method creates the Main Radar window as well as the Top Level
 ///		Menu and the Time window and then apply the default setup according
 ///		to the sectorization
@@ -651,7 +670,7 @@ int CAsdApp::Init(void)
 	m_pAttribute=new CWFAttrib(GetDataSetDir(),true);
 
 	m_pWinHints= new CWin_Hints();
-	
+	m_pWinHints->CleanAll();
 	CDataMngr::InitTables();
 	SetColors();
 	SetConnections();	
@@ -669,7 +688,7 @@ int CAsdApp::Init(void)
 	CViewTrack::InitTables();
 	SetRadarCursors();
 	
-	// Set the button decoration for each ASD window
+	// Set the button decoration for each ASD window via FVWM commands
 	CWdwMngr::SetWindowAttributes();
 	
 	// Create the main radar window
@@ -865,7 +884,7 @@ bool CAsdApp::notify ( QObject * receiver, QEvent * e )
 
 	return res;
 }
-	
+
 //-----------------------------------------------------------------------------
 // 
 ///  DESCRIPTION: 
@@ -880,7 +899,6 @@ bool CAsdApp::notify ( QObject * receiver, QEvent * e )
 //-----------------------------------------------------------------------------
 void CAsdApp::ApplyDefaultSetup( )
 {
-
 	ShowTopLevel();
 	CSetupMngr::SetDefaultSetup();
 }
@@ -904,10 +922,7 @@ void CAsdApp::timerEvent( QTimerEvent *e )
 {
 	if (m_InitTimerId==e->timerId())
     {
-//       if (m_pEventMngr->IsLocalTagging())
-            ApplyDefaultSetup();
-//        else
-//            WriteLogMsg("On-line sectorisation received.", LogInformation);
+        ApplyDefaultSetup();
 
         killTimer(m_InitTimerId);
         m_InitTimerId=0;
@@ -1079,7 +1094,7 @@ CWin_Hints* CAsdApp::GetWinHints()
 //-----------------------------------------------------------------------------
 // 
 ///  DESCRIPTION: 
-///		Thîs method gets the name of the application
+///		This method gets the name of the application
 ///
 ///  RETURNS: 
 ///		the name of the application
@@ -1154,7 +1169,7 @@ void CAsdApp::SetColors()
 	
 	if ((pCWinHints) && (!m_ColorSet))
 	{
-
+		pCWinHints->SetTitleColor();
 		m_ColorSet=true;
 	}
 
@@ -1440,7 +1455,7 @@ bool CAsdApp::WindowMoveDefault(QWidget* w,QString ewName, int Scr)
 //-----------------------------------------------------------------------------
 bool CAsdApp::RBToGo()
 {
-	return true;//m_pAttribute->RBToGo(m_pInfoMngr->GetGroup(),m_pInfoMngr->GetSubGroup(),m_pInfoMngr->GetLocation(), m_pInfoMngr->GetRole());
+	return m_pAttribute->RBToGo("Common","Common","Common","Common");
 
 }
 
@@ -1458,7 +1473,19 @@ bool CAsdApp::RBToGo()
 ///					CIAsdFctIniGen200
 //
 //-----------------------------------------------------------------------------
+
+void CAsdApp::WriteLogAsterix(const QString & strMessage, const LogTypes &Type, int nDebugLevel)
+{
+  if (m_asterixdbg || Type == LogError)
+    WriteLogMsgInternal("", "asterix", strMessage, Type, nDebugLevel);
+}
+
 void CAsdApp::WriteLogMsg(const QString & strMessage, const LogTypes &Type, int nDebugLevel)
+{
+  WriteLogMsgInternal("", "log", strMessage, Type, nDebugLevel);
+}
+
+void CAsdApp::WriteLogMsgInternal(QString header, const QString & fileName, const QString & strMessage, const LogTypes &Type, int nDebugLevel)
 {
 	if (m_DebugLevel >= nDebugLevel)
 	{
@@ -1487,7 +1514,7 @@ void CAsdApp::WriteLogMsg(const QString & strMessage, const LogTypes &Type, int 
 		else
 		{
 			QString strLogDate=QDateTime::currentDateTime().toString("yyyyMMdd");
-			QString strLogFile=m_strOfl_LOG_DIRECTORY+"/log_"+strLogDate;
+			QString strLogFile=m_strOfl_LOG_DIRECTORY+"/"+fileName+"_"+strLogDate;
 			QFile fd(strLogFile.ascii());
 			bool isopen = fd.open(IO_WriteOnly|IO_Append);
 			
@@ -1521,6 +1548,7 @@ void CAsdApp::WriteLogMsg(const QString & strMessage, const LogTypes &Type, int 
 					strHeader+="\tApplication\tASD \t";
 					strHeader+=m_HostName; ///should be hostname.
 					strHeader+="\t";
+					strHeader+=header;
 					fd.writeBlock(strHeader.ascii(),strHeader.length());
 					fd.writeBlock(strMessage.ascii(),strMessage.length());
 					fd.writeBlock("\n",1);
@@ -1540,7 +1568,19 @@ void CAsdApp::WriteLogMsg(const QString & strMessage, const LogTypes &Type, int 
 ///   
 ///  REQUIREMENT ID: NONE  
 //-----------------------------------------------------------------------------
+void CAsdApp::WriteTraceBufferAsterix(QString header, BYTE* buffer, int len, bool bOnOneLine, bool bReceive, sockaddr_in* addr, const LogTypes &Type, int nDebugLevel)
+{
+  if (m_asterixdbg || Type == LogError)
+    WriteTraceBufferInternal(header, "asterix", buffer, len, bOnOneLine, bReceive, addr, Type, nDebugLevel);
+}
+
+
 void CAsdApp::WriteTraceBuffer(BYTE* buffer, int len, bool bOnOneLine, bool bReceive, sockaddr_in* addr)
+{
+  WriteTraceBufferInternal("", "log", buffer, len, bOnOneLine, bReceive, addr, LogInformation);
+}
+
+void CAsdApp::WriteTraceBufferInternal(QString header, const QString & fileName, BYTE* buffer, int len, bool bOnOneLine, bool bReceive, sockaddr_in* addr, const LogTypes &Type, int nDebugLevel)
 {
 	QString trace;
 	QString temp;
@@ -1557,7 +1597,7 @@ void CAsdApp::WriteTraceBuffer(BYTE* buffer, int len, bool bOnOneLine, bool bRec
 				trace = trace + "\"" + ascii + "\"";
 				
 				if (!bOnOneLine)
-					WriteTraceMsg(trace, bReceive, addr);
+					WriteTraceMsgInternal(header, fileName, trace, bReceive, addr, Type, nDebugLevel);
 				else
 				{
 					if(sFinalTrace.isEmpty())
@@ -1587,7 +1627,7 @@ void CAsdApp::WriteTraceBuffer(BYTE* buffer, int len, bool bOnOneLine, bool bRec
 	if (!trace.isEmpty())
 	{
 		if (!bOnOneLine)
-			WriteTraceMsg(trace, bReceive, addr);
+			WriteTraceMsgInternal(header, fileName, trace, bReceive, addr, Type, nDebugLevel);
 		else
 		{
 			if(sFinalTrace.isEmpty())
@@ -1598,7 +1638,7 @@ void CAsdApp::WriteTraceBuffer(BYTE* buffer, int len, bool bOnOneLine, bool bRec
 	}
 
 	if (bOnOneLine)
-		WriteTraceMsg(sFinalTrace, bReceive, addr);
+		WriteTraceMsgInternal(header, fileName, sFinalTrace, bReceive, addr, Type, nDebugLevel);
 }
 
 //-----------------------------------------------------------------------------
@@ -1612,6 +1652,11 @@ void CAsdApp::WriteTraceBuffer(BYTE* buffer, int len, bool bOnOneLine, bool bRec
 ///  REQUIREMENT ID: CIAsdItfComGen100  
 //-----------------------------------------------------------------------------
 void CAsdApp::WriteTraceMsg(const QString & strMessage, bool bReceive, sockaddr_in* addr)
+{
+      WriteTraceMsgInternal("", "log", strMessage, bReceive, addr, LogInformation);
+}
+
+void CAsdApp::WriteTraceMsgInternal(QString header, const QString & fileName, const QString & strMessage, bool bReceive, sockaddr_in* addr, const LogTypes &Type, int nDebugLevel)
 {
 	QString sDirection;
 	QString sAdress;
@@ -1628,7 +1673,7 @@ void CAsdApp::WriteTraceMsg(const QString & strMessage, bool bReceive, sockaddr_
 		sText = sDirection + sAdress + " . Message : ";
 	}
 	
-	WriteLogMsg(sText + strMessage, LogInformation, 1);
+	WriteLogMsgInternal(header, fileName, sText + strMessage, Type, 1);
 }
 
 
@@ -1760,20 +1805,6 @@ CAdesList CAsdApp::GetAdesList()
 }
 
 
-//-----------------------------------------------------------------------------
-// 
-///  DESCRIPTION
-///     This method gets the object of type CFIRList
-/// 
-///  RETURNS
-///     an object of type CFIRList
-///   
-///  REQUIREMENT ID: NONE  
-//-----------------------------------------------------------------------------
-CFIRList CAsdApp::GetFirCopxList()
-{
-	return m_FirCopx;
-}
 
 //-----------------------------------------------------------------------------
 // 
@@ -1790,20 +1821,6 @@ CDiscreteSSRList CAsdApp::GetDiscreteSsrList()
 	return m_DiscreteSsr;
 }
 
-//-----------------------------------------------------------------------------
-// 
-///  DESCRIPTION
-///     This method gets the object of type CCsuCopxList
-/// 
-///  RETURNS
-///     an object of type CCsuCopxList
-///   
-///  REQUIREMENT ID: NONE  
-//-----------------------------------------------------------------------------
-CCsuCopxList CAsdApp::GetCsuCopxList()
-{
-	return m_CsuCopx;
-}
 
 //-----------------------------------------------------------------------------
 // 
@@ -1925,7 +1942,6 @@ void CAsdApp::SetViewerVersion()
 		len++;//not to keep the "-"
 		int j=tmp.length();
 		tmp=tmp.right(j-len);//to keep only "x.x.x.x.exe"
-		//tmp=tmp.left(j-len-4);//no extension  ".exe" with Linux
 		m_sViewerVersion = tmp;
 	}
 	else
@@ -2173,130 +2189,6 @@ bool CAdesList::Add(QString ades)
 }
 
 
-//-----------------------------------------------------------------------------
-//
-/// \class CFIRList
-/// This class is used to contructs the FIR list 
-// 
-//
-//-----------------------------------------------------------------------------
-
-//-----------------------------------------------------------------------------
-// 
-///  DESCRIPTION
-///     This method is the construtor
-/// 
-///  RETURNS
-///     void
-///   
-///  REQUIREMENT ID: NONE  
-//-----------------------------------------------------------------------------
-CFIRList::CFIRList()
-{
-}
-
-//-----------------------------------------------------------------------------
-// 
-///  DESCRIPTION
-///     This method is the destructor
-/// 
-///  RETURNS
-///     void
-///   
-///  REQUIREMENT ID: NONE  
-//-----------------------------------------------------------------------------
-CFIRList::~CFIRList()
-{
-}
-
-//-----------------------------------------------------------------------------
-// 
-///  DESCRIPTION
-///     This method retrieves the information offline defined 
-///		concerning the FIR file is the <version>.ini file
-/// 
-///  RETURNS
-///     a boolean which indicates if the information has been successfully 
-///		retrieved
-///   
-///  REQUIREMENT ID: NONE 
-//-----------------------------------------------------------------------------
-bool CFIRList::ReadDataSet(CIniFile& file)
-{
-	CArray<QString,QString> SectionTable;
-	file.GetIniProfileSection("FIR_COPX",SectionTable);
-	
-	if (SectionTable.GetSize() == 0)
-	{
-		CAsdApp::GetApp()->WriteLogMsg("Coordination Points per FIR section in Dataset is Empty.",LogError);
-		return false;
-	}
-
-	for (int j=0;j<SectionTable.GetSize();j++)
-	{
-		QString current;
-		file.GetIniProfileString("FIR_COPX",SectionTable[j],current);
-		QString Fir = SectionTable[j];
-		
-		// Fill The ASD Table
-		int fnd;
-		fnd=current.find("|");
-		
-		while (fnd!=-1)
-		{
-			QString Copx;
-			Copx = current.left(fnd);
-			current=current.right(current.length()-fnd-1);
-			fnd=current.find("|");
-			Add(Fir, Copx);
-		}
-	}
-
-	return true;
-}
-
-//-----------------------------------------------------------------------------
-// 
-///  DESCRIPTION
-///     This method adds a Fir and its associated Copx to the FIR list
-/// 
-///  RETURNS
-///     a boolean true by default
-///   
-///  REQUIREMENT ID: NONE  
-//-----------------------------------------------------------------------------
-bool CFIRList::Add(QString Fir, QString Copx)
-{		
-    /* CDS BREAK JPM 2006/05/10 Use of ptr->fld access cannot be used in this case the iterator is of type QValueList */
-    QValueList<m_FirCopx>::iterator it;
-    
-	for ( it = m_FirList.begin(); it != m_FirList.end(); ++it )
-	{
-		if ( (*it).Fir == Fir)
-		{
-			QValueList<QString>::iterator it2;
-			
-			for ( it2 = (*it).Copx.begin(); it2 != (*it).Copx.end(); ++it2 )
-			{
-				if ( (*it2) == Copx)
-					return false;
-			}
-
-			(*it).Copx.append(Copx);
-			return false;
-		}
-	}
-
-	m_FirCopx FirCopx;
-	FirCopx.Fir = Fir;
-	
-	if (Copx != "")
-		FirCopx.Copx.append( Copx );
-
-	m_FirList.append( FirCopx );
-
-	return true;
-}
 
 //-----------------------------------------------------------------------------
 //
@@ -2402,133 +2294,6 @@ bool CDiscreteSSRList::Add(int min, int max)
 	return true;
 }
 
-//-----------------------------------------------------------------------------
-//
-/// \class CCsuCopxList
-/// This class is used to construct the CSU associated to the COPX
-// 
-//
-//-----------------------------------------------------------------------------
-//-----------------------------------------------------------------------------
-// 
-///  DESCRIPTION
-///     This method is the construtor
-/// 
-///  RETURNS
-///   
-///  REQUIREMENT ID: NONE
-//-----------------------------------------------------------------------------
-CCsuCopxList::CCsuCopxList()
-{
-}
-
-//-----------------------------------------------------------------------------
-// 
-///  DESCRIPTION
-///     This method is the destructor
-/// 
-///  RETURNS
-///   
-///  REQUIREMENT ID: NONE 
-//-----------------------------------------------------------------------------
-CCsuCopxList::~CCsuCopxList()
-{
-}
-
-//-----------------------------------------------------------------------------
-// 
-///  DESCRIPTION
-///     This method retrieves the information offline defined 
-///		concerning the coordinations points per CSU
-///		file is <version>.ini file
-/// 
-///  RETURNS
-///     a boolean which indicates if the information has been successfully 
-///		retrieved
-///   
-///  REQUIREMENT ID: NONE 
-//-----------------------------------------------------------------------------
-bool CCsuCopxList::ReadDataSet(CIniFile& file)
-{
-	CArray<QString,QString> SectionTable;
-	file.GetIniProfileSection("CSU_COPX",SectionTable);
-	
-	if (SectionTable.GetSize() == 0)
-	{
-		CAsdApp::GetApp()->WriteLogMsg("Coordination Points per CSU section in Dataset is Empty.",LogError);
-		return false;
-	}
-	
-	for (int j=0;j<SectionTable.GetSize();j++)
-	{
-		QString current;
-		file.GetIniProfileString("CSU_COPX",SectionTable[j],current);
-		QString csu = SectionTable[j];
-		QChar chSecto;
-		int fnd;
-		fnd=current.find("|");
-		
-		while (fnd!=-1)
-		{
-			QString copx;
-			copx = current.left(fnd);
-			current=current.right(current.length()-fnd-1);
-			fnd=current.find("|");
-			
-			if (csu.length())
-				chSecto=csu.at(0);
-			else 
-				chSecto=' ';
-
-			Add(chSecto.latin1(), copx);
-		}
-	}
-
-	return true;
-}
-
-//-----------------------------------------------------------------------------
-// 
-///  DESCRIPTION
-///     This method adds a csu and its associated Copx to the CSU COPX list
-/// 
-///  RETURNS
-///     a boolean true by default
-///   
-///  REQUIREMENT ID: NONE  
-//-----------------------------------------------------------------------------
-bool CCsuCopxList::Add(char csu, QString copx)
-{
-    /* CDS BREAK JPM 2006/05/10 Use of ptr->fld access cannot be used in this case the iterator is of type QValueList */
-    QValueList<m_CsuCopx>::iterator it;
-    for ( it = m_CsuList.begin(); it != m_CsuList.end(); ++it )
-	{
-		if ( (*it).Csu == csu)
-		{
-			QValueList<QString>::iterator it2;
-			
-			for ( it2 = (*it).Copx.begin(); it2 != (*it).Copx.end(); ++it2 )
-			{
-				if ( (*it2) == copx)
-					return false;
-			}
-
-			(*it).Copx.append(copx);
-
-			return false;
-		}
-	}
-
-	m_CsuCopx CsuCopx;
-	CsuCopx.Csu = csu;
-	
-	if (copx != "")
-		CsuCopx.Copx.append( copx );
-
-	m_CsuList.append( CsuCopx );
-
-	return true;
-}
 
 //-----------------------------------------------------------------------------
 //
@@ -2595,7 +2360,7 @@ bool CDefTlmPosList::ReadDataSet(CIniFile& file)
 		file.GetIniProfileString("DEFAULT_TLM_POS",SectionTable[j],current);
 		QString window = SectionTable[j];
 		
-		// Fill The ASD Table
+		// Fill The Table
 		int fnd;
 		fnd=current.find("|");
 		
