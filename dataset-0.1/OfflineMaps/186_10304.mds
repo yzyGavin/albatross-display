@@ -1,0 +1,4 @@
+<Item=Title> <Text="MAP\AIRSPACES\TMA\CHAMBERY"> <Mode=Manual Off> <Info=""> 
+<Item=Surface> <Prio=24> <Color=282828> <PenStyle=PS_SOLID> <Color2=282828> <Brushstyle=BS_PATTERN 0010001000001000101000100000100010100010000010001010001000001000> <Info="CHAMBERY TMA SECTOR 2"> <Postable=14 (81,-366) (-254,-595) (ARC,-288) (-420,-358) (-587,-593) (ARC,-288) (-420,-358) (-672,-510) (-825,-614) (-731,-1433) (-163,-1435) (-156,-1054) (209,-507) (81,-366) >
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(87,-555)> <Text="9,7"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-539,-762)> <Text="6,5"> 

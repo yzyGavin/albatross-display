@@ -1,0 +1,25 @@
+<Item=Title> <Text="MAP\AERODROMES\HELIPORTS\HELIPORTS"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="HUG/HOPITAL GE"> <Pos=(64,-85)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSER/RARON HELI AD\TWR:120.42"> <Pos=(2306,148)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSEZ/ZERMATT HELI AD\AFIS:130.00"> <Pos=(2211,-378)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSHA/GSTAAD HELI AD"> <Pos=(1554,380)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSHC/COLLOMBEY HELI AD"> <Pos=(1144,65)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSHG/GAMPEL HELI AD"> <Pos=(2162,161)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXA/TAVANASA"> <Pos=(3949,1079)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXB/BALZERS HELI AD"> <Pos=(4436,1690)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXD/DOMAT/EMS HELI AD"> <Pos=(4435,1247)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXE/ERSTFELD HELI AD"> <Pos=(3347,1199)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXG/GSTEIGWILER HELI AD"> <Pos=(2350,815)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXH/HOLZIKEN HELI AD"> <Pos=(2516,2097)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXK/BENKEN/SG HELI AD"> <Pos=(3803,1926)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXL/LAUTERBRUNNEN HELI AD"> <Pos=(2401,696)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXM/ST. MORITZ HELI AD"> <Pos=(4940,579)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXN/HALTIKON HELI AD"> <Pos=(3035,1682)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXO/GOSSAU HELI AD"> <Pos=(4159,2327)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXP/PFAFFNAU HELI AD"> <Pos=(2368,1943)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXR/LODRINO HELI AD"> <Pos=(3849,171)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXS/SCHINDELLEGI HELI AD"> <Pos=(3423,1848)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXT/TROGEN HELI AD"> <Pos=(4398,2343)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXU/UNTERVAZ HELI AD"> <Pos=(4541,1394)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXV/SAN VITTORE HELI AD"> <Pos=(3983,64)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSXW/WUERENLINGEN HELI AD"> <Pos=(2790,2534)> <Text="8"> 

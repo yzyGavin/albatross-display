@@ -1,0 +1,3 @@
+<Item=Title> <Text="MAP\ROUTINGS\HOLDINGS\SPR"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SPR HOLDING\113.90\INDB TR 226 \RIGHT HAND  \OUTBD LEG 1 Min \MNM HLD ALT 7000"> <Pos=(461,445)> <Text="p"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SPR VOR/DME\113.90"> <Pos=(461,445)> <Text="Y"> 

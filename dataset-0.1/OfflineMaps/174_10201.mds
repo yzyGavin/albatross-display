@@ -1,0 +1,3 @@
+<Item=Title> <Text="MAP\AIRSPACES\APP SECT\APP SECT GENEVA"> <Mode=Manual Off> <Info=""> 
+<Item=Surface> <Prio=26> <Color=2e2d2d> <PenStyle=PS_SOLID> <Color2=2e2d2d> <Brushstyle=BS_PATTERN 0100010000010001010001000001000101000100000100010100010000010001> <Info="APPROACH SECTOR GENEVE"> <Postable=24 (-922,243) (-584,335) (10,647) (238,870) (448,1019) (838,853) (1026,534) (855,382) (921,340) (842,214) (863,185) (836,166) (945,1) (506,-308) (232,-701) (112,-590) (-20,-790) (-256,-1148) (-853,-1051) (-587,-593) (ARC,-288) (-420,-358) (-586,-122) (-922,243) >
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GLA NDB\320kHz"> <Pos=(191,329)> <Text="X"> 

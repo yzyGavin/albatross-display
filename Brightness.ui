@@ -1,0 +1,1051 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>CColorDlg</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>CColorDlg</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>284</width>
+            <height>719</height>
+        </rect>
+    </property>
+    <property name="font">
+        <font>
+            <family>Liberation Mono Track</family>
+            <pointsize>11</pointsize>
+        </font>
+    </property>
+    <property name="caption">
+        <string>Brightness Control</string>
+    </property>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>OthSymbSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>167</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+        <property name="toolTip" stdset="0">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>WeatherSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>311</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+        <property name="toolTip" stdset="0">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>MouseSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>263</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+        <property name="toolTip" stdset="0">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>MasterSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>23</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>AocSymbSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>71</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>AocDbSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>119</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+        <property name="toolTip" stdset="0">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>53</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShape">
+            <enum>NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>Assumed Track Symbols</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC1</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>101</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShape">
+            <enum>NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>Data Blocks of Assumed Tracks</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC2</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>5</x>
+                <y>149</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShape">
+            <enum>NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>Other Track Symbols</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC3</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>197</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShape">
+            <enum>NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>Data Blocks of Other Tracks</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC4</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>245</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShape">
+            <enum>NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>Mouse Pointer</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC5</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>293</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>Weather</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC6</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>341</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>Map Infills</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC7</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>389</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>Map Outlines</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC11</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>629</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShape">
+            <enum>NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>Other Windows</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC8</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>437</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>Map Symbols</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC9</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>7</x>
+                <y>485</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>DF Vectors</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC8_2</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>533</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>ASD Tools</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Label_IDC_STATIC10</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>7</x>
+                <y>581</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>NoFocus</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="lineWidth">
+            <number>2</number>
+        </property>
+        <property name="text">
+            <string>Range Markers</string>
+        </property>
+        <property name="alignment">
+            <set>AlignTop|AlignHCenter</set>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>MapSymbSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>455</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+        <property name="toolTip" stdset="0">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>MapOutSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>407</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+        <property name="toolTip" stdset="0">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>MapInSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>359</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+        <property name="toolTip" stdset="0">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>DFSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>503</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+        <property name="toolTip" stdset="0">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>AsdToolsSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>551</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+        <property name="toolTip" stdset="0">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>WindowSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>647</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+        <property name="toolTip" stdset="0">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pushButton1</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>8</x>
+                <y>681</y>
+                <width>272</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Reset</string>
+        </property>
+        <property name="default">
+            <bool>true</bool>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel2</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>5</y>
+                <width>272</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Master</string>
+        </property>
+        <property name="alignment">
+            <set>AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>OthDbSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>215</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+        <property name="toolTip" stdset="0">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>RangeMarkSlider</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>7</x>
+                <y>599</y>
+                <width>272</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="minValue">
+            <number>50</number>
+        </property>
+        <property name="maxValue">
+            <number>120</number>
+        </property>
+        <property name="value">
+            <number>100</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>70</number>
+        </property>
+        <property name="toolTip" stdset="0">
+            <string></string>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>MasterSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>MasterSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>AocSymbSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>AocSymbSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>AocDbSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>AocDbSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>OthSymbSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>OthSymbSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>OthDbSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>OthDbSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>MouseSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>MouseSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>WeatherSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>WeatherSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>MapInSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>MapInSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>MapOutSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>MapOutSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>MapSymbSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>MapSymbSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>WindowSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>WindowSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>pushButton1</sender>
+        <signal>clicked()</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>ResetPressed()</slot>
+    </connection>
+    <connection>
+        <sender>AsdToolsSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>AsdToolsSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>DFSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>DFSliderValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>RangeMarkSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>CColorDlg</receiver>
+        <slot>RngMarkSliderValueChanged(int)</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>MasterSlider</tabstop>
+    <tabstop>AocSymbSlider</tabstop>
+    <tabstop>AocDbSlider</tabstop>
+    <tabstop>OthSymbSlider</tabstop>
+    <tabstop>OthDbSlider</tabstop>
+    <tabstop>MouseSlider</tabstop>
+    <tabstop>WeatherSlider</tabstop>
+    <tabstop>MapInSlider</tabstop>
+    <tabstop>MapOutSlider</tabstop>
+    <tabstop>MapSymbSlider</tabstop>
+    <tabstop>DFSlider</tabstop>
+    <tabstop>AsdToolsSlider</tabstop>
+    <tabstop>RangeMarkSlider</tabstop>
+    <tabstop>WindowSlider</tabstop>
+    <tabstop>pushButton1</tabstop>
+</tabstops>
+<variables>
+    <variable access="public">int m_OldMasterValue;</variable>
+    <variable access="public">bool m_IsInit;</variable>
+</variables>
+<slots>
+    <slot>MasterSliderValueChanged( int value )</slot>
+    <slot>AocSymbSliderValueChanged( int value )</slot>
+    <slot>AocDbSliderValueChanged( int value )</slot>
+    <slot>OthSymbSliderValueChanged( int value )</slot>
+    <slot>OthDbSliderValueChanged( int value )</slot>
+    <slot>MouseSliderValueChanged( int value )</slot>
+    <slot>WeatherSliderValueChanged( int value )</slot>
+    <slot>MapInSliderValueChanged( int value )</slot>
+    <slot>MapOutSliderValueChanged( int value )</slot>
+    <slot>MapSymbSliderValueChanged( int value )</slot>
+    <slot>RngMarkSliderValueChanged( int value )</slot>
+    <slot>WindowSliderValueChanged( int value )</slot>
+    <slot>AsdToolsSliderValueChanged( int )</slot>
+    <slot>DFSliderValueChanged(int value)</slot>
+    <slot>ResetPressed()</slot>
+    <slot>closeEvent( QCloseEvent * )</slot>
+</slots>
+<functions>
+    <function specifier="non virtual">Init()</function>
+    <function>mousePressEvent( QMouseEvent * e )</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

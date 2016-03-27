@@ -1,0 +1,2 @@
+<Item=Title> <Text="MAP\SUP2001\SECTO\BALCON SURFACE"> <Mode=Manual Off> <Info=""> 
+<Item=Surface> <Prio=26> <Color=2e2d2d> <PenStyle=PS_SOLID> <Color2=2e2d2d> <Brushstyle=BS_PATTERN 0100010000010001010001000001000101000100000100010100010000010001> <Info="LIMITE SECTEUR"> <Postable=11 (-708,-351) (-207,-10) (-133,-142) (-23,-745) (-27,-804) (-17,-1186) (-853,-1051) (-561,-617) (ARC,-288) (-420,-358) (-708,-351) >

@@ -1,0 +1,1309 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>TrackControl</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>TrackControl</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>332</width>
+            <height>585</height>
+        </rect>
+    </property>
+    <property name="font">
+        <font>
+            <family>Liberation Mono Track</family>
+            <pointsize>11</pointsize>
+        </font>
+    </property>
+    <property name="caption">
+        <string>Track Control</string>
+    </property>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel3</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>12</x>
+                <y>179</y>
+                <width>24</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>0</string>
+        </property>
+        <property name="alignment">
+            <set>AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>HaloLabel</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>12</x>
+                <y>207</y>
+                <width>24</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="lineWidth">
+            <number>1</number>
+        </property>
+        <property name="text">
+            <string>0</string>
+        </property>
+        <property name="alignment">
+            <set>AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel5</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>11</x>
+                <y>252</y>
+                <width>24</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>0</string>
+        </property>
+        <property name="alignment">
+            <set>AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>DotsLabel</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>12</x>
+                <y>135</y>
+                <width>24</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>5</string>
+        </property>
+        <property name="alignment">
+            <set>AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>HistoryDots</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>18</x>
+                <y>156</y>
+                <width>290</width>
+                <height>21</height>
+            </rect>
+        </property>
+        <property name="maxValue">
+            <number>10</number>
+        </property>
+        <property name="pageStep">
+            <number>1</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>1</number>
+        </property>
+    </widget>
+    <widget class="QButtonGroup">
+        <property name="name">
+            <cstring>Prediction_Vector</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>6</y>
+                <width>320</width>
+                <height>120</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>Prediction Vector</string>
+        </property>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>UncoupledVector</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>6</x>
+                    <y>25</y>
+                    <width>90</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Uncoupled</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel1</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>6</x>
+                    <y>94</y>
+                    <width>24</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>0</string>
+            </property>
+            <property name="alignment">
+                <set>AlignCenter</set>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>VectorLabel</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>5</x>
+                    <y>49</y>
+                    <width>26</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>0</string>
+            </property>
+            <property name="alignment">
+                <set>AlignCenter</set>
+            </property>
+        </widget>
+        <widget class="QSlider">
+            <property name="name">
+                <cstring>SliderVector</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>12</x>
+                    <y>70</y>
+                    <width>290</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="maxValue">
+                <number>18</number>
+            </property>
+            <property name="lineStep">
+                <number>1</number>
+            </property>
+            <property name="pageStep">
+                <number>1</number>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+            <property name="tickmarks">
+                <enum>Below</enum>
+            </property>
+            <property name="tickInterval">
+                <number>1</number>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel2</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>285</x>
+                    <y>94</y>
+                    <width>26</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>180</string>
+            </property>
+            <property name="alignment">
+                <set>AlignCenter</set>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>TimeMarksVector</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>215</x>
+                    <y>25</y>
+                    <width>97</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Time Marks</string>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>CoupledVector</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>118</x>
+                    <y>25</y>
+                    <width>75</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Coupled</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel2_2_2</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>118</x>
+                    <y>94</y>
+                    <width>80</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Length (s)</string>
+            </property>
+            <property name="alignment">
+                <set>AlignCenter</set>
+            </property>
+        </widget>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel4</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>293</x>
+                <y>179</y>
+                <width>24</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>10</string>
+        </property>
+        <property name="alignment">
+            <set>AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel6</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>293</x>
+                <y>252</y>
+                <width>24</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>5</string>
+        </property>
+        <property name="alignment">
+            <set>AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel2_2</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>118</x>
+                <y>179</y>
+                <width>80</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Afterglows</string>
+        </property>
+        <property name="alignment">
+            <set>AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel3_2</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>118</x>
+                <y>252</y>
+                <width>80</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Halo (Nm)</string>
+        </property>
+        <property name="alignment">
+            <set>AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QSlider">
+        <property name="name">
+            <cstring>Halo</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>18</x>
+                <y>227</y>
+                <width>290</width>
+                <height>21</height>
+            </rect>
+        </property>
+        <property name="maxValue">
+            <number>5</number>
+        </property>
+        <property name="lineStep">
+            <number>1</number>
+        </property>
+        <property name="pageStep">
+            <number>1</number>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+        <property name="tickmarks">
+            <enum>Below</enum>
+        </property>
+        <property name="tickInterval">
+            <number>1</number>
+        </property>
+    </widget>
+    <widget class="QButtonGroup">
+        <property name="name">
+            <cstring>Fields</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>280</y>
+                <width>320</width>
+                <height>210</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>Data Block Optional Fields</string>
+        </property>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel5_2</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>12</x>
+                    <y>66</y>
+                    <width>60</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>RWY</string>
+            </property>
+            <property name="alignment">
+                <set>WordBreak|AlignTop|AlignLeft</set>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel16</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>116</x>
+                    <y>25</y>
+                    <width>35</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Lim</string>
+            </property>
+            <property name="alignment">
+                <set>AlignCenter</set>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel6_2</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>68</x>
+                    <y>25</y>
+                    <width>35</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Full</string>
+            </property>
+            <property name="alignment">
+                <set>AlignCenter</set>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel18</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>212</x>
+                    <y>25</y>
+                    <width>35</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Unc</string>
+            </property>
+            <property name="alignment">
+                <set>AlignCenter</set>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel4_2</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>12</x>
+                    <y>46</y>
+                    <width>60</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>ATYP</string>
+            </property>
+            <property name="alignment">
+                <set>WordBreak|AlignTop|AlignLeft</set>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel19</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>263</x>
+                    <y>25</y>
+                    <width>28</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Tag</string>
+            </property>
+            <property name="alignment">
+                <set>AlignCenter</set>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field0</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>79</x>
+                    <y>48</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>0</number>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field1</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>79</x>
+                    <y>68</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>1</number>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field11</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>127</x>
+                    <y>68</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>2</number>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field25</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>271</x>
+                    <y>48</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>0</number>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field10</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>127</x>
+                    <y>48</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>2</number>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field27</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>271</x>
+                    <y>108</y>
+                    <width>16</width>
+                    <height>16</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>checkBox24</string>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field13</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>127</x>
+                    <y>88</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>0</number>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field5</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>79</x>
+                    <y>128</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>2</number>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel9</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>12</x>
+                    <y>106</y>
+                    <width>60</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>ROC/D</string>
+            </property>
+            <property name="alignment">
+                <set>WordBreak|AlignTop|AlignLeft</set>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field16</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>127</x>
+                    <y>148</y>
+                    <width>16</width>
+                    <height>16</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>checkBox26</string>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field14</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>127</x>
+                    <y>108</y>
+                    <width>16</width>
+                    <height>16</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>checkBox24</string>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field6</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>79</x>
+                    <y>148</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>2</number>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field22</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>223</x>
+                    <y>88</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>0</number>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel8</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>12</x>
+                    <y>86</y>
+                    <width>60</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>GSP</string>
+            </property>
+            <property name="alignment">
+                <set>WordBreak|AlignTop|AlignLeft</set>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel14</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>12</x>
+                    <y>186</y>
+                    <width>60</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>SID</string>
+            </property>
+            <property name="alignment">
+                <set>WordBreak|AlignTop|AlignLeft</set>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field3</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>79</x>
+                    <y>88</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>3</number>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field24</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>223</x>
+                    <y>148</y>
+                    <width>16</width>
+                    <height>16</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>checkBox24</string>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field8</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>79</x>
+                    <y>188</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>2</number>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel11</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>12</x>
+                    <y>146</y>
+                    <width>60</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>MOD S</string>
+            </property>
+            <property name="alignment">
+                <set>WordBreak|AlignTop|AlignLeft</set>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field7</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>79</x>
+                    <y>168</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>2</number>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field15</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>127</x>
+                    <y>128</y>
+                    <width>16</width>
+                    <height>16</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>checkBox25</string>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field4</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>79</x>
+                    <y>108</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>2</number>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel13</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>12</x>
+                    <y>166</y>
+                    <width>60</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>ADES</string>
+            </property>
+            <property name="alignment">
+                <set>WordBreak|AlignTop|AlignLeft</set>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field28</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>271</x>
+                    <y>148</y>
+                    <width>16</width>
+                    <height>16</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>checkBox24</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel10</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>12</x>
+                    <y>126</y>
+                    <width>60</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>RVR</string>
+            </property>
+            <property name="alignment">
+                <set>WordBreak|AlignTop|AlignLeft</set>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field26</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>271</x>
+                    <y>88</y>
+                    <width>13</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="buttonGroupId">
+                <number>0</number>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>Field23</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>223</x>
+                    <y>108</y>
+                    <width>16</width>
+                    <height>16</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>checkBox24</string>
+            </property>
+        </widget>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pLcmReset</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>550</y>
+                <width>330</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>LCM Reset</string>
+        </property>
+        <property name="toggleButton">
+            <bool>false</bool>
+        </property>
+        <property name="on">
+            <bool>false</bool>
+        </property>
+        <property name="autoDefault">
+            <bool>true</bool>
+        </property>
+        <property name="default">
+            <bool>true</bool>
+        </property>
+    </widget>
+    <widget class="QButtonGroup">
+        <property name="name">
+            <cstring>FontSize</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>497</y>
+                <width>320</width>
+                <height>51</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>Data Block Font Size</string>
+        </property>
+        <widget class="QRadioButton">
+            <property name="name">
+                <cstring>FontSize1</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>11</x>
+                    <y>25</y>
+                    <width>90</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>10</pointsize>
+                </font>
+            </property>
+            <property name="text">
+                <string>Size 1</string>
+            </property>
+            <property name="buttonGroupId">
+                <number>0</number>
+            </property>
+        </widget>
+        <widget class="QRadioButton">
+            <property name="name">
+                <cstring>FontSize2</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>115</x>
+                    <y>25</y>
+                    <width>90</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                </font>
+            </property>
+            <property name="text">
+                <string>Size 2</string>
+            </property>
+            <property name="buttonGroupId">
+                <number>1</number>
+            </property>
+        </widget>
+        <widget class="QRadioButton">
+            <property name="name">
+                <cstring>FontSize3</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>217</x>
+                    <y>25</y>
+                    <width>100</width>
+                    <height>18</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>12</pointsize>
+                </font>
+            </property>
+            <property name="text">
+                <string>Size 3</string>
+            </property>
+            <property name="buttonGroupId">
+                <number>2</number>
+            </property>
+        </widget>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>SliderVector</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>TrackControl</receiver>
+        <slot>SliderVectorValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>HistoryDots</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>TrackControl</receiver>
+        <slot>HistoryDotsValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>Halo</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>TrackControl</receiver>
+        <slot>HaloValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>FontSize</sender>
+        <signal>clicked(int)</signal>
+        <receiver>TrackControl</receiver>
+        <slot>FontSizePressed(int)</slot>
+    </connection>
+    <connection>
+        <sender>Fields</sender>
+        <signal>clicked(int)</signal>
+        <receiver>TrackControl</receiver>
+        <slot>FieldsPressed(int)</slot>
+    </connection>
+    <connection>
+        <sender>UncoupledVector</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>TrackControl</receiver>
+        <slot>UncoupledVectorToggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>CoupledVector</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>TrackControl</receiver>
+        <slot>CoupledVectorToggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>TimeMarksVector</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>TrackControl</receiver>
+        <slot>TimeMarksVectorToggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>pLcmReset</sender>
+        <signal>clicked()</signal>
+        <receiver>TrackControl</receiver>
+        <slot>pLcmResetPressed()</slot>
+    </connection>
+    <connection>
+        <sender>SliderVector</sender>
+        <signal>sliderPressed()</signal>
+        <receiver>TrackControl</receiver>
+        <slot>SliderPressedSlot()</slot>
+    </connection>
+    <connection>
+        <sender>SliderVector</sender>
+        <signal>sliderReleased()</signal>
+        <receiver>TrackControl</receiver>
+        <slot>SliderReleaseSlot()</slot>
+    </connection>
+    <connection>
+        <sender>HistoryDots</sender>
+        <signal>sliderPressed()</signal>
+        <receiver>TrackControl</receiver>
+        <slot>SliderPressedSlot()</slot>
+    </connection>
+    <connection>
+        <sender>HistoryDots</sender>
+        <signal>sliderReleased()</signal>
+        <receiver>TrackControl</receiver>
+        <slot>SliderReleaseSlot()</slot>
+    </connection>
+    <connection>
+        <sender>Halo</sender>
+        <signal>sliderPressed()</signal>
+        <receiver>TrackControl</receiver>
+        <slot>SliderPressedSlot()</slot>
+    </connection>
+    <connection>
+        <sender>Halo</sender>
+        <signal>sliderReleased()</signal>
+        <receiver>TrackControl</receiver>
+        <slot>SliderReleaseSlot()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>UncoupledVector</tabstop>
+    <tabstop>CoupledVector</tabstop>
+    <tabstop>TimeMarksVector</tabstop>
+    <tabstop>SliderVector</tabstop>
+    <tabstop>HistoryDots</tabstop>
+    <tabstop>Halo</tabstop>
+    <tabstop>Field0</tabstop>
+    <tabstop>Field1</tabstop>
+    <tabstop>Field3</tabstop>
+    <tabstop>Field4</tabstop>
+    <tabstop>Field5</tabstop>
+    <tabstop>Field6</tabstop>
+    <tabstop>Field7</tabstop>
+    <tabstop>Field8</tabstop>
+    <tabstop>Field10</tabstop>
+    <tabstop>Field11</tabstop>
+    <tabstop>Field13</tabstop>
+    <tabstop>Field14</tabstop>
+    <tabstop>Field15</tabstop>
+    <tabstop>Field16</tabstop>
+    <tabstop>Field22</tabstop>
+    <tabstop>Field23</tabstop>
+    <tabstop>Field24</tabstop>
+    <tabstop>Field25</tabstop>
+    <tabstop>Field26</tabstop>
+    <tabstop>Field27</tabstop>
+    <tabstop>Field28</tabstop>
+    <tabstop>FontSize1</tabstop>
+    <tabstop>FontSize2</tabstop>
+    <tabstop>FontSize3</tabstop>
+    <tabstop>pLcmReset</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in implementation">TrackControl.ui.h</include>
+</includes>
+<forwards>
+    <forward>class CRwdView</forward>
+</forwards>
+<variables>
+    <variable>bool m_bSliderPressed;</variable>
+    <variable>int m_TimerId;</variable>
+    <variable access="public">CRwdView* m_pView;</variable>
+</variables>
+<slots>
+    <slot>SliderVectorValueChanged( int value )</slot>
+    <slot>HistoryDotsValueChanged( int value )</slot>
+    <slot>TrackControlDestroyed( QObject * )</slot>
+    <slot>HaloValueChanged( int value )</slot>
+    <slot>FieldsPressed( int value )</slot>
+    <slot>FontSizePressed( int value )</slot>
+    <slot>UncoupledVectorToggled( bool on )</slot>
+    <slot>CoupledVectorToggled( bool on )</slot>
+    <slot>TimeMarksVectorToggled( bool on )</slot>
+    <slot>pLcmResetPressed()</slot>
+    <slot>SliderPressedSlot()</slot>
+    <slot>SliderReleaseSlot()</slot>
+</slots>
+<functions>
+    <function specifier="non virtual">Init()</function>
+    <function>mouseMoveEvent( QMouseEvent * )</function>
+    <function>timerEvent( QTimerEvent * e )</function>
+    <function>init()</function>
+    <function>mousePressEvent( QMouseEvent * e )</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

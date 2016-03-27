@@ -1,0 +1,3 @@
+<Item=Title> <Text="MAP\SUP2001\SECTO\SUP 2001 LIGNE"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=15> <Color=5994e8> <Penstyle=PS_SOLID> <Info="SUP_2001A"> <Postable=5 (1568,1390) (863,809) (461,445) (-133,-142) (-209,-593) >
+<Item=Vectors> <Prio=18> <Color=666666> <Penstyle=PS_USERSTYLE 0505> <Info="SUP_2001B"> <Postable=2 (461,445) (15,-861) >

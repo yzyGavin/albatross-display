@@ -1,0 +1,79 @@
+/*
+ * Copyright (C) 2009 SkySoft-ATM 
+ *		ROUTE DE PRE-BOIS 15-17
+ *		CH-1215 GENEVA
+ *		SWITZERLAND
+ * 		tel int 00 41 22 417 4770
+ *  
+ * 		for any Albatross related question : <info@albatross.aero>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; version 2 of the License.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ *
+ * The Court of competent jurisdiction is Geneva Switzerland 
+*/
+
+//-----------------------------------------------------------------------------
+// 
+//  SYSTEM  : Albatross
+//  PROCESS : Documentaiton
+//  FILENAME: INSTALL.TXT
+//  TYPE    : Documentation file
+// 
+//-----------------------------------------------------------------------------
+// 
+//  DESCRIPTION 
+//    This file describes the prerequisites to compile and use Albatross Display
+// 
+//  COMMENTS
+//
+//
+//-----------------------------------------------------------------------------
+// 
+//  CHANGE HISTORY
+// 
+//  Revision 1  2009/08/31 dalleins
+//
+//
+//
+// 
+//-----------------------------------------------------------------------------
+
+Prerequisites :
+- Development libraries for X11 and qt 3.3 needs to be installed prior to be able to compile
+
+- Albatross Display is currently checked on Redhat ES 5.2
+
+- Manage the firewall to let the Asterix data to be received (or disable the firewall if you are in a dedicated environment).
+
+- Install the Liberation Mono track font (you can find it in the fonts folder)
+
+- We are providing a windows XP exe replay application to send tracks accross the network for Albatross Display (radar simulation). 
+You can download it at http://www.albatross.aero/projects/projects-list/project-details.php?s=RG9jdW1lbnRhdGlvbg==&p=NA==
+You can also find the file on 
+This windows exe file contains software AND data in one single file.
+The network settings needs to be declared in the c:\windows\system32\drivers\etc\hosts file
+You need to add the host "trackbc" inside the file
+Here are some examples:
+If the network used to send Asterix data is 192.168.1.0/255.255.255.0, add the following line
+192.168.1.255 trackbc
+If the network used to send Asterix data is 172.16.17.0/255.255.0.0, add the following line
+172.16.255.255 trackbc
+(replace 0 with 255)
+
+- The dataset (in the dataset-0.1 folder) is delivered with Swiss sample maps
+
+- To ba able to run the application (albatross-display), you need to configure the network inside the dataset configuration files.
+In the dataset-0.1 folder, edit the 0.1.ini file and configure the network 
+In our build and test environment, we are using the 172.16.10.0 (255.255.255.0) network. If you are using the same network, nothing needs to be modified.
+If not, you need to replace all the 176.16.10.0 addresses with the relevant one. For example, if you are using a network like 172.16.17.0/255.255.0.0, then you need to replace 172.16.10.0 with 172.16.0.0, if you are using a network like 192.168.1.0/255.255.255.0, then you need to replace 172.16.10.0 with 192.168.1.0.

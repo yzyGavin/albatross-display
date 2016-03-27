@@ -1,0 +1,3 @@
+<Item=Title> <Text="MAP\GLIDER\CFZ\*   7 INTERLAKEN"> <Mode=Manual Off> <Info=""> 
+<Item=Surface> <Prio=23> <Color=122d26> <PenStyle=PS_SOLID> <Color2=122d26> <Brushstyle=BS_PATTERN 0100010000010001010001000001000101000100000100010100010000010001> <Info="CFZ  7\9000 ft AMSL\GND"> <Postable=9 (2492,1569) (2866,831) (2378,506) (2134,898) (1987,1134) (1975,1142) (2130,1045) (2194,1148) (2073,1223) >
+<Item=Text> <Prio=12> <Color=415f41> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2436,1202)> <Text="7"> 

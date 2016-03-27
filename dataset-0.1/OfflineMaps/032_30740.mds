@@ -1,0 +1,133 @@
+<Item=Title> <Text="MAP\SUP2001\FIC\BASE"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=19> <Color=666666> <Penstyle=PS_SOLID> <Info="GVA1"> <Postable=13 (-104,218) (381,559) (610,236) (443,108) (383,-150) (-254,-595) (ARC,-288) (-420,-358) (-465,-644) (-497,-343) (-415,-245) (-50,188) (-104,218) >
+<Item=Vectors> <Prio=19> <Color=666666> <Penstyle=PS_SOLID> <Info="GVA2"> <Postable=5 (381,559) (528,663) (751,344) (610,236) (381,559) >
+<Item=Vectors> <Prio=19> <Color=666666> <Penstyle=PS_SOLID> <Info="GVA3"> <Postable=6 (443,108) (610,236) (751,344) (863,185) (383,-150) (443,108) >
+<Item=Vectors> <Prio=19> <Color=666666> <Penstyle=PS_SOLID> <Info="GVA4"> <Postable=9 (-104,218) (-50,188) (-415,-245) (-497,-343) (-465,-644) (ARC,-288) (-420,-358) (-586,-122) (-104,218) >
+<Item=Vectors> <Prio=19> <Color=666666> <Penstyle=PS_SOLID> <Info="GVA5"> <Postable=7 (528,663) (700,772) (930,448) (855,382) (921,340) (842,214) (528,663) >
+<Item=Vectors> <Prio=19> <Color=666666> <Penstyle=PS_SOLID> <Info="GVA6"> <Postable=6 (528,663) (13,300) (-7,329) (318,628) (329,647) (528,663) >
+<Item=Vectors> <Prio=16> <Color=178217> <Penstyle=PS_USERSTYLE 1508> <Info="INI_FIC"> <Postable=9 (1105,1959) (809,1570) (518,1414) (437,1322) (303,425) (401,386) (1707,-137) (2259,549) (1105,1959) >
+<Item=Vectors> <Prio=16> <Color=178217> <Penstyle=PS_USERSTYLE 1508> <Info="INI_FIC1"> <Postable=3 (401,386) (-133,-142) (-388,-395) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_USERSTYLE  25080808> <Info="ZLL_ALPMITT"> <Postable=9 (861,184) (1278,567) (2497,1573) (2498,1574) (2804,1731) (3130,1810) (3687,1944) (3790,2353) (4637,2431) >
+<Item=Surface> <Prio=26> <Color=2e2d2d> <PenStyle=PS_SOLID> <Color2=2e2d2d> <Brushstyle=BS_PATTERN 0100010000010001010001000001000101000100000100010100010000010001> <Info="APPROACH SECTOR GENEVE"> <Postable=24 (-922,243) (-584,335) (10,647) (238,870) (448,1019) (838,853) (1026,534) (855,382) (921,340) (842,214) (863,185) (836,166) (945,1) (506,-308) (232,-701) (112,-590) (-20,-790) (-256,-1148) (-853,-1051) (-587,-593) (ARC,-288) (-420,-358) (-586,-122) (-922,243) >
+<Item=Surface> <Prio=21> <Color=282828> <PenStyle=PS_SOLID> <Color2=282828> <Brushstyle=BS_PATTERN 0001000101000100000100010100010000010001010001000001000101000100> <Info="GENEVA CTR"> <Postable=8 (129,248) (ARC,-96) (197,180) (264,112) (-73,-216) (ARC,-96) (-141,-147) (-208,-79) >
+<Item=Surface> <Prio=21> <Color=282828> <PenStyle=PS_SOLID> <Color2=282828> <Brushstyle=BS_PATTERN 0001000101000100000100010100010000010001010001000001000101000100> <Info="SION CTR\FL 130\GND"> <Postable=8 (1776,92) (1821,7) (1785,-10) (1516,-98) (ARC,-34) (1505,-65) (1494,-32) (1672,25) >
+<Item=Surface> <Prio=21> <Color=282828> <PenStyle=PS_SOLID> <Color2=282828> <Brushstyle=BS_PATTERN 0001000101000100000100010100010000010001010001000001000101000100> <Info="BERN CTR\5000 ft\GND"> <Postable=6 (1796,1619) (1955,1428) (ARC,-160) (1832,1325) (1709,1223) (1546,1417) >
+<Item=Surface> <Prio=28> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="*"> <Postable=22 (111,-587) (-23,-745) (-17,-1186) (-853,-1051) (-587,-593) (ARC,-288) (-420,-358) (-586,-122) (-922,243) (-655,317) (-678,505) (-705,553) (-1240,678) (-1213,895) (-844,891) (-308,1337) (859,847) (1534,1404) (1740,1153) (1146,667) (897,73) (111,-587) >
+<Item=Surface> <Prio=28> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="*"> <Postable=15 (111,-587) (155,-617) (200,-681) (470,-936) (1354,-1729) (1590,-1943) (1806,-1741) (2015,-1616) (2090,-1516) (1580,-983) (2611,-1091) (2644,-774) (1366,-636) (897,73) (111,-587) >
+<Item=Surface> <Prio=24> <Color=282828> <PenStyle=PS_SOLID> <Color2=282828> <Brushstyle=BS_PATTERN 0010001000001000101000100000100010100010000010001010001000001000> <Info="TMA GENEVE 1\FL 195\3500 ft AMSL"> <Postable=13 (-104,218) (381,559) (610,236) (443,108) (383,-150) (-254,-595) (ARC,-288) (-420,-358) (-465,-644) (-497,-343) (-415,-245) (-50,188) (-104,218) >
+<Item=Surface> <Prio=24> <Color=282828> <PenStyle=PS_SOLID> <Color2=282828> <Brushstyle=BS_PATTERN 0010001000001000101000100000100010100010000010001010001000001000> <Info="TMA GENEVE 2\FL 195\5500 ft AMSL"> <Postable=4 (381,559) (528,663) (751,344) (610,236) >
+<Item=Surface> <Prio=24> <Color=282828> <PenStyle=PS_SOLID> <Color2=282828> <Brushstyle=BS_PATTERN 0010001000001000101000100000100010100010000010001010001000001000> <Info="TMA GENEVE 3\FL 195\6000 ft AMSL"> <Postable=6 (443,108) (610,236) (751,344) (863,185) (383,-150) (443,108) >
+<Item=Surface> <Prio=24> <Color=282828> <PenStyle=PS_SOLID> <Color2=282828> <Brushstyle=BS_PATTERN 0010001000001000101000100000100010100010000010001010001000001000> <Info="TMA GENEVE 4\FL 195\6000 ft AMSL"> <Postable=9 (-104,218) (-50,188) (-415,-245) (-497,-343) (-465,-644) (ARC,-288) (-420,-358) (-586,-122) (-104,218) >
+<Item=Surface> <Prio=24> <Color=282828> <PenStyle=PS_SOLID> <Color2=282828> <Brushstyle=BS_PATTERN 0010001000001000101000100000100010100010000010001010001000001000> <Info="TMA GENEVE 5\FL 195\7500 ft AMSL"> <Postable=7 (528,663) (700,772) (930,448) (855,382) (921,340) (842,214) (528,663) >
+<Item=Surface> <Prio=24> <Color=282828> <PenStyle=PS_SOLID> <Color2=282828> <Brushstyle=BS_PATTERN 0010001000001000101000100000100010100010000010001010001000001000> <Info="TMA GENEVE 6\FL 195\6500 ft AMSL"> <Postable=6 (528,663) (13,300) (-7,329) (318,628) (329,647) (528,663) >
+<Item=Surface> <Prio=24> <Color=282828> <PenStyle=PS_SOLID> <Color2=282828> <Brushstyle=BS_PATTERN 0010001000001000101000100000100010100010000010001010001000001000> <Info="BERN TMA SECTOR 1\FL 100\3500 ft AMSL"> <Postable=12 (1682,1734) (ARC,-160) (1611,1590) (1735,1693) (1955,1428) (ARC,-160) (1832,1325) (1709,1223) (1488,1487) (ARC,-160) (1611,1590) (1509,1714) >
+<Item=Surface> <Prio=24> <Color=282828> <PenStyle=PS_SOLID> <Color2=282828> <Brushstyle=BS_PATTERN 0010001000001000101000100000100010100010000010001010001000001000> <Info="BERN TMA SECTOR 2\FL 100\5500 ft AMSL"> <Postable=10 (1889,1758) (1682,1734) (ARC,-160) (1611,1590) (1735,1693) (1955,1428) (ARC,-160) (1832,1325) (1992,1308) (2147,1447) >
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="AOSTA\45.47.56N  07.19.57E"> <Pos=(1655,-830)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ARGIS\45.58.16N  05.35.57E"> <Pos=(-672,-510)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BALSI\45.28.39N  05.57.39E"> <Pos=(-189,-1460)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BANKO\45.49.12N  07.03.18E"> <Pos=(1281,-795)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BELUS\45.40.31N  05.35.38E"> <Pos=(-683,-1078)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BERSU\47.08.08N  07.56.29E"> <Pos=(2413,1753)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BOBSI\46.19.27N  04.59.07E"> <Pos=(-1484,176)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BOLGI\46.40.04N  05.56.18E"> <Pos=(-215,826)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="CBP NDB/DME PROVIS.\332 KHz/115.9 MHz"> <Pos=(-460,-682)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="CERVI\45.58.08N  07.32.39E"> <Pos=(1933,-499)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DENT DU CHAT\4934 ft"> <Pos=(-377,-1104)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRAND CRET D'EAU\5318 ft"> <Pos=(-315,-168)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DEREM\46.21.24N  06.10.34E"> <Pos=(100,228)> <Text="m"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DINIG\46.29.43N  05.53.26E"> <Pos=(-279,495)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DJL VOR/DME\111.45"> <Pos=(-1312,1993)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="FRI VOR/DME\110.85"> <Pos=(1482,1047)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG502\45.57.14N  05.53.57E"> <Pos=(-270,-545)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG503\46.05.45N  05.41.49E"> <Pos=(-540,-271)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG510\45.46.23N  05.48.11E"> <Pos=(-400,-892)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG511\46.11.50N  06.15.14E"> <Pos=(204,-78)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG512\46.23.50N  06.32.56E"> <Pos=(596,308)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG513\46.20.15N  06.02.54E"> <Pos=(-70,191)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG514\46.32.25N  06.20.49E"> <Pos=(326,581)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG601\46.21.28N  06.17.00E"> <Pos=(243,231)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GIPNO\45.33.36N  05.31.45E"> <Pos=(-771,-1299)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GLA NDB\320kHz"> <Pos=(191,329)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GOLEB\46.03.06N  06.33.45E"> <Pos=(618,-356)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="KERAD\46.14.07N  05.53.57E"> <Pos=(-269,-4)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="KLO DVOR/DME\114.85"> <Pos=(3186,2392)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="KORED\46.51.02N  07.24.51E"> <Pos=(1731,1191)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LIRKO\R326 D23 GVA / D27 SPR\46.34.15N  05.48.51E"> <Pos=(-380,641)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LISMO\46.52.14N  05.46.41E"> <Pos=(-425,1217)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LSE VOR/DME\114.75"> <Pos=(-1359,-937)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MATOG\RB\45.23.12N  07.35.24E"> <Pos=(2015,-1616)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MILPA\46.18.09N  05.52.47E"> <Pos=(-294,125)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MOLUS\46.26.38N  06.40.46E"> <Pos=(768,399)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MOREG\46.23.35N  06.00.26E"> <Pos=(-124,299)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="ALETSCHHORN\13763 ft"> <Pos=(2512,466)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BALMHORN\12135 ft"> <Pos=(2116,381)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BIETSCHHORN\12906 ft"> <Pos=(2325,320)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DENT BLANCHE"> <Pos=(2076,-378)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BLINNENHORN\11069 ft"> <Pos=(2932,403)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BLUEMLISALP\12017 ft"> <Pos=(2217,505)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LE CHASSERAL\5646 ft"> <Pos=(1257,1727)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRAND COMBIN"> <Pos=(1666,-568)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DOM\14911 ft"> <Pos=(2349,-251)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="FINSTERAARHORN\14022 ft"> <Pos=(2686,610)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="JUNGFRAU\13641 ft"> <Pos=(2467,602)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LA DOLE\5574 ft"> <Pos=(-2,359)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONTE LEONE\11656 ft"> <Pos=(2678,58)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="Mt ROSA,DUFOURSPITZE\15203 ft"> <Pos=(2366,-552)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MATTERHORN\14691 ft"> <Pos=(2086,-481)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LE MOLESON\6568 ft"> <Pos=(1214,603)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONT BLANC\15770 ft"> <Pos=(1025,-774)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONT MORON\4383 ft"> <Pos=(1520,1979)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="NIESEN\7749 ft"> <Pos=(2052,804)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="OCHSEN\7178 ft"> <Pos=(1741,900)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRAND PARADISO"> <Pos=(1592,-1380)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONT RACINE\4721 ft"> <Pos=(939,1510)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SCHRECKHORN\13379 ft"> <Pos=(2670,707)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONT TENDRE\5509 ft"> <Pos=(278,685)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="WEISSHORN\14780 ft"> <Pos=(2158,-241)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="WEISSMIES\13198 ft"> <Pos=(2552,-182)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="WILDSTRUBEL\10643 ft"> <Pos=(1897,328)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CRET DE LA NEIGE\5637 ft"> <Pos=(-216,62)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="OMETO\45.43.47N  08.03.11E"> <Pos=(2626,-944)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="OTKOL\46.08.05N  05.24.51E"> <Pos=(-917,-194)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="PAS DVOR/DME\116.60"> <Pos=(-133,-142)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="PITOM\46.05.41N  06.06.07E"> <Pos=(2,-275)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL GD. ST. BERNARD\8100 ft"> <Pos=(1433,-699)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DE LA FORCLAZ\5006 ft"> <Pos=(1205,-340)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GEMMIPASS\7592 ft"> <Pos=(2011,326)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="JAUNPASS\4951 ft"> <Pos=(1642,692)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DU MARCHAIRUZ\4747 ft"> <Pos=(197,604)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DES MOSSES\4741 ft"> <Pos=(1331,318)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DU PILLON\5072 ft"> <Pos=(1468,231)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RAWILPASS\7969 ft"> <Pos=(1782,293)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DU SANETSCH\7385 ft"> <Pos=(1576,191)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SIMPLONPASS\6578 ft"> <Pos=(2575,56)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL du Mt SION\2579 ft"> <Pos=(-115,-304)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="VUE DES ALPES\4209 ft"> <Pos=(1009,1608)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="REVLI\46.35.11N  06.44.36E"> <Pos=(851,673)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ROCCA\45.44.43N  06.38.44E"> <Pos=(733,-944)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ROMOM\46.40.52N  06.58.14E"> <Pos=(1150,858)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RONLA\46.21.09N  05.25.19E"> <Pos=(-903,224)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SALEV\46.04.26N  06.03.57E"> <Pos=(-47,-315)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRAND PITON\4511 ft"> <Pos=(51,-275)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SAUNI\46.37.25N  05.28.40E"> <Pos=(-825,745)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SOPLO\45.43.44N  05.44.45E"> <Pos=(-477,-976)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SOSAL\46.33.29N  06.53.05E"> <Pos=(1039,620)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ST-PREX\113.90"> <Pos=(461,445)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SRN VOR/DME\113.70"> <Pos=(3935,-1063)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TDP VOR\110.60"> <Pos=(-894,-1435)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TINAM\46.21.36N  06.31.50E"> <Pos=(572,237)> <Text="m"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TOP VOR/DME\114.50"> <Pos=(2403,-2495)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TRA DVOR/DME\114.30"> <Pos=(3031,2834)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ULMES\46.57.18N  07.17.33E"> <Pos=(1568,1390)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="VADAR\46.39.26N  06.45.13E"> <Pos=(863,809)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LES VOIRONS\4856 ft"> <Pos=(338,-15)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="WIL DVOR/DME\116.15"> <Pos=(2365,1834)> <Text="^"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(349,211)> <Text="E"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(54,-22)> <Text="GE"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-56,41)> <Text="GW"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(69,224)> <Text="N"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-103,60)> <Text="NW"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-2,-200)> <Text="S"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(96,-48)> <Text="SE"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-270,-222)> <Text="SW"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-141,-18)> <Text="W"> 

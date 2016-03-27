@@ -1,0 +1,5 @@
+<Item=Title> <Text="MAP\PARA\* BIEL-KAPPELEN"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=15> <Color=5994e8> <Penstyle=PS_SOLID> <Info="ZLL_GRENCHEN"> <Postable=5 (1241,1787) (1448,1934) (1569,1800) (1367,1634) (1241,1787) >
+<Item=Beacon> <Prio=4> <Color=5994e8> <Font="GraphicsGva"> <Size=200 > <Info="BIEL KAPPELEN"> <Pos=(1538,1665)> <Text="v"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZP/BIEL KAPPELEN\AFIS:123.15"> <Pos=(1560,1647)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZP/BIEL KAPPELEN\AFIS:123.15"> <Pos=(1560,1647)> <Text="Ž"> 

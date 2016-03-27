@@ -1,0 +1,10 @@
+<Item=Title> <Text="MAP\GEOGRAPHY\GE-VFR Reporting points (CTR)"> <Mode=Manual Off> <Info=""> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(349,211)> <Text="E"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(54,-22)> <Text="GE"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-56,41)> <Text="GW"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(69,224)> <Text="N"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-103,60)> <Text="NW"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-2,-200)> <Text="S"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(96,-48)> <Text="SE"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-270,-222)> <Text="SW"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-141,-18)> <Text="W"> 

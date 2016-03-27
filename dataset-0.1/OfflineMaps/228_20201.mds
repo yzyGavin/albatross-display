@@ -1,0 +1,10 @@
+<Item=Title> <Text="MAP\ROUTINGS\DAR\LSGC"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=16> <Color=4c4c24> <Penstyle=PS_SOLID> <Info="DARGC_1"> <Postable=7 (571,966) (638,1291) (910,1629) (1386,1969) (1543,2068) (1652,2137) (1874,2276) >
+<Item=Vectors> <Prio=16> <Color=4c4c24> <Penstyle=PS_SOLID> <Info="DARGC_2"> <Postable=2 (910,1629) (1373,1175) >
+<Item=Vectors> <Prio=16> <Color=4c4c24> <Penstyle=PS_SOLID> <Info="DARGC_3"> <Postable=2 (1261,1912) (1293,1867) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_SOLID> <Info="ZLL_W102LOJ"> <Postable=2 (1359,2004) (1412,1934) >
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BOMEC\47.10.30N  06.59.21E"> <Pos=(1164,1807)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DELMO\47.15.28N  07.09.36E"> <Pos=(1386,1969)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="FLORY\46.54.31N  06.35.06E"> <Pos=(638,1291)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LEPLA\47.20.36N  07.21.58E"> <Pos=(1652,2137)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LPS NDB\403kHz"> <Pos=(910,1629)> <Text="X"> 

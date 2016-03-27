@@ -1,0 +1,2 @@
+<Item=Title> <Text="MAP\DANGER\ZONES\* EPFL"> <Mode=Manual Off> <Info=""> 
+<Item=Surface> <Prio=20> <Color=37375f> <PenStyle=PS_SOLID> <Color2=37375f> <Brushstyle=BS_PATTERN 0100010000010001010001000001000101000100000100010100010000010001> <Info="LASER EPFL"> <Postable=4 (623,607) (ARC,64) (623,543) (623,607) >

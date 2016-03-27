@@ -1,0 +1,142 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>CTssrDlg</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>CTssrDlg</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>120</width>
+            <height>234</height>
+        </rect>
+    </property>
+    <property name="font">
+        <font>
+            <family>Liberation Mono Track</family>
+            <pointsize>11</pointsize>
+        </font>
+    </property>
+    <property name="caption">
+        <string>TSSR</string>
+    </property>
+    <property name="sizeGripEnabled">
+        <bool>false</bool>
+    </property>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>pSsr</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>5</y>
+                <width>86</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+                <family>Liberation Mono Track</family>
+                <pointsize>10</pointsize>
+                <bold>1</bold>
+            </font>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+        <property name="alignment">
+            <set>WordBreak|AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pOther</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>204</y>
+                <width>86</width>
+                <height>25</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Other</string>
+        </property>
+        <property name="autoDefault">
+            <bool>false</bool>
+        </property>
+        <property name="default">
+            <bool>true</bool>
+        </property>
+    </widget>
+    <widget class="QListBox">
+        <property name="name">
+            <cstring>pSsrList</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>28</y>
+                <width>86</width>
+                <height>171</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+                <family>Liberation Mono Track</family>
+                <pointsize>10</pointsize>
+            </font>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>pSsrList</sender>
+        <signal>clicked(QListBoxItem*)</signal>
+        <receiver>CTssrDlg</receiver>
+        <slot>pSsrListPressed(QListBoxItem*)</slot>
+    </connection>
+    <connection>
+        <sender>pOther</sender>
+        <signal>clicked()</signal>
+        <receiver>CTssrDlg</receiver>
+        <slot>pOtherPressed()</slot>
+    </connection>
+    <connection>
+        <sender>pSsrList</sender>
+        <signal>returnPressed(QListBoxItem*)</signal>
+        <receiver>CTssrDlg</receiver>
+        <slot>pSsrListPressed(QListBoxItem*)</slot>
+    </connection>
+    <connection>
+        <sender>pSsrList</sender>
+        <signal>selectionChanged(QListBoxItem*)</signal>
+        <receiver>CTssrDlg</receiver>
+        <slot>SetItemAtTop(QListBoxItem*)</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>pSsrList</tabstop>
+    <tabstop>pOther</tabstop>
+</tabstops>
+<variables>
+    <variable access="public">bool m_Other;</variable>
+    <variable access="public">QString m_Arcid;</variable>
+    <variable>int m_TimerId;</variable>
+</variables>
+<slots>
+    <slot>pSsrListPressed( QListBoxItem * item )</slot>
+    <slot>pOtherPressed()</slot>
+    <slot>SetItemAtTop( QListBoxItem * Item )</slot>
+</slots>
+<functions>
+    <function returnType="int">DoModal( QString Tssr )</function>
+    <function access="private">mouseMoveEvent( QMouseEvent * )</function>
+    <function access="private">timerEvent( QTimerEvent * e )</function>
+    <function access="private">mousePressEvent( QMouseEvent * e )</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

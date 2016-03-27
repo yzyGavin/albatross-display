@@ -1,0 +1,9 @@
+<Item=Title> <Text="MAP\ROUTINGS\REGIONAL AD\LFLB/LP"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=16> <Color=979797> <Penstyle=PS_SOLID> <Info="LLZ_LFLB"> <Postable=3 (-377,297) (-329,-566) (-297,-1140) >
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="AT NDB\384kHz"> <Pos=(-108,-725)> <Text="a"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="CBP NDB/DME PROVIS.\332 KHz/115.9 MHz"> <Pos=(-460,-682)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="COLLO\45.56.35N  05.51.18E"> <Pos=(-329,-566)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLB/CHAMBERY\APP:123.70\TWR:118.30 121.20"> <Pos=(-297,-1150)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLB/CHAMBERY\APP:123.70\TWR:118.30 121.20"> <Pos=(-297,-1150)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLP/ANNECY\APP:123.70\TWR:118.20"> <Pos=(8,-590)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLP/ANNECY\APP:123.70\TWR:118.20"> <Pos=(8,-590)> <Text=""> 

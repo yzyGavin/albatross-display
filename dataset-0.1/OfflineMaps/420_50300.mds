@@ -1,0 +1,4 @@
+<Item=Title> <Text="MAP\MILITARY\MIL DEP/ARR\APP Q05 PAY"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="LSMP_APP_Q05H"> <Postable=2 (797,1070) (878,953) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="LSMP_APP_Q05L"> <Postable=2 (1060,1157) (599,863) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="PAYAPP05"> <Postable=2 (791,913) (1060,1157) >

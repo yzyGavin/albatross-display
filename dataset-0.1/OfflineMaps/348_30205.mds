@@ -1,0 +1,39 @@
+<Item=Title> <Text="MAP\AERODROMES\AIRFIELDS\LIST 2"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHM/MEGEVE\AFIS:118.50"> <Pos=(739,-801)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHM/MEGEVE\AFIS:118.50"> <Pos=(739,-801)> <Text="„"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHN/BELLEGARDE\AFIS:123.50"> <Pos=(-395,-220)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHN/BELLEGARDE\AFIS:123.50"> <Pos=(-395,-220)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHZ/SALLANCHES\AFIS:123.50"> <Pos=(720,-545)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHZ/SALLANCHES\AFIS:123.50"> <Pos=(720,-545)> <Text="‚"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLY/LYON-BRON\LYON APP:128.50 125.80\BRON APP:119.45\TWR:118.10"> <Pos=(-1563,-966)> <Text="0"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLY/LYON-BRON\LYON APP:128.50 125.80\BRON APP:119.45\TWR:118.10"> <Pos=(-1563,-966)> <Text="ƒ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFXA/AMBERIEU\APP:119.25 128.50\TWR:129.75"> <Pos=(-1021,-491)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFXA/AMBERIEU\APP:119.25 128.50\TWR:129.75"> <Pos=(-1021,-491)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSEZ/ZERMATT HELI AD\AFIS:130.00"> <Pos=(2211,-378)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGB/BEX\AFIS:122.15"> <Pos=(1180,46)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGB/BEX\AFIS:122.15"> <Pos=(1180,46)> <Text="„"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGP/LA COTE\AFIS:123.65"> <Pos=(209,324)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGP/LA COTE\AFIS:123.65"> <Pos=(209,324)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGR/REICHENBACH\AFIS:123.65"> <Pos=(2088,743)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGR/REICHENBACH\AFIS:123.65"> <Pos=(2088,743)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSHA/GSTAAD HELI AD"> <Pos=(1554,380)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSHC/COLLOMBEY HELI AD"> <Pos=(1144,65)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSHG/GAMPEL HELI AD"> <Pos=(2162,161)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSTA/RAROGNE RARON\TWR:120.42"> <Pos=(2291,153)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSTA/RAROGNE RARON\TWR:120.42"> <Pos=(2291,153)> <Text="‰"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSTB/BELLECHASSE\AFIS:122.37"> <Pos=(1356,1434)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSTB/BELLECHASSE\AFIS:122.37"> <Pos=(1356,1434)> <Text="‹"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSTO/MOTIERS\AFIS:126.65"> <Pos=(677,1306)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSTO/MOTIERS\AFIS:126.65"> <Pos=(677,1306)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSTR/MONTRICHER\AFIS:123.05"> <Pos=(397,678)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSTR/MONTRICHER\AFIS:123.05"> <Pos=(397,678)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSTZ/ZWEISIMMEN\AFIS:121.22"> <Pos=(1697,619)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSTZ/ZWEISIMMEN\AFIS:121.22"> <Pos=(1697,619)> <Text="‚"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZJ/COURTELARY\AFIS:124.60"> <Pos=(1297,1825)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZJ/COURTELARY\AFIS:124.60"> <Pos=(1297,1825)> <Text="Œ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZP/BIEL KAPPELEN\AFIS:123.15"> <Pos=(1560,1647)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZP/BIEL KAPPELEN\AFIS:123.15"> <Pos=(1560,1647)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZW/THUN\AFIS:123.25"> <Pos=(1980,1020)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZW/THUN\AFIS:123.25"> <Pos=(1980,1020)> <Text="…"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZY/PORRENTRUY\AFIS:122.05"> <Pos=(1240,2260)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZY/PORRENTRUY\AFIS:122.05"> <Pos=(1240,2260)> <Text="Œ"> 

@@ -1,0 +1,12 @@
+<Item=Title> <Text="MAP\MISC\TECHNICAL\RADAR SITES"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CHAUMONT RADAR"> <Pos=(-899,4251)> <Text="n"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COINTRIN RADAR"> <Pos=(0,0)> <Text="n"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DOLE RADAR"> <Pos=(-1,360)> <Text="n"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RADAR GOSHEIM"> <Pos=(3441,3696)> <Text="n"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RADAR HOLBERG"> <Pos=(3223,2379)> <Text="n"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RADAR LAEGERN"> <Pos=(2999,2433)> <Text="n"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RADAR MONTE-LESIMA"> <Pos=(4327,-2910)> <Text="n"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="NEVERS RADAR"> <Pos=(-2726,1647)> <Text="n"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RADAR PESCHIERA"> <Pos=(4301,-1443)> <Text="n"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RADAR PFAELZERWALD\585,3m - 622,4m - PRF 130Hz - 6 RPM\Erfassung 150Nm - FL450\3dB  2,4 Deg"> <Pos=(2217,5944)> <Text="n"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RADAR TG/SCOPI"> <Pos=(3615,704)> <Text="n"> 

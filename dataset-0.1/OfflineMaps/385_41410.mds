@@ -1,0 +1,5 @@
+<Item=Title> <Text="MAP\GEOGRAPHY\GE-VFR Routes (TMA)"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=16> <Color=4c4c24> <Penstyle=PS_SOLID> <Info="VFROUTGE_C"> <Postable=3 (-92,228) (42,31) (228,-254) >
+<Item=Vectors> <Prio=16> <Color=4c4c24> <Penstyle=PS_SOLID> <Info="VFROUTGE_SA"> <Postable=2 (922,459) (228,-254) >
+<Item=Vectors> <Prio=16> <Color=4c4c24> <Penstyle=PS_SOLID> <Info="VFROUTGE_SB"> <Postable=3 (878,522) (217,-85) (228,-254) >
+<Item=Vectors> <Prio=16> <Color=4c4c24> <Penstyle=PS_SOLID> <Info="VFROUTGE_W"> <Postable=6 (-395,-220) (-380,-297) (-391,-383) (-388,-479) (-357,-536) (-338,-635) >

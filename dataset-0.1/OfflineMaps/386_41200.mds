@@ -1,0 +1,20 @@
+<Item=Title> <Text="MAP\GEOGRAPHY\APP GEO MOUNTAINS"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BONNEVILLE"> <Pos=(419,-302)> <Text="d"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DENT DU CHAT\4934 ft"> <Pos=(-377,-1104)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="COPPET"> <Pos=(124,150)> <Text="d"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRAND CRET D'EAU\5318 ft"> <Pos=(-315,-168)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="EVIAN"> <Pos=(651,313)> <Text="d"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GEX"> <Pos=(-57,186)> <Text="d"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GLAND"> <Pos=(223,350)> <Text="d"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="VALLEE DE JOUX"> <Pos=(246,770)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MARTIGNY"> <Pos=(1300,-248)> <Text="d"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MONTREUX"> <Pos=(1071,405)> <Text="d"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LA DOLE\5574 ft"> <Pos=(-2,359)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONT BLANC\15770 ft"> <Pos=(1025,-774)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONT TENDRE\5509 ft"> <Pos=(278,685)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CRET DE LA NEIGE\5637 ft"> <Pos=(-216,62)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NYON"> <Pos=(181,283)> <Text="d"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ROLLE"> <Pos=(314,421)> <Text="d"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRAND PITON\4511 ft"> <Pos=(51,-275)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="THONON"> <Pos=(508,259)> <Text="d"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LES VOIRONS\4856 ft"> <Pos=(338,-15)> <Text="r"> 

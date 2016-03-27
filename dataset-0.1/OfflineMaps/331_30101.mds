@@ -1,0 +1,49 @@
+<Item=Title> <Text="MAP\AERODROMES\AIRPORTS\AIRPORTS"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDDS/STUTTGART\FIC:128.95 AIRSPACE C:118.60\APP/SRE:125.05 119.20 ARR:119.85\TWR:118.80 119.05 GND:121.90\APRON:121.70 121.77\ATIS:126.12"> <Pos=(3975,4792)> <Text="0"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDDS/STUTTGART\FIC:128.95 AIRSPACE C:118.60\APP/SRE:125.05 119.20 ARR:119.85\TWR:118.80 119.05 GND:121.90\APRON:121.70 121.77\ATIS:126.12"> <Pos=(3975,4792)> <Text="Œ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDMA/AUGSBURG\TWR:124.97"> <Pos=(6181,4393)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDMA/AUGSBURG\TWR:124.97"> <Pos=(6181,4393)> <Text="Œ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDMO/OBERPFAFFENHOFEN\TWR:119.55 122.10"> <Pos=(6673,3762)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDMO/OBERPFAFFENHOFEN\TWR:119.55 122.10"> <Pos=(6673,3762)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDNY/FRIEDRICHSHAFEN\TWR:124.35  336.40\ATIS:129.60"> <Pos=(4427,2847)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDNY/FRIEDRICHSHAFEN\TWR:124.35  336.40\ATIS:129.60"> <Pos=(4427,2847)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTD/DONAUESCH.\INFO:124.25"> <Pos=(3126,3384)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTD/DONAUESCH.\INFO:124.25"> <Pos=(3126,3384)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGA/COLMAR-HOUSSEN\TWR:119.00"> <Pos=(1620,3611)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGA/COLMAR-HOUSSEN\TWR:119.00"> <Pos=(1620,3611)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGJ/DOLE-TAVAUX\TWR:119.40"> <Pos=(-874,1548)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGJ/DOLE-TAVAUX\TWR:119.40"> <Pos=(-874,1548)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLB/CHAMBERY\APP:123.70\TWR:118.30 121.20"> <Pos=(-297,-1150)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLB/CHAMBERY\APP:123.70\TWR:118.30 121.20"> <Pos=(-297,-1150)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLL/LYON-SATOLAS\APP:125.80 119.25 120.22\TWR:120.45 121.82\ATIS:135.25"> <Pos=(-1371,-975)> <Text="0"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLL/LYON-SATOLAS\APP:125.80 119.25 120.22\TWR:120.45 121.82\ATIS:135.25"> <Pos=(-1371,-975)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLS/GRENOBLE ST-GEOIRS\APP:120.40 119.30\TWR:119.30"> <Pos=(-1039,-1676)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLS/GRENOBLE ST-GEOIRS\APP:120.40 119.30\TWR:119.30"> <Pos=(-1039,-1676)> <Text="Š"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFSB/BALE\ILS 16:111.55 APP:119.35 121.25 118.57\TWR:118.30\GND:121.60 CLD:120.50\VDF:118.30 119.35\INFO:121.25 ATIS:127.87"> <Pos=(1857,2615)> <Text="0"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFSB/BALE\ILS 16:111.55 APP:119.35 121.25 118.57\TWR:118.30\GND:121.60 CLD:120.50\VDF:118.30 119.35\INFO:121.25 ATIS:127.87"> <Pos=(1857,2615)> <Text="ƒ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LIMC/MILANO-MALPENSA\APP ARR:132.70\DEP:126.30(S) 126.75(N)\TWR:119.00 128.35(ATC DISCR)"> <Pos=(3543,-1102)> <Text="0"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LIMC/MILANO-MALPENSA\APP ARR:132.70\DEP:126.30(S) 126.75(N)\TWR:119.00 128.35(ATC DISCR)"> <Pos=(3543,-1102)> <Text="‚"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LIMF/TORINO\APP:121.10 120.15(ATC DISCR)\RADAR:121.10 120.15(ATC DISCR)\TWR:118.50"> <Pos=(2103,-1971)> <Text="0"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LIMF/TORINO\APP:121.10 120.15(ATC DISCR)\RADAR:121.10 120.15(ATC DISCR)\TWR:118.50"> <Pos=(2103,-1971)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LIML/MILANO-LINATE\APP ARR:132.70\DEP:126.30(S) 126.75(N)\TWR:118.10 119.25(ATC DISCR)\ATIS:116.00"> <Pos=(4295,-1430)> <Text="0"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LIML/MILANO-LINATE\APP ARR:132.70\DEP:126.30(S) 126.75(N)\TWR:118.10 119.25(ATC DISCR)\ATIS:116.00"> <Pos=(4295,-1430)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGC/LES EPLATURES\TWR:118.12\AFIS:118.12"> <Pos=(909,1630)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGC/LES EPLATURES\TWR:118.12\AFIS:118.12"> <Pos=(909,1630)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGG/GENEVE\DELTA:119.17 T-VFR:119.52\FIC:126.35 TWR:118.70 119.70\ARR:131.32 DEP:121.30\FINAL:120.30 ATIS:135.575\GND:121.67 118.70 119.70"> <Pos=(11,0)> <Text="0"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGG/GENEVE\DELTA:119.17 T-VFR:119.52\FIC:126.35 TWR:118.70 119.70\ARR:131.32 DEP:121.30\FINAL:120.30 ATIS:135.575\GND:121.67 118.70 119.70"> <Pos=(11,0)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGS/SION\TWR:118.27\GND:121.70\INFO:122.35\APP:126.82\GLD:118.27"> <Pos=(1635,-23)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGS/SION\TWR:118.27\GND:121.70\INFO:122.35\APP:126.82\GLD:118.27"> <Pos=(1635,-23)> <Text="‹"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMP/PAYERNE\TWR:128.675\IFR:130.625"> <Pos=(1073,1168)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMP/PAYERNE\TWR:128.675\IFR:130.625"> <Pos=(1073,1168)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZA/LUGANO\TWR:120.25 122.55\GND:121.77\ATIS:121.17"> <Pos=(3760,-383)> <Text="8"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZA/LUGANO\TWR:120.25 122.55\GND:121.77\ATIS:121.17"> <Pos=(3760,-383)> <Text="‘"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZB/BERN\APP/VDF:127.32\TWR/VDF:121.02 119.70 121.50\ATIS:125.12\GLD:123.40"> <Pos=(1841,1312)> <Text="0"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZB/BERN\APP/VDF:127.32\TWR/VDF:121.02 119.70 121.50\ATIS:125.12\GLD:123.40"> <Pos=(1841,1312)> <Text="…"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZG/GRENCHEN\TWR/VDF:120.10 119.70 121.50\ATIS:121.10\GLD:122.42"> <Pos=(1723,1827)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZG/GRENCHEN\TWR/VDF:120.10 119.70 121.50\ATIS:121.10\GLD:122.42"> <Pos=(1723,1827)> <Text="Œ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZH/ZURICH\ILS14:108.3 IZH ILS16:110.5 IKL DELTA:119.22 FIC:124.70\TERM:127.75 TWR:118.10 119.70\APP:118.00 120.75 DEP:125.95\FINAL 28:125.32 GND:121.90\CLD:121.80 APRON:121.75"> <Pos=(3189,2394)> <Text="0"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZH/ZURICH\ILS14:108.3 IZH ILS16:110.5 IKL DELTA:119.22 FIC:124.70\TERM:127.75 TWR:118.10 119.70\APP:118.00 120.75 DEP:125.95\FINAL 28:125.32 GND:121.90\CLD:121.80 APRON:121.75"> <Pos=(3189,2394)> <Text="…"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZR/ST. GALLEN\TWR/VDF:118.65 119.70 121.50\GLD:119.82\ATIS:123.775"> <Pos=(4507,2494)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZR/ST. GALLEN\TWR/VDF:118.65 119.70 121.50\GLD:119.82\ATIS:123.775"> <Pos=(4507,2494)> <Text="‰"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZS/SAMEDAN\TWR:135.32\AFIS:135.32"> <Pos=(5013,690)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZS/SAMEDAN\TWR:135.32\AFIS:135.32"> <Pos=(5013,690)> <Text=""> 

@@ -1,0 +1,7 @@
+<Item=Title> <Text="MAP\ROUTINGS\DAR\LSGS"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=16> <Color=4c4c24> <Penstyle=PS_SOLID> <Info="DARGS_4"> <Postable=5 (1496,906) (1563,192) (1867,162) (1584,-31) (1167,-336) >
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ALETO\46.23.18N  07.52.40E"> <Pos=(2362,316)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MOT VOR/DME\115.85"> <Pos=(1867,162)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SANET\46.19.55N  07.16.32E"> <Pos=(1563,192)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SION\112.15\DME ELEV 1594 FT"> <Pos=(1584,-31)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="VALOR\46.03.35N  06.58.26E"> <Pos=(1167,-336)> <Text="l"> 

@@ -1,0 +1,330 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>CHeightFilterDlg</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>CHeightFilterDlg</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>164</width>
+            <height>109</height>
+        </rect>
+    </property>
+    <property name="font">
+        <font>
+            <family>Liberation Mono Track</family>
+            <pointsize>11</pointsize>
+        </font>
+    </property>
+    <property name="caption">
+        <string>Height Filter</string>
+    </property>
+    <widget class="QGroupBox">
+        <property name="name">
+            <cstring>DepartureGroup</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>5</y>
+                <width>52</width>
+                <height>47</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>Dep</string>
+        </property>
+        <property name="alignment">
+            <set>AlignHCenter</set>
+        </property>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>pDepartureEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>6</x>
+                    <y>18</y>
+                    <width>40</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <family>Liberation Mono Track</family>
+                    <pointsize>10</pointsize>
+                </font>
+            </property>
+            <property name="mouseTracking">
+                <bool>false</bool>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="maxLength">
+                <number>3</number>
+            </property>
+        </widget>
+    </widget>
+    <widget class="QGroupBox">
+        <property name="name">
+            <cstring>LowerGroup</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>56</x>
+                <y>5</y>
+                <width>52</width>
+                <height>47</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>Low</string>
+        </property>
+        <property name="alignment">
+            <set>AlignHCenter</set>
+        </property>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>pLowerEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>6</x>
+                    <y>18</y>
+                    <width>40</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <family>Liberation Mono Track</family>
+                    <pointsize>10</pointsize>
+                </font>
+            </property>
+            <property name="mouseTracking">
+                <bool>false</bool>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="maxLength">
+                <number>3</number>
+            </property>
+        </widget>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>OkButton</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>57</y>
+                <width>73</width>
+                <height>25</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Ok</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>buttonCancel</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>85</x>
+                <y>57</y>
+                <width>73</width>
+                <height>25</height>
+            </rect>
+        </property>
+        <property name="focusPolicy">
+            <enum>TabFocus</enum>
+        </property>
+        <property name="text">
+            <string>Cancel</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+        <property name="autoDefault">
+            <bool>true</bool>
+        </property>
+    </widget>
+    <widget class="QGroupBox">
+        <property name="name">
+            <cstring>UpperGroup</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>106</x>
+                <y>5</y>
+                <width>52</width>
+                <height>47</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>High</string>
+        </property>
+        <property name="alignment">
+            <set>AlignHCenter</set>
+        </property>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>pUpperEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>6</x>
+                    <y>18</y>
+                    <width>40</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <family>Liberation Mono Track</family>
+                    <pointsize>10</pointsize>
+                </font>
+            </property>
+            <property name="mouseTracking">
+                <bool>false</bool>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="maxLength">
+                <number>3</number>
+            </property>
+        </widget>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Error</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>87</y>
+                <width>164</width>
+                <height>22</height>
+            </rect>
+        </property>
+        <property name="frameShape">
+            <enum>LineEditPanel</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Sunken</enum>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+        <property name="alignment">
+            <set>AlignVCenter</set>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>pLowerEdit</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>CHeightFilterDlg</receiver>
+        <slot>pLowerEditTextChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>pUpperEdit</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>CHeightFilterDlg</receiver>
+        <slot>pUpperEditTextChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>pDepartureEdit</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>CHeightFilterDlg</receiver>
+        <slot>pDepartureEditTextChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>OkButton</sender>
+        <signal>clicked()</signal>
+        <receiver>CHeightFilterDlg</receiver>
+        <slot>OkClicked()</slot>
+    </connection>
+    <connection>
+        <sender>buttonCancel</sender>
+        <signal>clicked()</signal>
+        <receiver>CHeightFilterDlg</receiver>
+        <slot>CancelClicked()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>pDepartureEdit</tabstop>
+    <tabstop>pLowerEdit</tabstop>
+    <tabstop>pUpperEdit</tabstop>
+    <tabstop>OkButton</tabstop>
+    <tabstop>buttonCancel</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in implementation">cheightfilterdlg2.ui.h</include>
+</includes>
+<forwards>
+    <forward>class CView</forward>
+</forwards>
+<variables>
+    <variable access="public">CView* m_pView;</variable>
+    <variable>int m_TimerId;</variable>
+    <variable>QString m_UpperValue;</variable>
+    <variable>QString m_LowerValue;</variable>
+    <variable>QString m_DepartureValue;</variable>
+</variables>
+<slots>
+    <slot>OkClicked()</slot>
+    <slot>CancelClicked()</slot>
+    <slot>pLowerEditTextChanged( const QString &amp; strval )</slot>
+    <slot>pUpperEditTextChanged( const QString &amp; strval )</slot>
+    <slot>pDepartureEditTextChanged( const QString &amp; strval )</slot>
+</slots>
+<functions>
+    <function>Init()</function>
+    <function returnType="bool">CheckConsistency()</function>
+    <function returnType="bool">TextChanged( const QString &amp; text, QLineEdit * Edit )</function>
+    <function>init()</function>
+    <function>mousePressEvent( QMouseEvent * e )</function>
+    <function access="private" specifier="non virtual">keyPressEvent( QKeyEvent * e )</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

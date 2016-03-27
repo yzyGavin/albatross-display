@@ -1,0 +1,104 @@
+<Item=Title> <Text="MAP\GEOGRAPHY\MOUNTAINS"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DENT DU CHAT\4934 ft"> <Pos=(-377,-1104)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRAND CRET D'EAU\5318 ft"> <Pos=(-315,-168)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="ALETSCHHORN\13763 ft"> <Pos=(2512,466)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="AROSER ROTHORN\9777 ft"> <Pos=(4638,1064)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BALMHORN\12135 ft"> <Pos=(2116,381)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BANTIGER\3107 ft"> <Pos=(1876,1438)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONTE BAR\5958 ft"> <Pos=(3882,-178)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BIETSCHHORN\12906 ft"> <Pos=(2325,320)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DENT BLANCHE"> <Pos=(2076,-378)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BLINNENHORN\11069 ft"> <Pos=(2932,403)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BLUEMLISALP\12017 ft"> <Pos=(2217,505)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BOGLIA\4974 ft"> <Pos=(3888,-329)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BRISEN\7887 ft"> <Pos=(3105,1316)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CHAISERSTOCK URI\8251 ft"> <Pos=(3458,1384)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LE CHASSERAL\5646 ft"> <Pos=(1257,1727)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CHOEPFENBERG\6164 ft"> <Pos=(3759,1761)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CHURFIRSTEN,HINTER\7565 ft"> <Pos=(4199,1845)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CHURZENBERG\3812 ft"> <Pos=(2069,1215)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRAND COMBIN"> <Pos=(1666,-568)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DAMMASTOCK\11909 ft"> <Pos=(3070,825)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DOM\14911 ft"> <Pos=(2349,-251)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="FAULHORN\8796 ft"> <Pos=(2508,869)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="FELDBERG\4898 ft"> <Pos=(2460,3177)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="FINSTERAARHORN\14022 ft"> <Pos=(2686,610)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="FLUCHTHORN\11151 ft"> <Pos=(5432,1395)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="FULFIRST\7821 ft"> <Pos=(4321,1804)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GAZZIROLA\6942 ft"> <Pos=(3968,-156)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRAND BALLON\4672 ft"> <Pos=(1289,3204)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONTE GENEROSO\5581 ft"> <Pos=(3911,-517)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SAN GIORGIO\3599 ft"> <Pos=(3819,-554)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GLAERNISCH\9560 ft"> <Pos=(3796,1520)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GROSSER MYTHEN\6230 ft"> <Pos=(3399,1576)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="HOHER RIFFLER\10393 ft"> <Pos=(5599,1839)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="HASENMATT\4741 ft"> <Pos=(1766,1944)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="HAUSSTOCK\10360 ft"> <Pos=(3906,1296)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="HOCHGRAT\6010 ft"> <Pos=(5179,2546)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="HOECHSTEN\3284 ft"> <Pos=(4267,3130)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="HOHGANT\7208 ft"> <Pos=(2376,1083)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="HUEFINGEN-FUERST.\3484 ft"> <Pos=(3201,3220)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="JUNGFRAU\13641 ft"> <Pos=(2467,602)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="KUCHENSPITZE\10328 ft"> <Pos=(5421,1699)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="KUEHGUND KAMM\6256 ft"> <Pos=(5637,2586)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LA DOLE\5574 ft"> <Pos=(-2,359)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LANG ECK\3386 ft"> <Pos=(2410,2757)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONTE LEMA\5318 ft"> <Pos=(3654,-316)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONTE LEONE\11656 ft"> <Pos=(2678,58)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="Mt ROSA,DUFOURSPITZE\15203 ft"> <Pos=(2366,-552)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MAENNLIFLUE\8700 ft"> <Pos=(1916,619)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MATTERHORN\14691 ft"> <Pos=(2086,-481)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LE MOLESON\6568 ft"> <Pos=(1214,603)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONT BLANC\15770 ft"> <Pos=(1025,-774)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONT MORON\4383 ft"> <Pos=(1520,1979)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="NAPF\4619 ft"> <Pos=(2417,1498)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="NIESEN\7749 ft"> <Pos=(2052,804)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="OBERALPSTOCK\10918 ft"> <Pos=(3524,1029)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="OCHSEN\7178 ft"> <Pos=(1741,900)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PIZZO CAMPO TENZIA\10078 ft"> <Pos=(3486,427)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PIZ d'ERR\11082 ft"> <Pos=(4758,699)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PIZ GUEGLIA\11089 ft"> <Pos=(4853,599)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PIZ KESCH\11213 ft"> <Pos=(4990,856)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PIZ LINARD\11190 ft"> <Pos=(5236,1209)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PIZ MEDEL\10534 ft"> <Pos=(3719,797)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PIZ PLATTA\11128 ft"> <Pos=(4591,579)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PIZZO TAMBO\10757 ft"> <Pos=(4221,583)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PIZ VADRET\10593 ft"> <Pos=(5103,987)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRAND PARADISO"> <Pos=(1592,-1380)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PFAENDER\3593 ft"> <Pos=(4790,2550)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PILATUS\6692 ft"> <Pos=(2830,1464)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PIZ BERNINA\13284 ft"> <Pos=(5059,400)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PETIT SALEVE\2943 ft"> <Pos=(117,-178)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONT RACINE\4721 ft"> <Pos=(939,1510)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LE RECULET\5633 ft"> <Pos=(-228,37)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RHEINWALDHORN\11161 ft"> <Pos=(3899,564)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RIGI\6059 ft"> <Pos=(3130,1620)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RINGELSPITZ\10652 ft"> <Pos=(4269,1356)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RITZLIHORN\10767 ft"> <Pos=(2856,797)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RORSCHACHERBERG\3278 ft"> <Pos=(4426,2416)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SAENTIS\8477 ft"> <Pos=(4241,2031)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SAN SALVATORE\2992 ft"> <Pos=(3812,-434)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SCHAFBERG\7332 ft"> <Pos=(1607,778)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SCHESAPLANA\9724 ft"> <Pos=(4735,1675)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SCHRECKHORN\13379 ft"> <Pos=(2670,707)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SCHWARZHORN\9606 ft"> <Pos=(2611,894)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SPEER\6397 ft"> <Pos=(3959,1897)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SPITZMEILEN\8205 ft"> <Pos=(4120,1593)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONTE TAMARO\6325 ft"> <Pos=(3694,-193)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONT TENDRE\5509 ft"> <Pos=(278,685)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="TITLIS\10623 ft"> <Pos=(3085,1073)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="TOEDI\11856 ft"> <Pos=(3712,1167)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="TORRONE ALTO\9678 ft"> <Pos=(3949,277)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="TWERALPSPITZ\4370 ft"> <Pos=(3825,2094)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="UETLIBERG\3412 ft"> <Pos=(3123,2183)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="ULMIZBERG\3074 ft"> <Pos=(1762,1288)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MT VUACHE\3612 ft"> <Pos=(-258,-283)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="WEISSENSTEIN\4022 ft"> <Pos=(1814,1953)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="WEISSHORN\14780 ft"> <Pos=(2158,-241)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="WEISSMIES\13198 ft"> <Pos=(2552,-182)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="WIDDERSTEIN\8310 ft"> <Pos=(5266,2147)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="WILDSTRUBEL\10643 ft"> <Pos=(1897,328)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="ZITTERKLAPFEN\7884 ft"> <Pos=(5061,2103)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CRET DE LA NEIGE\5637 ft"> <Pos=(-216,62)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRAND PITON\4511 ft"> <Pos=(51,-275)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LES VOIRONS\4856 ft"> <Pos=(338,-15)> <Text="r"> 

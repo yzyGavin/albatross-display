@@ -1,0 +1,2 @@
+<Item=Title> <Text="MAP\ROUTINGS\HOLDINGS\GOLEB"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GOLEB\Position: R168 D26 SPR \INBD TR 348 \RIGHT HAND  \OUTBD LEG: D34 SPR \MNM HLD FL180 \MAX HLD FL260  \MAX IAS 250 KT"> <Pos=(618,-356)> <Text="p"> 

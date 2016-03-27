@@ -1,0 +1,27 @@
+<Item=Title> <Text="MAP\AERODROMES\AIRFIELDS\LIST 1"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKA/ALBERTVILLE\AFIS:123.50"> <Pos=(307,-1175)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKA/ALBERTVILLE\AFIS:123.50"> <Pos=(307,-1175)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLI/ANNEMASSE\INFO:120.80"> <Pos=(224,-90)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLI/ANNEMASSE\INFO:120.80"> <Pos=(224,-90)> <Text="‡"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLJ/COURCHEVEL\AFIS:120.07"> <Pos=(720,-1615)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLJ/COURCHEVEL\AFIS:120.07"> <Pos=(720,-1615)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLK/OYONNAX\AFIS:123.50"> <Pos=(-578,79)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLK/OYONNAX\AFIS:123.50"> <Pos=(-578,79)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLP/ANNECY\APP:123.70\TWR:118.20"> <Pos=(8,-590)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLP/ANNECY\APP:123.70\TWR:118.20"> <Pos=(8,-590)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFSP/PONTARLIER\AFIS:123.50"> <Pos=(301,1288)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFSP/PONTARLIER\AFIS:123.50"> <Pos=(301,1288)> <Text="‘"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LIMW/AOSTA\RADIO:119.95"> <Pos=(1696,-948)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LIMW/AOSTA\RADIO:119.95"> <Pos=(1696,-948)> <Text="Š"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGE/ECUVILLENS\TWR:118.975\GND:121.70\AFIS:118.975"> <Pos=(1288,1002)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGE/ECUVILLENS\TWR:118.975\GND:121.70\AFIS:118.975"> <Pos=(1288,1002)> <Text="‰"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGK/SAANEN\AFIS:119.42"> <Pos=(1523,489)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGK/SAANEN\AFIS:119.42"> <Pos=(1523,489)> <Text="‹"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGL/LAUSANNE\AFIS:123.20\ATIS:118.82"> <Pos=(684,593)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGL/LAUSANNE\AFIS:123.20\ATIS:118.82"> <Pos=(684,593)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGN/NEUCHATEL\AFIS:123.60"> <Pos=(1005,1387)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGN/NEUCHATEL\AFIS:123.60"> <Pos=(1005,1387)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGT/GRUYERES\AFIS:124.675"> <Pos=(1316,693)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGT/GRUYERES\AFIS:124.675"> <Pos=(1316,693)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGY/YVERDON\AFIS:130.30"> <Pos=(672,1009)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSGY/YVERDON\AFIS:130.30"> <Pos=(672,1009)> <Text="Ž"> 

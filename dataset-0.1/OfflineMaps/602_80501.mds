@@ -1,0 +1,27 @@
+<Item=Title> <Text="MAP\MISC\TECHNICAL\GEO. LAT/LONG COORD"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_10"> <Postable=6 (4933,5427) (5027,3507) (5122,1587) (5216,-331) (5310,-2249) (5404,-4167) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_2"> <Postable=6 (-5189,5440) (-5289,3520) (-5388,1601) (-5487,-317) (-5586,-2235) (-5686,-4153) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_3"> <Postable=6 (-3925,5383) (-4000,3461) (-4075,1541) (-4150,-378) (-4225,-2297) (-4300,-4216) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_4"> <Postable=6 (-2660,5341) (-2711,3419) (-2762,1498) (-2812,-422) (-2863,-2342) (-2914,-4262) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_44"> <Postable=9 (-5686,-4153) (-4300,-4216) (-2914,-4262) (-1528,-4290) (-141,-4300) (1246,-4293) (2633,-4269) (4019,-4227) (5404,-4167) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_45"> <Postable=9 (-5586,-2235) (-4225,-2297) (-2863,-2342) (-1501,-2369) (-138,-2379) (1224,-2373) (2587,-2349) (3949,-2307) (5310,-2249) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_46"> <Postable=9 (-5487,-317) (-4150,-378) (-2812,-422) (-1474,-449) (-136,-459) (1203,-452) (2541,-429) (3879,-388) (5216,-331) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_47"> <Postable=9 (-5388,1601) (-4075,1541) (-2762,1498) (-1448,1472) (-133,1462) (1181,1468) (2495,1491) (3808,1531) (5122,1587) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_48"> <Postable=9 (-5289,3520) (-4000,3461) (-2711,3419) (-1421,3393) (-131,3383) (1159,3390) (2449,3412) (3738,3451) (5027,3507) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_49"> <Postable=9 (-5189,5440) (-3925,5383) (-2660,5341) (-1394,5316) (-129,5306) (1137,5312) (2403,5335) (3669,5376) (4933,5427) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_5"> <Postable=6 (-1394,5316) (-1421,3393) (-1448,1472) (-1474,-449) (-1501,-2369) (-1528,-4290) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_6"> <Postable=6 (-129,5306) (-131,3383) (-133,1462) (-136,-459) (-138,-2379) (-141,-4300) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_7"> <Postable=6 (1137,5312) (1159,3390) (1181,1468) (1203,-452) (1224,-2373) (1246,-4293) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_8"> <Postable=6 (2403,5335) (2449,3412) (2495,1491) (2541,-429) (2587,-2349) (2633,-4269) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="GEOCORD_9"> <Postable=6 (3669,5376) (3738,3451) (3808,1531) (3879,-388) (3949,-2307) (4019,-4227) >
+<Item=Text> <Prio=12> <Color=3c8c8c> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-2765,538)> <Text="4 deg"> 
+<Item=Text> <Prio=12> <Color=3c8c8c> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(552,-4267)> <Text="44 deg"> 
+<Item=Text> <Prio=12> <Color=3c8c8c> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(543,-2346)> <Text="45 deg"> 
+<Item=Text> <Prio=12> <Color=3c8c8c> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(533,-426)> <Text="46 deg"> 
+<Item=Text> <Prio=12> <Color=3c8c8c> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(524,1495)> <Text="47 deg"> 
+<Item=Text> <Prio=12> <Color=3c8c8c> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(514,3416)> <Text="48 deg"> 
+<Item=Text> <Prio=12> <Color=3c8c8c> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(504,5339)> <Text="49 deg"> 
+<Item=Text> <Prio=12> <Color=3c8c8c> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-1439,511)> <Text="5 deg"> 
+<Item=Text> <Prio=12> <Color=3c8c8c> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-113,501)> <Text="6 deg"> 
+<Item=Text> <Prio=12> <Color=3c8c8c> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1214,508)> <Text="7 deg"> 
+<Item=Text> <Prio=12> <Color=3c8c8c> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2540,532)> <Text="8 deg"> 

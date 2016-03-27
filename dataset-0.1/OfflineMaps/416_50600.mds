@@ -1,0 +1,25 @@
+<Item=Title> <Text="MAP\MILITARY\MIL AERODROMES\MIL AERODROMES"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMA/ALPNACH\TWR:120.625"> <Pos=(2873,1396)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMA/ALPNACH\TWR:120.625"> <Pos=(2873,1396)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMD/DUEBENDORF\TWR:128.47 \ILS29:111.5"> <Pos=(3323,2283)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMD/DUEBENDORF\TWR:128.47 \ILS29:111.5"> <Pos=(3323,2283)> <Text="ˆ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSME/EMMEN\TWR:120.42\RADAR:119.50 \ILS22:110.35"> <Pos=(2892,1682)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSME/EMMEN\TWR:120.42\RADAR:119.50 \ILS22:110.35"> <Pos=(2892,1682)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMF/MOLLIS\TWR:134.82\AFIS:123.00"> <Pos=(3890,1688)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMF/MOLLIS\TWR:134.82\AFIS:123.00"> <Pos=(3890,1688)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMH/ST. STEPHAN\TWR:119.42"> <Pos=(1740,513)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMH/ST. STEPHAN\TWR:119.42"> <Pos=(1740,513)> <Text="…"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMI/INTERLAKEN\TWR:130.15"> <Pos=(2351,870)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMI/INTERLAKEN\TWR:130.15"> <Pos=(2351,870)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMJ/TURTMAGNE TURTMANN\TWR:120.42"> <Pos=(2147,150)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMJ/TURTMAGNE TURTMANN\TWR:120.42"> <Pos=(2147,150)> <Text="‹"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSML/LODRINO\TWR:119.62"> <Pos=(3849,171)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSML/LODRINO\TWR:119.62"> <Pos=(3849,171)> <Text="ƒ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMM/MEIRINGEN\TWR:130.15"> <Pos=(2652,1003)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMM/MEIRINGEN\TWR:130.15"> <Pos=(2652,1003)> <Text="‰"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMP/PAYERNE\TWR:128.675\IFR:130.625"> <Pos=(1073,1168)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMP/PAYERNE\TWR:128.675\IFR:130.625"> <Pos=(1073,1168)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMU/BUOCHS\TWR:119.62"> <Pos=(3019,1459)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSMU/BUOCHS\TWR:119.62"> <Pos=(3019,1459)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="SANVIT/SAN VITTORE\AFIS:122.07"> <Pos=(3983,64)> <Text="5"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="SANVIT/SAN VITTORE\AFIS:122.07"> <Pos=(3983,64)> <Text="‹"> 

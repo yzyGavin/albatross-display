@@ -1,0 +1,30 @@
+<Item=Title> <Text="MAP\MILITARY\MIL MISC\MIL SITES"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="GVAAPP23"> <Postable=2 (-133,-142) (715,685) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="GVANWSE"> <Postable=2 (-24,21) (42,-59) >
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(113,247)> <Text="N"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(296,566)> <Text="B"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2325,324)> <Text="B"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-2,359)> <Text="D"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1215,604)> <Text="MO"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1563,833)> <Text="LN"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(909,1630)> <Text="CF"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1257,1727)> <Text="CH"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1432,851)> <Text="B"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1635,-23)> <Text="S"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1300,-248)> <Text="M"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1468,746)> <Text="DV"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1151,155)> <Text="A"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1996,1587)> <Text="BU"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(4510,1287)> <Text="CH"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2290,1695)> <Text="HU"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(4099,1120)> <Text="IL"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(4968,1350)> <Text="KL"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2202,1373)> <Text="LA"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1674,2017)> <Text="MO"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(5528,1224)> <Text="SC"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2515,1401)> <Text="SH"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1441,1893)> <Text="TA"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2004,1011)> <Text="TH"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3911,2112)> <Text="WA"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3843,2434)> <Text="WI"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2583,1606)> <Text="WO"> 

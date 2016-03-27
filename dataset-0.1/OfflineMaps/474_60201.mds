@@ -1,0 +1,3 @@
+<Item=Title> <Text="MAP\GLIDER\CFZ\*   1 VAL DE TRAVERS"> <Mode=Manual Off> <Info=""> 
+<Item=Surface> <Prio=23> <Color=122d26> <PenStyle=PS_SOLID> <Color2=122d26> <Brushstyle=BS_PATTERN 0100010000010001010001000001000101000100000100010100010000010001> <Info="CFZ JURA 1\9000 ft AMSL\GND"> <Postable=9 (976,1805) (1217,1531) (728,1076) (474,1185) (448,1324) (524,1415) (675,1450) (810,1567) (778,1598) >
+<Item=Text> <Prio=12> <Color=415f41> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(524,1303)> <Text="1"> 

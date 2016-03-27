@@ -1,0 +1,3 @@
+<Item=Title> <Text="MAP\AIRSPACES\LINES\LINE OF DESCENT FL 110 / FL 160"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=16> <Color=666666> <Penstyle=PS_USERSTYLE 0204> <Info="ZLL_DESCE\FL 110/160"> <Postable=2 (3532,2071) (4631,2374) >
+<Item=Vectors> <Prio=16> <Color=666666> <Penstyle=PS_USERSTYLE 0204> <Info="ZLL_DESCW\FL 110/160"> <Postable=4 (3154,1641) (2986,1598) (2091,1059) (1639,1073) >

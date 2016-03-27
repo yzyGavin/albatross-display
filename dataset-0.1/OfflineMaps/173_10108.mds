@@ -1,0 +1,6 @@
+<Item=Title> <Text="MAP\AIRSPACES\DESCENT LINES\APP MVA TMA CHAMBERY"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=16> <Color=666666> <Penstyle=PS_USERSTYLE 0204> <Info="MVACHAMB\OPEN LINE Chamb.TMA"> <Postable=5 (-10,-599) (-108,-725) (-306,-981) (-296,-1143) (-731,-1433) >
+<Item=Vectors> <Prio=16> <Color=666666> <Penstyle=PS_USERSTYLE 0204> <Info="MVACHAMBE\OPEN LINE Chamb.TMA"> <Postable=2 (-10,-599) (128,-422) >
+<Item=Vectors> <Prio=16> <Color=666666> <Penstyle=PS_USERSTYLE 0204> <Info="MVACHAMBN\OPEN LINE Chamb.TMA"> <Postable=2 (-10,-424) (-10,-599) >
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(87,-555)> <Text="9,7"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-539,-762)> <Text="6,5"> 

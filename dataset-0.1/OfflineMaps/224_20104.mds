@@ -1,0 +1,4 @@
+<Item=Title> <Text="MAP\ROUTINGS\SUPPL AWY\B372"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_SOLID> <Info="B372_E"> <Postable=2 (855,382) (2665,-777) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_SOLID> <Info="B372_S"> <Postable=2 (1010,-97) (1960,-706) >
+<Item=Surface> <Prio=28> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="B372"> <Postable=5 (855,382) (2665,-777) (1960,-706) (1010,-97) (754,292) >

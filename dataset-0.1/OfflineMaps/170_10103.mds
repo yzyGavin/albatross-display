@@ -1,0 +1,3 @@
+<Item=Title> <Text="MAP\AIRSPACES\DESCENT LINES\APP MVA 4000 FT"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="MVAGE_4\CLOSED LINE"> <Postable=10 (387,551) (567,299) (245,74) (193,-36) (57,-72) (-115,-304) (-191,-147) (-87,2) (113,247) (387,551) >
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(308,182)> <Text="4"> 

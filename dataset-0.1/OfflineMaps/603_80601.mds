@@ -1,0 +1,5 @@
+<Item=Title> <Text="MAP\MISC\TECHNICAL\MAG NORTH TEST"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=5994e8> <Font="GraphicsGva"> <Size=200 > <Info="ECHALOT"> <Pos=(-287,2583)> <Text="s"> 
+<Item=Beacon> <Prio=4> <Color=5994e8> <Font="GraphicsGva"> <Size=200 > <Info="FLEVIEU"> <Pos=(-831,-920)> <Text="s"> 
+<Item=Beacon> <Prio=4> <Color=5994e8> <Font="GraphicsGva"> <Size=200 > <Info="GRENOBLE"> <Pos=(-545,-2026)> <Text="s"> 
+<Item=Beacon> <Prio=4> <Color=5994e8> <Font="GraphicsGva"> <Size=200 > <Info="LOYETTES"> <Pos=(-1116,-861)> <Text="s"> 

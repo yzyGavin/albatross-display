@@ -1,0 +1,302 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>CustomizationSetDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>CustomizationSetDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>146</width>
+            <height>263</height>
+        </rect>
+    </property>
+    <property name="font">
+        <font>
+            <family>Liberation Mono Track</family>
+            <pointsize>11</pointsize>
+        </font>
+    </property>
+    <property name="caption">
+        <string>Custom Sets</string>
+    </property>
+    <property name="sizeGripEnabled">
+        <bool>false</bool>
+    </property>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pbSave</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>233</y>
+                <width>64</width>
+                <height>25</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+            </font>
+        </property>
+        <property name="text">
+            <string>Save</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pbSaveAs</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>76</x>
+                <y>233</y>
+                <width>64</width>
+                <height>25</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+            </font>
+        </property>
+        <property name="text">
+            <string>Save As</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pbRecall</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>203</y>
+                <width>64</width>
+                <height>25</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+            </font>
+        </property>
+        <property name="text">
+            <string>Recall</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pbDelete</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>76</x>
+                <y>203</y>
+                <width>64</width>
+                <height>25</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+            </font>
+        </property>
+        <property name="text">
+            <string>Delete</string>
+        </property>
+    </widget>
+    <widget class="QListBox">
+        <item>
+            <property name="text">
+                <string>WWWWWWWWWW</string>
+            </property>
+        </item>
+        <item>
+            <property name="text">
+                <string>02</string>
+            </property>
+        </item>
+        <item>
+            <property name="text">
+                <string>03</string>
+            </property>
+        </item>
+        <item>
+            <property name="text">
+                <string>04</string>
+            </property>
+        </item>
+        <item>
+            <property name="text">
+                <string>05</string>
+            </property>
+        </item>
+        <item>
+            <property name="text">
+                <string>06</string>
+            </property>
+        </item>
+        <item>
+            <property name="text">
+                <string>07</string>
+            </property>
+        </item>
+        <item>
+            <property name="text">
+                <string>08</string>
+            </property>
+        </item>
+        <item>
+            <property name="text">
+                <string>09</string>
+            </property>
+        </item>
+        <item>
+            <property name="text">
+                <string>10</string>
+            </property>
+        </item>
+        <property name="name">
+            <cstring>lbCustomSets</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>10</x>
+                <y>23</y>
+                <width>126</width>
+                <height>175</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+                <family>Liberation Mono Track</family>
+                <pointsize>10</pointsize>
+            </font>
+        </property>
+        <property name="hScrollBarMode">
+            <enum>AlwaysOff</enum>
+        </property>
+        <property name="selectionMode">
+            <enum>Single</enum>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>lCount</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>10</x>
+                <y>5</y>
+                <width>126</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+                <family>Liberation Mono Track</family>
+                <pointsize>10</pointsize>
+            </font>
+        </property>
+        <property name="text">
+            <string>N/30</string>
+        </property>
+        <property name="textFormat">
+            <enum>RichText</enum>
+        </property>
+        <property name="alignment">
+            <set>WordBreak|AlignVCenter|AlignRight</set>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>pbDelete</sender>
+        <signal>clicked()</signal>
+        <receiver>CustomizationSetDialog</receiver>
+        <slot>ClickDelete()</slot>
+    </connection>
+    <connection>
+        <sender>pbSaveAs</sender>
+        <signal>clicked()</signal>
+        <receiver>CustomizationSetDialog</receiver>
+        <slot>ClickSaveAs()</slot>
+    </connection>
+    <connection>
+        <sender>lbCustomSets</sender>
+        <signal>selectionChanged(QListBoxItem*)</signal>
+        <receiver>CustomizationSetDialog</receiver>
+        <slot>SelectionChanged(QListBoxItem*)</slot>
+    </connection>
+    <connection>
+        <sender>pbRecall</sender>
+        <signal>clicked()</signal>
+        <receiver>CustomizationSetDialog</receiver>
+        <slot>ClickRecall()</slot>
+    </connection>
+    <connection>
+        <sender>pbSave</sender>
+        <signal>clicked()</signal>
+        <receiver>CustomizationSetDialog</receiver>
+        <slot>ClickSave()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>lbCustomSets</tabstop>
+    <tabstop>pbRecall</tabstop>
+    <tabstop>pbDelete</tabstop>
+    <tabstop>pbSave</tabstop>
+    <tabstop>pbSaveAs</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in implementation">SaveAs.h</include>
+    <include location="local" impldecl="in implementation">qlineedit.h</include>
+    <include location="local" impldecl="in implementation">qvalidator.h</include>
+    <include location="local" impldecl="in implementation">AsdApp.h</include>
+    <include location="local" impldecl="in declaration">ColorMngr.h</include>
+    <include location="local" impldecl="in declaration">qmessagebox.h</include>
+    <include location="local" impldecl="in declaration">qstring.h</include>
+    <include location="local" impldecl="in declaration">./CommonFiles/IniFile.h</include>
+    <include location="local" impldecl="in declaration">StdAfx.h</include>
+    <include location="local" impldecl="in declaration">qfile.h</include>
+    <include location="local" impldecl="in declaration">qstringlist.h</include>
+    <include location="local" impldecl="in declaration">SetupMngr.h</include>
+    <include location="local" impldecl="in implementation">customizationsetdialog2.ui.h</include>
+</includes>
+<variables>
+    <variable access="private">bool m_bSaveAsDisplayed;</variable>
+    <variable access="private">QListBoxItem* m_pqlbiNotPressed;</variable>
+    <variable access="private">QListBoxItem* m_pqlbiPressed;</variable>
+    <variable access="private">bool m_bButtonPressed;</variable>
+    <variable access="private">QListBoxItem* m_pqlbiCSelect;</variable>
+    <variable access="private">bool m_bSelectChanged;</variable>
+    <variable access="private">bool m_bOneSelected;</variable>
+    <variable access="private">int m_iCustomCount;</variable>
+    <variable access="private">QString m_strUserName;</variable>
+    <variable access="private">QString m_strDirectory;</variable>
+    <variable access="private">QListBoxItem* m_pqlbiPreviousSelected;</variable>
+    <variable access="private">int m_iNbMaxCustomSet;</variable>
+    <variable access="private">CIniFile* m_piniCustomSets;</variable>
+    <variable access="private">QDialog* m_SaveAsDialog;</variable>
+</variables>
+<slots>
+    <slot>DeleteCustomSet( QListBoxItem * pqlbiToDelete )</slot>
+    <slot>AddCustomSet( const QString &amp; strItem )</slot>
+    <slot returnType="bool">LoadCustomSet()</slot>
+    <slot>ComputeEligibility()</slot>
+    <slot>ClickDelete()</slot>
+    <slot>ClickSaveAs()</slot>
+    <slot>SelectionChanged( QListBoxItem * )</slot>
+    <slot>ClickRecall()</slot>
+    <slot>ClickSave()</slot>
+    <slot>closeEvent( QCloseEvent * )</slot>
+    <slot>CloseSaveAsWnd()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function access="private" specifier="non virtual">destroy()</function>
+    <function>mousePressEvent( QMouseEvent * e )</function>
+    <function access="private" specifier="non virtual">keyPressEvent( QKeyEvent * e )</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
+

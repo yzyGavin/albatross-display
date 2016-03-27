@@ -1,0 +1,19 @@
+<Item=Title> <Text="MAP\AIRSPACES\DESCENT LINES\LARGE"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="DL-L_11"> <Postable=6 (-447,-1441) (-20,-790) (112,-590) (398,-138) (1941,930) (3017,1826) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="DL-L_14"> <Postable=8 (-364,-2059) (35,-987) (180,-777) (506,-308) (945,1) (1736,660) (2094,736) (3064,1507) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="DL-L_16"> <Postable=7 (2052,57) (1923,412) (2127,699) (2771,994) (2903,998) (3005,512) (2525,211) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="DL-L_18"> <Postable=10 (70,-2059) (301,-1120) (445,-921) (834,-424) (1106,-245) (1347,-123) (1433,12) (2052,57) (2525,211) (3101,-510) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="DL-L_9C"> <Postable=6 (505,-65) (555,183) (779,411) (930,448) (700,772) (838,853) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="DL-L_9NE"> <Postable=5 (930,448) (1392,809) (1470,910) (1655,1059) (1760,1081) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="DL-L_9SW"> <Postable=3 (-1081,-2054) (-175,-539) (398,-138) >
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1040,186)> <Text="11"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(20,-843)> <Text="11"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1286,61)> <Text="14"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(168,-1054)> <Text="14"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2464,605)> <Text="16"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2096,-486)> <Text="18"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(537,-1194)> <Text="18"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-355,822)> <Text="7"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(906,361)> <Text="9"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-91,-683)> <Text="9"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1020,789)> <Text="8"> 

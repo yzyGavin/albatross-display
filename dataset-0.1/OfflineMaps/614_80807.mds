@@ -1,0 +1,3 @@
+<Item=Title> <Text="MAP\MISC\TECHNICAL\MAP VERSION"> <Mode=Manual Off> <Info=""> 
+<Item=Text> <Prio=12> <Color=236969> <Font="MS Sans Serif"> <Size=110 > <Info="GVA_VER"> <Pos=(-1302,2618)> <Text="V_3.13 du 25.4.2002"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(5059,400)> <Text="08-03-2002"> 

@@ -1,0 +1,3 @@
+<Item=Title> <Text="MAP\DANGER\AREAS\* LS-D 6 AXALP"> <Mode=Manual Off> <Info=""> 
+<Item=Surface> <Prio=20> <Color=37375f> <PenStyle=PS_SOLID> <Color2=37375f> <Brushstyle=BS_PATTERN 0100010000010001010001000001000101000100000100010100010000010001> <Info="AXALP\11500 ft AMSL\GND\135.47"> <Postable=9 (2542,1156) (2716,1090) (2792,1013) (ARC,-57) (2751,972) (2795,934) (2666,804) (2453,796) (2377,1083) >
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2469,800)> <Text="135.47"> 

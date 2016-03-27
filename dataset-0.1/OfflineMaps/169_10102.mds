@@ -1,0 +1,7 @@
+<Item=Title> <Text="MAP\AIRSPACES\DESCENT LINES\SMALL"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="DL-S_11"> <Postable=3 (112,-590) (398,-138) (1941,930) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="DL-S_14"> <Postable=4 (35,-987) (506,-308) (945,1) (1736,660) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="DL-S_18"> <Postable=7 (301,-1120) (445,-921) (834,-424) (1106,-245) (1347,-123) (1433,12) (2052,57) >
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(310,-459)> <Text="11"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(534,-618)> <Text="14"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(773,-898)> <Text="18"> 

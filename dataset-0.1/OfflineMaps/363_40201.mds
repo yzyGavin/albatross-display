@@ -1,0 +1,69 @@
+<Item=Title> <Text="MAP\GEOGRAPHY\OBSTACLES"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="AGNO\850m/2'789ft"> <Pos=(3690,-408)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="AVEGNO\1'715m/5'627ft"> <Pos=(3587,-14)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="AYMAVILLES\1'475m/4'839ft"> <Pos=(1736,-1021)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BRENO\1'658m/5'440ft"> <Pos=(3653,-316)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BRONZOLO\756m/2'480ft"> <Pos=(6889,545)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CAIOLO\866m/2'841ft"> <Pos=(4981,-14)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CAMPIONE\987m/3'238ft"> <Pos=(3818,-422)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CEVIO\1'933m/6'342ft"> <Pos=(3372,208)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CHAMAGMEU 1"> <Pos=(-1340,-1133)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CHAMAGMEU 2"> <Pos=(-1277,-1065)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CHALON\270m/886ft"> <Pos=(-321,1078)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CHENEVIERS\475m/1'558ft"> <Pos=(-91,-80)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CHIARAVALLE\176m/577ft"> <Pos=(4180,-1479)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CHIASSO\566m/1'857ft"> <Pos=(3856,-701)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CIRIE\371m/1'217ft"> <Pos=(2101,-1927)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COINTRIN\466m/1'529ft"> <Pos=(-11,-24)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CORVATSCH\3'350m/10'991ft"> <Pos=(4942,457)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COUR DE BUIS\570m/1'870ft"> <Pos=(-1464,-1583)> <Text="{"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CREMIEU"> <Pos=(-1203,-983)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CUGGIONO\289m/948ft"> <Pos=(3478,-1325)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DIEMOZ 1"> <Pos=(-1404,-1295)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DIEMOZ 2"> <Pos=(-1376,-1205)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DOLE RADAR\1'695m/5'561ft"> <Pos=(-11,360)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="DOLE TELEVISION\1'654m/5'426ft"> <Pos=(31,368)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="EAST LYON BRON\318m/1'043ft"> <Pos=(-1503,-931)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="ENGINS\1'220m/4'003ft"> <Pos=(-636,-2018)> <Text="{"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="FAUCILLE\1'615m/5'299ft"> <Pos=(-113,229)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="FESCH\1'350m/4'429ft"> <Pos=(2094,178)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="FLEVIEU\341m/1'119ft"> <Pos=(-840,-920)> <Text="<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GIORNICO\2'254m/7'395ft"> <Pos=(3742,717)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRAVEDONA\997m/3'271ft"> <Pos=(4241,-91)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRENOBLE\308m/1'011ft"> <Pos=(-545,-1989)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="ISONE\1'300m/4'265ft"> <Pos=(3859,-117)> <Text="€"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LA COTE\545m/1'788ft"> <Pos=(201,325)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LIGNON\490m/1'608ft"> <Pos=(50,-30)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LISSONE\235m/771ft"> <Pos=(4281,-1134)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LOCATE\243m/797ft"> <Pos=(4196,-1665)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LOYETTES\298m/978ft"> <Pos=(-1116,-848)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LUGANO\466m/1'529ft"> <Pos=(3794,-359)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MELANO\1'673m/5'489ft"> <Pos=(3906,-526)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MILANO 1\263m/863ft"> <Pos=(4144,-1382)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MILANO 2\242m/794ft"> <Pos=(4185,-1375)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MIRIBEL\516m/1'693ft"> <Pos=(-1520,-688)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="Mt CENERI\738m/2'421ft"> <Pos=(3758,-126)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="NENDAZ\1'380m/4'528ft"> <Pos=(1476,-89)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="NUITS St GEORGES\565m/1'854ft"> <Pos=(-224,1726)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PAGANELLA\2'168m/7'113ft"> <Pos=(6593,13)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PARZANICA\1'154m/3'786ft"> <Pos=(5279,-814)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PONCIN\421m/1'381ft"> <Pos=(-938,-306)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PONT DE CHERUY"> <Pos=(-1156,-920)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="QUEMINI\659m/2'162ft"> <Pos=(-231,2012)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="QUINTO\227m/745ft"> <Pos=(6625,-1311)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RIVA\464m/1'522ft"> <Pos=(6402,-482)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SAVIESE\813m/2'667ft"> <Pos=(1628,18)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SIMPLON\2'182m/7'159ft"> <Pos=(2562,-4)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SION 1"> <Pos=(1620,-15)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SION2\527m/1'729ft"> <Pos=(1638,-14)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SOLFERINO"> <Pos=(5995,-1481)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SOMMA\337m/1'106ft"> <Pos=(3542,-998)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="St ANDRE\515m/1'690ft"> <Pos=(-1552,-576)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="St DONATO\103m/338ft"> <Pos=(4343,-1473)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="St JEAN"> <Pos=(-1444,-1378)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="St MARCEL\291m/955ft"> <Pos=(-314,1003)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="St MICHELE\1'793m/5'883ft"> <Pos=(6787,611)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="TAMARO\1'959m/6'427ft"> <Pos=(3719,-186)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="UNTERBACH\1'320m/4'331ft"> <Pos=(2233,125)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="VERONA\127m/417ft"> <Pos=(6576,-1375)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="VIONNAZ\490m/1'608ft"> <Pos=(1130,102)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="VIPERTERMINEN\2'363m/7'753ft"> <Pos=(2336,87)> <Text="}"> 

@@ -1,0 +1,63 @@
+<Item=Title> <Text="MAP\AERODROMES\AIRFIELDS\LIST 3"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGD/ARBOIS\AFIS:123.50"> <Pos=(-450,1309)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGD/ARBOIS\AFIS:123.50"> <Pos=(-450,1309)> <Text="…"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGL/LONS-LE-SAUNIER\AFIS:123.50"> <Pos=(-833,843)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGL/LONS-LE-SAUNIER\AFIS:123.50"> <Pos=(-833,843)> <Text="‹"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGX/CHAMPAGNOLE\TWR:NIL"> <Pos=(-370,1010)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGX/CHAMPAGNOLE\TWR:NIL"> <Pos=(-370,1010)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHS/BOURG CEYZERIAT\AFIS:118.45"> <Pos=(-1078,-57)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHS/BOURG CEYZERIAT\AFIS:118.45"> <Pos=(-1078,-57)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKL/LYON-BRYNDAS\TWR LFLY:118.10\CLUB:123.50"> <Pos=(-1889,-996)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKL/LYON-BRYNDAS\TWR LFLY:118.10\CLUB:123.50"> <Pos=(-1889,-996)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKX/MERIBEL\AFIS:118.75"> <Pos=(648,-1596)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKX/MERIBEL\AFIS:118.75"> <Pos=(648,-1596)> <Text="„"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKY/BELLEY\AFIS:123.50"> <Pos=(-550,-1043)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKY/BELLEY\AFIS:123.50"> <Pos=(-550,-1043)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKZ/ST-CLAUDE\AFIS:123.50"> <Pos=(-438,283)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKZ/ST-CLAUDE\AFIS:123.50"> <Pos=(-438,283)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLE/CHALLES-LES-EAUX\INFO:118.40"> <Pos=(-168,-1301)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLE/CHALLES-LES-EAUX\INFO:118.40"> <Pos=(-168,-1301)> <Text="„"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLG/GRENOBLE LE VERSOUD\TWR:121.00"> <Pos=(-342,-1958)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLG/GRENOBLE LE VERSOUD\TWR:121.00"> <Pos=(-342,-1958)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPF/SCHAFFHAUSEN\AFIS:121.05"> <Pos=(3148,2839)> <Text="7"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPF/SCHAFFHAUSEN\AFIS:121.05"> <Pos=(3148,2839)> <Text="Œ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPG/KAEGISWIL\TWR:120.625"> <Pos=(2834,1325)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPG/KAEGISWIL\TWR:120.625"> <Pos=(2834,1325)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPH/WINTERTHUR\AFIS:134.975"> <Pos=(3477,2512)> <Text="7"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPH/WINTERTHUR\AFIS:134.975"> <Pos=(3477,2512)> <Text="‘"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPK/HASENSTRICK\AFIS:127.52"> <Pos=(3636,2066)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPK/HASENSTRICK\AFIS:127.52"> <Pos=(3636,2066)> <Text="ˆ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPL/LANGENTHAL\AFIS:122.52"> <Pos=(2149,1838)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPL/LANGENTHAL\AFIS:122.52"> <Pos=(2149,1838)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPM/AMBRI\AFIS:118.52"> <Pos=(3432,585)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPM/AMBRI\AFIS:118.52"> <Pos=(3432,585)> <Text="ˆ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPN/TRIENGEN\AFIS:124.52"> <Pos=(2588,1932)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPN/TRIENGEN\AFIS:124.52"> <Pos=(2588,1932)> <Text="„"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPU/MUENSTER\AFIS:122.07"> <Pos=(2869,505)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPU/MUENSTER\AFIS:122.07"> <Pos=(2869,505)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPV/WANGEN-LACHEN\AFIS:123.20"> <Pos=(3622,1921)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSPV/WANGEN-LACHEN\AFIS:123.20"> <Pos=(3622,1921)> <Text="‹"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZE/BAD RAGAZ\AFIS:123.50"> <Pos=(4442,1588)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZE/BAD RAGAZ\AFIS:123.50"> <Pos=(4442,1588)> <Text="‡"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZF/BIRRFELD\AFIS:123.55\GLD:119.82"> <Pos=(2780,2354)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZF/BIRRFELD\AFIS:123.55\GLD:119.82"> <Pos=(2780,2354)> <Text="‹"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZI/FRICKTAL-SCHUPFART\AFIS:119.55"> <Pos=(2408,2470)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZI/FRICKTAL-SCHUPFART\AFIS:119.55"> <Pos=(2408,2470)> <Text="Œ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZK/SPECK-FEHRALTORF\AFIS:120.35"> <Pos=(3467,2245)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZK/SPECK-FEHRALTORF\AFIS:120.35"> <Pos=(3467,2245)> <Text="†"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZL/LOCARNO\TWR:134.82\AFIS:134.82\GND:121.70\ATIS:133.45\GLD:122.47"> <Pos=(3707,-83)> <Text="5"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZL/LOCARNO\TWR:134.82\AFIS:134.82\GND:121.70\ATIS:133.45\GLD:122.47"> <Pos=(3707,-83)> <Text="‹"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZN/HAUSEN AM ALBIS\AFIS:130.75"> <Pos=(3160,1971)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZN/HAUSEN AM ALBIS\AFIS:130.75"> <Pos=(3160,1971)> <Text="Š"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZO/LUZERN-BEROMUENSTER\AFIS:122.45"> <Pos=(2755,1866)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZO/LUZERN-BEROMUENSTER\AFIS:122.45"> <Pos=(2755,1866)> <Text="ƒ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZT/LOMMIS\AFIS:119.30"> <Pos=(3777,2541)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZT/LOMMIS\AFIS:119.30"> <Pos=(3777,2541)> <Text="Œ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZU/BUTTWIL\AFIS:122.15"> <Pos=(2880,2013)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZU/BUTTWIL\AFIS:122.15"> <Pos=(2880,2013)> <Text="ƒ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZV/SITTERDORF\AFIS:118.35"> <Pos=(4116,2524)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZV/SITTERDORF\AFIS:118.35"> <Pos=(4116,2524)> <Text="‹"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZX/SCHAENIS\AFIS:120.60"> <Pos=(3849,1865)> <Text="7"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZX/SCHAENIS\AFIS:120.60"> <Pos=(3849,1865)> <Text="‚"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="MASERA/MASERA\AFIS:130.0"> <Pos=(2964,-145)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="MASERA/MASERA\AFIS:130.0"> <Pos=(2964,-145)> <Text="’"> 

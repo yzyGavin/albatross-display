@@ -1,0 +1,21 @@
+<Item=Title> <Text="MAP\MISC\TECHNICAL\AREAS 21 TO 40"> <Mode=Manual Off> <Info=""> 
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 21"> <Postable=4 (2449,3412) (3738,3451) (3750,3131) (2457,3092) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 22"> <Postable=4 (2464,2772) (3762,2811) (3773,2491) (2472,2452) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 23"> <Postable=4 (2479,2132) (3785,2171) (3797,1851) (2487,1812) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 24"> <Postable=4 (2495,1491) (3808,1531) (3820,1211) (2502,1171) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 25"> <Postable=4 (2510,851) (3832,891) (3844,571) (2518,531) >
+<Item=Surface> <Prio=23> <Color=122d26> <PenStyle=PS_SOLID> <Color2=122d26> <Brushstyle=BS_PATTERN 0100010000010001010001000001000101000100000100010100010000010001> <Info="AREA TYPE 26"> <Postable=4 (3738,3451) (5027,3507) (5043,3187) (3750,3131) >
+<Item=Surface> <Prio=20> <Color=37375f> <PenStyle=PS_SOLID> <Color2=37375f> <Brushstyle=BS_PATTERN 0100010000010001010001000001000101000100000100010100010000010001> <Info="AREA TYPE 27"> <Postable=4 (3762,2811) (5059,2867) (5074,2547) (3773,2491) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 28"> <Postable=4 (3785,2171) (5090,2227) (5106,1907) (3797,1851) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 29"> <Postable=4 (3808,1531) (5122,1587) (5137,1268) (3820,1211) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 30"> <Postable=4 (3832,891) (5153,948) (5169,628) (3844,571) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 31"> <Postable=4 (5027,3507) (6315,3578) (6335,3258) (5043,3187) >
+<Item=Surface> <Prio=23> <Color=37375f> <PenStyle=PS_SOLID> <Color2=37375f> <Brushstyle=BS_PATTERN 0100010000010001010001000001000101000100000100010100010000010001> <Info="AREA TYPE 32"> <Postable=4 (5059,2867) (6355,2939) (6374,2619) (5074,2547) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 33"> <Postable=4 (5090,2227) (6394,2299) (6414,1980) (5106,1907) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 34"> <Postable=4 (5122,1587) (6434,1660) (6453,1341) (5137,1268) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 35"> <Postable=4 (5153,948) (6473,1021) (6493,702) (5169,628) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 36"> <Postable=4 (6315,3578) (7602,3666) (7626,3346) (6335,3258) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 37"> <Postable=4 (6355,2939) (7650,3027) (7674,2708) (6374,2619) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 38"> <Postable=4 (6394,2299) (7697,2388) (7721,2069) (6414,1980) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 39"> <Postable=4 (6434,1660) (7745,1750) (7769,1430) (6453,1341) >
+<Item=Surface> <Prio=27> <Color=0a0a0a> <PenStyle=PS_SOLID> <Color2=0a0a0a> <Brushstyle=BS_SOLID> <Info="AREA TYPE 40"> <Postable=4 (6473,1021) (7793,1111) (7816,792) (6493,702) >

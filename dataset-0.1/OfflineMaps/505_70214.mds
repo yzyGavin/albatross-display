@@ -1,0 +1,4 @@
+<Item=Title> <Text="MAP\PARA\* BERN"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=5994e8> <Font="GraphicsGva"> <Size=200 > <Info="BELP"> <Pos=(1877,1326)> <Text="v"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZB/BERN\APP/VDF:127.32\TWR/VDF:121.02 119.70 121.50\ATIS:125.12\GLD:123.40"> <Pos=(1841,1312)> <Text="0"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LSZB/BERN\APP/VDF:127.32\TWR/VDF:121.02 119.70 121.50\ATIS:125.12\GLD:123.40"> <Pos=(1841,1312)> <Text="…"> 

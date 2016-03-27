@@ -1,0 +1,5 @@
+<Item=Title> <Text="MAP\AIRSPACES\APP SECT\05 GVA"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=16> <Color=979797> <Penstyle=PS_SOLID> <Info="AXIS05S"> <Postable=2 (-407,-407) (-9,-19) >
+<Item=Vectors> <Prio=16> <Color=979797> <Penstyle=PS_SOLID> <Info="AXIS23S"> <Postable=2 (461,445) (35,24) >
+<Item=Vectors> <Prio=16> <Color=666666> <Penstyle=PS_USERSTYLE 0204> <Info="LIM_INF05"> <Postable=3 (916,46) (42,31) (10,647) >
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GLA NDB\320kHz"> <Pos=(191,329)> <Text="X"> 

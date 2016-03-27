@@ -1,0 +1,4 @@
+<Item=Title> <Text="MAP\DANGER\AREAS\* LI-D 47"> <Mode=Manual Off> <Info=""> 
+<Item=Surface> <Prio=20> <Color=37375f> <PenStyle=PS_SOLID> <Color2=37375f> <Brushstyle=BS_PATTERN 0100010000010001010001000001000101000100000100010100010000010001> <Info="LI-D47 B IVREA"> <Postable=4 (2860,-1509) (3385,-1718) (3488,-2099) (2641,-1781) >
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2568,-1549)> <Text="LI-D47A"> 
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3026,-1825)> <Text="LI-D47B"> 

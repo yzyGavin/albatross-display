@@ -1,0 +1,49 @@
+<Item=Title> <Text="MAP\GEOGRAPHY\PASSES"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="ALBULAPASS\7585 ft"> <Pos=(4948,779)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="ARLBERGPASS\5882 ft"> <Pos=(5387,1853)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SAN BERNARDINO PASS\6775 ft"> <Pos=(4073,575)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL GD. ST. BERNARD\8100 ft"> <Pos=(1433,-699)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BERNINAPASS\7637 ft"> <Pos=(5216,462)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BOEZBERG\1867 ft"> <Pos=(2656,2424)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="BRUENIGPASS\3307 ft"> <Pos=(2688,1033)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONTE CENERI\1818 ft"> <Pos=(3746,-121)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DE LA FAUCILLE\4341 ft"> <Pos=(-109,254)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="FLUELAPASS\7818 ft"> <Pos=(5078,1108)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DE LA FORCLAZ\5006 ft"> <Pos=(1205,-340)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="FURKAPASS NW\7975 ft"> <Pos=(3066,688)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GEMMIPASS\7592 ft"> <Pos=(2011,326)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DE LA GIVRINE\4042 ft"> <Pos=(13,416)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GOTTHARDPASS\6919 ft"> <Pos=(3262,668)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GROSSE SCHEIDEGG\6437 ft"> <Pos=(2646,838)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GRIMSELPASS\7103 ft"> <Pos=(2964,664)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="IBERGEREGG\4613 ft"> <Pos=(3459,1556)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="JAUNPASS\4951 ft"> <Pos=(1642,692)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="JULIERPASS\7493 ft"> <Pos=(4812,561)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="KLEINE SCHEIDEGG\6762 ft"> <Pos=(2463,695)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="KLAUSENPASS\6391 ft"> <Pos=(3628,1275)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LENZERHEIDE PARPAN\5075 ft"> <Pos=(4564,1091)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LUKMANIERPASS\6470 ft"> <Pos=(3577,706)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="ST LUZISTEIG\2339 ft"> <Pos=(4501,1618)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MALOJAPASS\5954 ft"> <Pos=(4776,420)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DU MARCHAIRUZ\4747 ft"> <Pos=(197,604)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DU MOLLENDRUZ\3885 ft"> <Pos=(348,794)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DES MOSSES\4741 ft"> <Pos=(1331,318)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="NUFENENPASS\8130 ft"> <Pos=(3034,504)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="OBERER HAUENSTEIN\2398 ft"> <Pos=(2172,2163)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="OBERALPPASS\6706 ft"> <Pos=(3400,864)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="OFENPASS\7050 ft"> <Pos=(5543,918)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PASSWANG\3094 ft"> <Pos=(2031,2170)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DU PILLON\5072 ft"> <Pos=(1468,231)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RAWILPASS\7969 ft"> <Pos=(1782,293)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RICKENPASS\2604 ft"> <Pos=(3853,2048)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DU SANETSCH\7385 ft"> <Pos=(1576,191)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SATTELEGG\3904 ft"> <Pos=(3600,1772)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SIMPLONPASS\6578 ft"> <Pos=(2575,56)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL du Mt SION\2579 ft"> <Pos=(-115,-304)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SPLUEGENPASS\6932 ft"> <Pos=(4282,602)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="STILFSERJOCH PASS\9045 ft"> <Pos=(5767,718)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SUSTENPASS\7296 ft"> <Pos=(3099,990)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="UNTERER HAUENSTEIN\2267 ft"> <Pos=(2308,2223)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="UMBRAILPASS\8205 ft"> <Pos=(5740,741)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="VUE DES ALPES\4209 ft"> <Pos=(1009,1608)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="WEISSENSTEIN\4212 ft"> <Pos=(1842,1966)> <Text="q"> 

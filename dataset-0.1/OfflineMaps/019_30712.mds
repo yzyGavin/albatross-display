@@ -1,0 +1,3 @@
+<Item=Title> <Text="MAP\SUP2001\SECTO\3 INI"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=15> <Color=5994e8> <Penstyle=PS_SOLID> <Info="INILINE3"> <Postable=9 (1105,1959) (809,1570) (518,1414) (437,1322) (303,425) (401,386) (1707,-137) (2259,549) (1105,1959) >
+<Item=Vectors> <Prio=15> <Color=5994e8> <Penstyle=PS_SOLID> <Info="INILINE3B"> <Postable=3 (401,386) (-133,-142) (-388,-395) >

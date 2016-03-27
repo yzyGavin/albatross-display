@@ -1,0 +1,104 @@
+<Item=Title> <Text="MAP\MISC\TECHNICAL\NAV SYMBOLS"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=19> <Color=004c23> <Penstyle=PS_DASHDOT> <Info="LINE_1"> <Postable=2 (2449,3412) (3738,3451) >
+<Item=Vectors> <Prio=16> <Color=979797> <Penstyle=PS_SOLID> <Info="LINE_10"> <Postable=2 (2518,531) (3844,571) >
+<Item=Vectors> <Prio=14> <Color=004c23> <Penstyle=PS_SOLID> <Info="LINE_11"> <Postable=2 (3738,3451) (5027,3507) >
+<Item=Vectors> <Prio=19> <Color=666666> <Penstyle=PS_SOLID> <Info="LINE_12"> <Postable=2 (3750,3131) (5043,3187) >
+<Item=Vectors> <Prio=19> <Color=666666> <Penstyle=PS_SOLID> <Info="LINE_13"> <Postable=2 (3762,2811) (5059,2867) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="LINE_14"> <Postable=2 (3773,2491) (5074,2547) >
+<Item=Vectors> <Prio=16> <Color=4c4c24> <Penstyle=PS_SOLID> <Info="LINE_15"> <Postable=2 (3785,2171) (5090,2227) >
+<Item=Vectors> <Prio=15> <Color=5994e8> <Penstyle=PS_SOLID> <Info="LINE_16"> <Postable=2 (3797,1851) (5106,1907) >
+<Item=Vectors> <Prio=15> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="LINE_17"> <Postable=2 (3808,1531) (5122,1587) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_USERSTYLE  25080808> <Info="LINE_18"> <Postable=2 (3820,1211) (5137,1268) >
+<Item=Vectors> <Prio=16> <Color=178217> <Penstyle=PS_USERSTYLE 1508> <Info="LINE_19"> <Postable=2 (3832,891) (5153,948) >
+<Item=Vectors> <Prio=19> <Color=666666> <Penstyle=PS_SOLID> <Info="LINE_2"> <Postable=2 (2457,3092) (3750,3131) >
+<Item=Vectors> <Prio=15> <Color=178217> <Penstyle=PS_SOLID> <Info="LINE_20"> <Postable=2 (3844,571) (5169,628) >
+<Item=Vectors> <Prio=19> <Color=979797> <Penstyle=PS_SOLID> <Info="LINE_21"> <Postable=2 (5027,3507) (6315,3578) >
+<Item=Vectors> <Prio=18> <Color=4c4c24> <Penstyle=PS_SOLID> <Info="LINE_22"> <Postable=2 (5043,3187) (6335,3258) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_SOLID> <Info="LINE_23"> <Postable=2 (5059,2867) (6355,2939) >
+<Item=Vectors> <Prio=18> <Color=4c4c24> <Penstyle=PS_USERSTYLE 0505> <Info="LINE_24"> <Postable=2 (5074,2547) (6374,2619) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="LINE_25"> <Postable=2 (5090,2227) (6394,2299) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_SOLID> <Info="LINE_28"> <Postable=2 (5137,1268) (6453,1341) >
+<Item=Vectors> <Prio=19> <Color=666666> <Penstyle=PS_SOLID> <Info="LINE_3"> <Postable=2 (2464,2772) (3762,2811) >
+<Item=Vectors> <Prio=18> <Color=666666> <Penstyle=PS_USERSTYLE 0505> <Info="LINE_30"> <Postable=2 (5169,628) (6493,702) >
+<Item=Vectors> <Prio=12> <Color=5994e8> <Penstyle=> <Info="LINE_38"> <Postable=2 (6453,1341) (7769,1430) >
+<Item=Vectors> <Prio=12> <Color=5994e8> <Penstyle=> <Info="LINE_39"> <Postable=2 (6473,1021) (7793,1111) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_SOLID> <Info="LINE_4"> <Postable=2 (2472,2452) (3773,2491) >
+<Item=Vectors> <Prio=12> <Color=5994e8> <Penstyle=> <Info="LINE_40"> <Postable=2 (6493,702) (7816,792) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_SOLID> <Info="LINE_5"> <Postable=2 (2479,2132) (3785,2171) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_SOLID> <Info="LINE_6"> <Postable=2 (2487,1812) (3797,1851) >
+<Item=Vectors> <Prio=16> <Color=666666> <Penstyle=PS_USERSTYLE 0204> <Info="LINE_7"> <Postable=2 (2495,1491) (3808,1531) >
+<Item=Vectors> <Prio=10> <Color=3c8c8c> <Penstyle=PS_SOLID> <Info="LINE_8"> <Postable=2 (2502,1171) (3820,1211) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_SOLID> <Info="LINE_9"> <Postable=2 (2510,851) (3832,891) >
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NDB\1.00\EXCEL 9"> <Pos=(2449,3412)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="LOCATOR\10.00\EXCEL 10"> <Pos=(2518,531)> <Text="a"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NOT USED\11.00\EXCEL 31"> <Pos=(3738,3451)> <Text="b"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NOT USED\12.00\EXCEL 32"> <Pos=(3750,3131)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NOT USED\13.00\EXCEL 33"> <Pos=(3762,2811)> <Text="d"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NOT USED\14.00\EXCEL 34"> <Pos=(3773,2491)> <Text="e"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NOT USED\15.00\EXCEL 35"> <Pos=(3785,2171)> <Text="f"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NOT USED\16.00\EXCEL 36"> <Pos=(3797,1851)> <Text="g"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NOT USED\17.00\EXCEL 37"> <Pos=(3808,1531)> <Text="h"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NOT USED\18.00\EXCEL 38"> <Pos=(3820,1211)> <Text="I"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NOT USED\19.00\EXCEL 39"> <Pos=(3832,891)> <Text="j"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="VOR\2.00\EXCEL 2"> <Pos=(2457,3092)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NOT USED\20.00\EXCEL 40"> <Pos=(3844,571)> <Text="k"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="INTERSECTION\21.00\EXCEL 3\47.59.55N  09.59.55E"> <Pos=(5027,3507)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RNAV\22.00\EXCEL 4\47.49.55N  09.59.55E"> <Pos=(5043,3187)> <Text="m"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="RADAR SITE\23.00\EXCEL 11"> <Pos=(5059,2867)> <Text="n"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="CHECK TXPD\24.00\EXCEL 12"> <Pos=(5074,2547)> <Text="o"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="HOLDING\25.00\EXCEL 13"> <Pos=(5090,2227)> <Text="p"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="PASSES\26.00\EXCEL 14"> <Pos=(5106,1907)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MT_PEAKS\27.00\EXCEL 15"> <Pos=(5122,1587)> <Text="r"> 
+<Item=Beacon> <Prio=4> <Color=5994e8> <Font="GraphicsGva"> <Size=200 > <Info="LOW FLYING PROHIB.\28.00\EXCEL 26"> <Pos=(5137,1268)> <Text="s"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="FAF\29.00\EXCEL 27\46.39.55N  09.59.55E"> <Pos=(5153,948)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DME\3.00\EXCEL 8"> <Pos=(2464,2772)> <Text="Z"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="REPORTING POINT\30.00\EXCEL 30"> <Pos=(5169,628)> <Text="u"> 
+<Item=Beacon> <Prio=4> <Color=5994e8> <Font="GraphicsGva"> <Size=200 > <Info="PARA_SITE\31.00\EXCEL 21"> <Pos=(6315,3578)> <Text="v"> 
+<Item=Beacon> <Prio=4> <Color=4c4c24> <Font="GraphicsGva"> <Size=200 > <Info="HAN GLIDER SITE\32.00\EXCEL 22"> <Pos=(6335,3258)> <Text="w"> 
+<Item=Beacon> <Prio=4> <Color=4c4c24> <Font="GraphicsGva"> <Size=200 > <Info="GLIDERS\33.00\EXCEL 23"> <Pos=(6355,2939)> <Text="x"> 
+<Item=Beacon> <Prio=4> <Color=4c4c24> <Font="GraphicsGva"> <Size=200 > <Info="WINCH LAUNCHING\34.00\EXCEL 24"> <Pos=(6374,2619)> <Text="y"> 
+<Item=Beacon> <Prio=4> <Color=4c4c24> <Font="GraphicsGva"> <Size=200 > <Info="FREE BALLOON\35.00\EXCEL 25"> <Pos=(6394,2299)> <Text="z"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SINGLE OBST.\36.00\EXCEL 16"> <Pos=(6414,1980)> <Text="{"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GROUP OBST\37.00\EXCEL 17"> <Pos=(6434,1660)> <Text="<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="SINGLE OBST. LIGHT.\38.00\EXCEL 18"> <Pos=(6453,1341)> <Text="}"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="GROUP OBST. LIGHT.\39.00\EXCEL 19"> <Pos=(6473,1021)> <Text="~"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ILS_LLZ\4.00\EXCEL 7"> <Pos=(2472,2452)> <Text="["> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="OBST. > 150M\40.00\EXCEL 20"> <Pos=(6493,702)> <Text="€"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ILS_GP\5.00\EXCEL 6"> <Pos=(2479,2132)> <Text="\"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ILS_DME\6.00\EXCEL 5"> <Pos=(2487,1812)> <Text="]"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="VOR_DME\7.00\EXCEL 1"> <Pos=(2495,1491)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RNAV FLY OVER\8.00\EXCEL 29\46.49.55N  07.59.56E"> <Pos=(2502,1171)> <Text="b"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RNAV FLY BY\9.00\EXCEL 28\46.39.55N  07.59.56E"> <Pos=(2510,851)> <Text="c"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2449,3412)> <Text="__TEXT1"> 
+<Item=Text> <Prio=12> <Color=5d6464> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2518,531)> <Text="__TEXT10"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3738,3451)> <Text="__TEXT11"> 
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3750,3131)> <Text="__TEXT12"> 
+<Item=Text> <Prio=12> <Color=415f41> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3762,2811)> <Text="__TEXT13"> 
+<Item=Text> <Prio=12> <Color=236969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3773,2491)> <Text="__TEXT14"> 
+<Item=Text> <Prio=12> <Color=5d6464> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3785,2171)> <Text="__TEXT15"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3797,1851)> <Text="__TEXT16"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3808,1531)> <Text="__TEXT17"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3820,1211)> <Text="__TEXT18"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3832,891)> <Text="__TEXT19"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2457,3092)> <Text="__TEXT2"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(3844,571)> <Text="__TEXT20"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(5027,3507)> <Text="__TEXT21"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(5043,3187)> <Text="__TEXT22"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(5059,2867)> <Text="__TEXT23"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(5074,2547)> <Text="__TEXT24"> 
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(5090,2227)> <Text="__TEXT25"> 
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(5106,1907)> <Text="__TEXT26"> 
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(5122,1587)> <Text="__TEXT27"> 
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(5137,1268)> <Text="__TEXT28"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(5153,948)> <Text="__TEXT29"> 
+<Item=Text> <Prio=12> <Color=5d6464> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2464,2772)> <Text="__TEXT3"> 
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(5169,628)> <Text="__TEXT30"> 
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(6315,3578)> <Text="__TEXT31"> 
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(6335,3258)> <Text="__TEXT32"> 
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(6355,2939)> <Text="__TEXT33"> 
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(6374,2619)> <Text="__TEXT34"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2472,2452)> <Text="__TEXT4"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2479,2132)> <Text="__TEXT5"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2487,1812)> <Text="__TEXT6"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2495,1491)> <Text="__TEXT7"> 
+<Item=Text> <Prio=12> <Color=3c8c8c> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2502,1171)> <Text="__TEXT8"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2510,851)> <Text="__TEXT9"> 

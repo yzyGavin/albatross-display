@@ -1,0 +1,5 @@
+<Item=Title> <Text="MAP\DANGER\ZONES\* ZIMMERWALD"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=15> <Color=5994e8> <Penstyle=PS_SOLID> <Info="ZIMMERWALD_130"> <Postable=4 (1844,1430) (ARC,192) (1797,1243) (1844,1430) >
+<Item=Vectors> <Prio=15> <Color=5994e8> <Penstyle=PS_SOLID> <Info="ZIMMERWALD_200"> <Postable=4 (1890,1616) (ARC,384) (1797,1243) (1890,1616) >
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1797,1243)> <Text="FL130+"> 
+<Item=Text> <Prio=12> <Color=5994e8> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2001,1111)> <Text="FL200+"> 

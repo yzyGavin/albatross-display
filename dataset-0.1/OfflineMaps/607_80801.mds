@@ -1,0 +1,243 @@
+<Item=Title> <Text="MAP\MISC\TECHNICAL\SYCO FIXES (not displayed)"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="AARAU\47.22.04N  08.03.52E"> <Pos=(2563,2203)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ABESI\46.09.35N  09.02.34E"> <Pos=(3926,-77)> <Text="m"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="AFOLT\47.14.11N  08.27.38E"> <Pos=(3088,1964)> <Text="m"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="AGERI\47.07.02N  08.36.18E"> <Pos=(3284,1741)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="AKASU\(U)Z710\46.06.36N  08.29.44E"> <Pos=(3199,-197)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ALBIX\47.14.59N  08.33.52E"> <Pos=(3223,1994)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.50.36N  06.54.54E"> <Pos=(1073,1168)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="AOSTA\45.47.56N  07.19.57E"> <Pos=(1655,-830)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\45.58.16N  05.35.57E"> <Pos=(-672,-510)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="EW MILANO SRN\45.38.48N  09.01.22E"> <Pos=(3935,-1063)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ARSUT\48.10.00N  09.19.43E"> <Pos=(4150,3791)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ATN VOR/DME\114.90"> <Pos=(-2429,1120)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.54.44N  07.29.57E"> <Pos=(1841,1312)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BAMUR\47.32.41N  09.32.37E"> <Pos=(4479,2608)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BANKO\45.49.12N  07.03.18E"> <Pos=(1281,-795)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\45.28.39N  05.57.39E"> <Pos=(-189,-1460)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BAVMI\45.42.08N  08.24.26E"> <Pos=(3104,-984)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BALSI\45.28.39N  05.57.39E"> <Pos=(-189,-1460)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BEGAR\47.54.30N  07.35.00E"> <Pos=(1916,3227)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BELUS\45.40.31N  05.35.38E"> <Pos=(-683,-1078)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BENOT\47.03.28N  07.10.22E"> <Pos=(1407,1585)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BER NDB\335kHz"> <Pos=(1856,1287)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BIRKI\47.00.48N  07.22.38E"> <Pos=(1677,1503)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.54.44N  07.29.57E"> <Pos=(1841,1312)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BLM\117.45"> <Pos=(1817,2696)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\45.00.31N  06.46.38E"> <Pos=(922,-2357)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BODAN\47.35.15N  09.27.05E"> <Pos=(4355,2685)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BASUD\47.22.18N  07.37.28E"> <Pos=(1989,2197)> <Text="m"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="CANNE\46.10.00N  08.52.52E"> <Pos=(3710,-72)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\45.52.54N  05.45.27E"> <Pos=(-460,-683)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="CBP NDB/DME PROVIS.\332 KHz/115.9 MHz"> <Pos=(-460,-682)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\47.17.47N  05.27.55E"> <Pos=(-831,2037)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DELMO\47.15.28N  07.09.36E"> <Pos=(1386,1969)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO DEP LSGG\46.34.55N  06.29.57E"> <Pos=(528,663)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.29.43N  05.53.26E"> <Pos=(-279,495)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.37.41N  07.46.43E"> <Pos=(2220,773)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DJL VOR/DME\111.45\47.16.15N  05.05.50E"> <Pos=(-1312,1993)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO DEP LSGC\47.05.03N  06.47.37E"> <Pos=(909,1630)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.28.07N  06.26.53E"> <Pos=(461,445)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\47.15.28N  07.09.36E"> <Pos=(1386,1969)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO DEP LSMP\46.50.36N  06.54.54E"> <Pos=(1073,1168)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DO NDB\309 KHz\SYCO FIX"> <Pos=(-1046,1430)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO DEP LSGS\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO DEP LSZB\46.54.44N  07.29.57E"> <Pos=(1841,1312)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.46.39N  07.13.25E"> <Pos=(1482,1047)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="EKRIT\47.34.21N  08.01.43E"> <Pos=(2507,2595)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ELBEG\47.41.49N  07.44.58E"> <Pos=(2139,2826)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ELMUR\47.09.24N  08.54.27E"> <Pos=(3678,1830)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="EMKIL\48.10.27N  08.45.53E"> <Pos=(3425,3779)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ETAGO\48.43.39N  09.27.36E"> <Pos=(4274,4875)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="FRIEDRICHSHAFEN\473kHz\INBD TR 300°\MNM 4000 FT"> <Pos=(4460,2870)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.28.07N  06.26.53E"> <Pos=(461,445)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="FRI VOR/DME\110.85"> <Pos=(1482,1047)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="FUSSE\47.34.27N  10.25.47E"> <Pos=(5627,2721)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\44.59.56N  05.31.46E"> <Pos=(-779,-2377)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GLA NDB\320kHz"> <Pos=(191,329)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.03.06N  06.33.45E"> <Pos=(618,-356)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.15.14N  06.07.56E"> <Pos=(42,31)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\47.05.03N  06.47.37E"> <Pos=(909,1630)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\47.05.03N  06.47.37E"> <Pos=(909,1630)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\47.05.03N  06.47.37E"> <Pos=(909,1630)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\47.05.03N  06.47.37E"> <Pos=(909,1630)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="HERBI\48.29.27N  08.14.37E"> <Pos=(2739,4366)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.28.07N  06.26.53E"> <Pos=(461,445)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="HOC DVOR/DME\113.20"> <Pos=(2039,2381)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="HR\289kHz"> <Pos=(821,2547)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="IBINI\48.10.09N  08.34.51E"> <Pos=(3189,3761)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="IRMAR\44.48.00N  06.47.26E"> <Pos=(943,-2757)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.33.20N  05.41.08E"> <Pos=(-550,612)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\45.19.53N  06.45.19E"> <Pos=(887,-1737)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\45.19.53N  06.45.19E"> <Pos=(887,-1737)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="KLO VOR/DME\114.85/CH95Y"> <Pos=(3186,2392)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="KORED\46.51.02N  07.24.51E"> <Pos=(1731,1191)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.23.30N  05.49.01E"> <Pos=(-377,297)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="KPT\109.60/CH33X"> <Pos=(5506,3045)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="KUDES\47.31.15N  08.51.26E"> <Pos=(3588,2527)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LADOL\48.10.00N  08.57.12E"> <Pos=(3668,3772)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.48.17N  07.30.59E"> <Pos=(1867,1106)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LOKTA\48.10.00N  09.10.58E"> <Pos=(3963,3783)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LPS NDB\403kHz"> <Pos=(910,1629)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LUKOM\46.35.06N  08.45.31E"> <Pos=(3519,726)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LUMEL\47.24.26N  07.09.14E"> <Pos=(1374,2256)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MANEG\47.12.15N  08.43.20E"> <Pos=(3432,1913)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MAPAK\47.41.19N  07.32.02E"> <Pos=(1860,2804)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MATOG\45.23.12N  07.35.24E"> <Pos=(2015,-1616)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.23.35N  06.00.26E"> <Pos=(-124,299)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MINGA\48.10.00N  09.28.28E"> <Pos=(4338,3798)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MOROK\47.23.48N  06.39.20E"> <Pos=(724,2229)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MOLUS\46.26.38N  06.40.46E"> <Pos=(768,399)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MOPAN\48.14.47N  08.09.16E"> <Pos=(2637,3894)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MOROK\47.23.48N  06.39.20E"> <Pos=(724,2229)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MOT VOR/DME\115.85"> <Pos=(1867,162)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MOU VOR/DME\116.70"> <Pos=(-3263,952)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MILPA\46.18.09N  05.52.47E"> <Pos=(-294,125)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NATOR\48.10.12N  08.19.17E"> <Pos=(2855,3753)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="\47.43.20N  09.25.38E"> <Pos=(4313,2942)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NELLI\48.37.40N  09.01.25E"> <Pos=(3726,4661)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.54.43N  06.54.24E"> <Pos=(1061,1301)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.08.50N  05.33.11E"> <Pos=(-731,-171)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\46.29.43N  05.53.26E"> <Pos=(-279,495)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ODINA\46.06.16N  08.39.54E"> <Pos=(3425,-201)> <Text="m"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="OGERO\46.08.33N  08.55.32E"> <Pos=(3771,-116)> <Text="m"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="OLBEN\47.18.16N  07.37.46E"> <Pos=(1998,2068)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="OMETO\45.43.47N  08.03.11E"> <Pos=(2626,-944)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.08.05N  05.24.51E"> <Pos=(-917,-194)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="PAS DVOR/DME\116.60"> <Pos=(-133,-142)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="PENDU\47.20.56N  06.01.58E"> <Pos=(-89,2135)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="PINIK\45.52.27N  08.50.56E"> <Pos=(3686,-635)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RALIX\48.03.55N  08.32.56E"> <Pos=(3154,3560)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RAPEX\47.16.19N  08.42.41E"> <Pos=(3414,2043)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RB04\45.30.15N  06.22.35E"> <Pos=(372,-1408)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RESIA\46.28.42N  10.02.36E"> <Pos=(5229,592)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RILAX\47.56.34N  08.30.49E"> <Pos=(3116,3323)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RIPUS\47.15.37N  08.30.00E"> <Pos=(3138,2012)> <Text="m"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RMG\337kHz"> <Pos=(3106,-1129)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.40.52N  06.58.14E"> <Pos=(1150,858)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RONLA\46.21.09N  05.25.19E"> <Pos=(-903,224)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ROTOS\47.11.24N  07.43.31E"> <Pos=(2127,1851)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SAFFA\47.42.08N  08.47.38E"> <Pos=(3493,2873)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SBE\46.44.22N  07.32.32E"> <Pos=(1904,981)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SEDOR\47.54.02N  07.48.13E"> <Pos=(2201,3218)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SEGMA\47.57.57N  09.15.41E"> <Pos=(4079,3401)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.24.31N  06.14.39E"> <Pos=(191,329)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SCHUPBERG\356.5kHz"> <Pos=(1696,1520)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.04.26N  06.03.57E"> <Pos=(-47,-315)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SON\46.21.02N  08.47.14E"> <Pos=(3573,277)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SOPLO\45.43.44N  05.44.45E"> <Pos=(-477,-976)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ST-PREX\113.90"> <Pos=(461,445)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SRN VOR/DME\113.70"> <Pos=(3935,-1063)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\45.48.35N  06.43.22E"> <Pos=(835,-819)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SULZ\116.10"> <Pos=(3258,4172)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SUXAN\46.33.44N  10.28.45E"> <Pos=(5798,783)> <Text="m"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TDP VOR\110.60"> <Pos=(-894,-1435)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TELNO\46.46.19N  07.16.15E"> <Pos=(1544,1038)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TESMA\47.15.42N  08.38.15E"> <Pos=(3318,2020)> <Text="m"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TGO\112.50"> <Pos=(4027,4655)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TMA / SYCO FIX"> <Pos=(11,0)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TORINO"> <Pos=(2403,-2495)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TONDA\45.06.36N  08.13.48E"> <Pos=(2896,-2127)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TOP VOR/DME\114.50"> <Pos=(2403,-2495)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TORPA\47.28.46N  06.39.31E"> <Pos=(727,2388)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\Needed for ICWS to remove wrong FPL's in entry window (Mike ISY)\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TRASADINGEN\114.30/CH90X"> <Pos=(3031,2834)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\SID GVA FOR ENTRY WINDOW\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ULMES\46.57.18N  07.17.33E"> <Pos=(1568,1390)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="URNAS\INBD TR 349°  RH 1 Min\MNM 14000 FT\47.00.08N  08.38.18E"> <Pos=(3335,1522)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.13.09N  07.19.37E"> <Pos=(1635,-23)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.39.26N  06.45.13E"> <Pos=(863,809)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="VBE\46.53.57N  07.30.38E"> <Pos=(1856,1287)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="VBS\46.44.22N  07.32.32E"> <Pos=(1904,981)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.43.18N  06.29.00E"> <Pos=(505,931)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="VEVAR\44.48.00N  07.00.45E"> <Pos=(1247,-2754)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="VFR\47.27.30N  08.32.53E"> <Pos=(3189,2394)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="VALOR\46.03.35N  06.58.26E"> <Pos=(1167,-336)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="WILLISAU\116.90/CH116X"> <Pos=(2365,1834)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="XBE\47.03.48N  07.09.58E"> <Pos=(1399,1595)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="XTN / SYCO FIX\45.06.36N  08.13.48E"> <Pos=(2896,-2127)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.46.39N  07.13.25E"> <Pos=(1482,1047)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.34.06N  06.27.30E"> <Pos=(474,636)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.09.49N  06.00.04E"> <Pos=(-133,-142)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.09.49N  06.00.04E"> <Pos=(-133,-142)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.28.07N  06.26.53E"> <Pos=(461,445)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SYCO FIX\46.28.07N  06.26.53E"> <Pos=(461,445)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="ZHE SYCO\47.27.30N  08.32.53E"> <Pos=(3189,2394)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="ZHS SYCO\47.27.30N  08.32.53E"> <Pos=(3189,2394)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="ZHW SYCO\47.27.30N  08.32.53E"> <Pos=(3189,2394)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ZURICH EAST\110.05/CH37Y"> <Pos=(3532,2663)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="ZZZ / SYCO FIX\46.14.17N  06.06.32E"> <Pos=(11,0)> <Text="t"> 

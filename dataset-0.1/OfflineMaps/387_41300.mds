@@ -1,0 +1,3 @@
+<Item=Title> <Text="MAP\GEOGRAPHY\APP GEO PASSES"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="MONTAGNE DE SION"> <Pos=(-115,-304)> <Text="q"> 
+<Item=Beacon> <Prio=4> <Color=3c8c8c> <Font="GraphicsGva"> <Size=200 > <Info="COL DU MARCHAIRUZ\4747 ft"> <Pos=(197,604)> <Text="q"> 

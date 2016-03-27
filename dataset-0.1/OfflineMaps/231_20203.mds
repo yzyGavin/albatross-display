@@ -1,0 +1,9 @@
+<Item=Title> <Text="MAP\ROUTINGS\DAR\W112"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=16> <Color=4c4c24> <Penstyle=PS_SOLID> <Info="CL_W112"> <Postable=3 (1588,1031) (2495,887) (3315,758) >
+<Item=Vectors> <Prio=16> <Color=4c4c24> <Penstyle=PS_SOLID> <Info="ZLL_MONIN"> <Postable=3 (3315,758) (2495,887) (1957,1224) >
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="LSZB STAR D11IBE\46.48.12N  07.43.28E"> <Pos=(2142,1108)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=979797> <Font="GraphicsGva"> <Size=200 > <Info="LSZB STAR D18IBE\46.44.22N  07.51.59E"> <Pos=(2332,990)> <Text="t"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LUKOM\46.35.06N  08.45.31E"> <Pos=(3519,726)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MONIN\INTERSECTION SID/STAR LSZB -  W112\46.41.03N  07.59.18E"> <Pos=(2495,887)> <Text="l"> 
+<Item=Text> <Prio=12> <Color=5d6464> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2197,1119)> <Text="11000"> 
+<Item=Text> <Prio=12> <Color=5d6464> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(2372,972)> <Text="16000"> 

@@ -1,0 +1,145 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>CWtcDlg</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>CWtcDlg</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>120</width>
+            <height>94</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>7</hsizetype>
+            <vsizetype>7</vsizetype>
+            <horstretch>20</horstretch>
+            <verstretch>20</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="maximumSize">
+        <size>
+            <width>32767</width>
+            <height>32767</height>
+        </size>
+    </property>
+    <property name="font">
+        <font>
+            <family>Liberation Mono Track</family>
+            <pointsize>11</pointsize>
+        </font>
+    </property>
+    <property name="caption">
+        <string>WTC</string>
+    </property>
+    <property name="sizeGripEnabled">
+        <bool>false</bool>
+    </property>
+    <widget class="QListBox">
+        <property name="name">
+            <cstring>pListWtc</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>28</y>
+                <width>86</width>
+                <height>61</height>
+            </rect>
+        </property>
+        <property name="sizePolicy">
+            <sizepolicy>
+                <hsizetype>0</hsizetype>
+                <vsizetype>7</vsizetype>
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+            </sizepolicy>
+        </property>
+        <property name="font">
+            <font>
+                <family>Liberation Mono Track</family>
+                <pointsize>10</pointsize>
+            </font>
+        </property>
+        <property name="dragAutoScroll">
+            <bool>false</bool>
+        </property>
+        <property name="columnMode">
+            <enum>FixedNumber</enum>
+        </property>
+        <property name="variableHeight">
+            <bool>false</bool>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>pArcid</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>6</x>
+                <y>5</y>
+                <width>86</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+                <family>Liberation Mono Track</family>
+                <pointsize>10</pointsize>
+                <bold>1</bold>
+            </font>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+        <property name="alignment">
+            <set>WordBreak|AlignCenter</set>
+        </property>
+        <property name="indent">
+            <number>-1</number>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>pListWtc</sender>
+        <signal>clicked(QListBoxItem*)</signal>
+        <receiver>CWtcDlg</receiver>
+        <slot>pListWtcClicked(QListBoxItem*)</slot>
+    </connection>
+    <connection>
+        <sender>pListWtc</sender>
+        <signal>returnPressed(QListBoxItem*)</signal>
+        <receiver>CWtcDlg</receiver>
+        <slot>pListWtcClicked(QListBoxItem*)</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>pListWtc</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in declaration">StdAfx.h</include>
+    <include location="local" impldecl="in declaration">DataMngr.h</include>
+</includes>
+<forwards>
+    <forward>class CFlightPlan;</forward>
+</forwards>
+<variables>
+    <variable access="public">QString m_Wtc;</variable>
+    <variable>int m_TimerId;</variable>
+</variables>
+<slots>
+    <slot>pListWtcClicked( QListBoxItem * item )</slot>
+</slots>
+<functions>
+    <function>Init( QString Arcid, QString wtc, QString Atyp )</function>
+    <function access="private">mouseMoveEvent( QMouseEvent * )</function>
+    <function access="private">timerEvent( QTimerEvent * e )</function>
+    <function access="private">mousePressEvent( QMouseEvent * e )</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

@@ -1,0 +1,11 @@
+<Item=Title> <Text="MAP\AIRSPACES\DESCENT LINES\APP MVA 6000, 6500 FT"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="MVAGE_6\CLOSED LINE WITH ARC SHORTCUT"> <Postable=18 (528,663) (712,399) (418,123) (314,12) (298,-57) (321,-143) (349,-174) (-254,-595) (ARC,-288) (-420,-358) (-586,-122) (-391,-260) (-322,-305) (-258,-283) (-216,-240) (-197,-117) (164,405) (528,663) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="MVAGE_65\OPEN LINE 6500 FT INSIDE TMA GVA"> <Postable=5 (-617,-569) (-616,-469) (-385,-470) (-292,-566) (-292,-617) >
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-415,-579)> <Text="6,5"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-136,-459)> <Text="6"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-581,-329)> <Text="6"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(364,118)> <Text="6"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-46,661)> <Text="7"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(615,759)> <Text="7"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(442,22)> <Text="7"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(924,793)> <Text="8"> 

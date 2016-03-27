@@ -1,0 +1,2 @@
+<Item=Title> <Text="MAP\ROUTINGS\HOLDINGS\DINIG"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DINIG\Position: R326 D18 GVA \INBD TR 146 \LEFT HAND  \OUTBD LEG: D25 GVA \MNM HLD ALT 7000 \MRA FL120 \MAX HLDG FL220  \MAX IAS 230 KT"> <Pos=(-279,495)> <Text="p"> 

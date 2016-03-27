@@ -1,0 +1,38 @@
+<Item=Title> <Text="MAP\ROUTINGS\SRE\SRE"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=16> <Color=979797> <Penstyle=PS_SOLID> <Info="SRAGG05A"> <Postable=25 (-5,-16) (-28,-38) (-35,-32) (-28,-38) (-51,-61) (-58,-54) (-51,-61) (-74,-83) (-81,-77) (-74,-83) (-97,-105) (-103,-99) (-97,-105) (-120,-128) (-126,-122) (-114,-134) (-120,-128) (-143,-150) (-149,-144) (-143,-150) (-166,-172) (-172,-167) (-166,-172) (-189,-195) (-195,-189) >
+<Item=Vectors> <Prio=16> <Color=979797> <Penstyle=PS_SOLID> <Info="SRAGG05B"> <Postable=23 (-189,-195) (-212,-217) (-218,-211) (-212,-217) (-235,-240) (-241,-234) (-228,-246) (-235,-240) (-258,-262) (-264,-256) (-258,-262) (-280,-285) (-287,-278) (-280,-285) (-304,-307) (-309,-301) (-304,-307) (-326,-329) (-333,-324) (-326,-329) (-349,-352) (-355,-346) (-343,-358) >
+<Item=Vectors> <Prio=16> <Color=979797> <Penstyle=PS_SOLID> <Info="SRAGG05C"> <Postable=14 (-349,-352) (-372,-374) (-378,-368) (-372,-374) (-395,-396) (-401,-391) (-395,-396) (-418,-419) (-424,-413) (-418,-419) (-441,-442) (-447,-435) (-441,-442) (-464,-464) >
+<Item=Vectors> <Prio=16> <Color=979797> <Penstyle=PS_SOLID> <Info="SRAGG23A"> <Postable=25 (31,20) (53,42) (48,49) (53,42) (76,65) (70,71) (76,65) (99,88) (93,94) (99,88) (122,110) (116,116) (122,110) (145,133) (138,139) (151,126) (145,133) (168,155) (161,161) (168,155) (190,178) (184,183) (190,178) (213,200) (207,206) >
+<Item=Vectors> <Prio=16> <Color=979797> <Penstyle=PS_SOLID> <Info="SRAGG23B"> <Postable=23 (213,200) (236,222) (230,228) (236,222) (259,245) (252,251) (265,239) (259,245) (281,267) (275,273) (281,267) (304,290) (298,296) (304,290) (327,312) (321,318) (327,312) (350,335) (344,341) (350,335) (372,357) (367,363) (378,351) >
+<Item=Vectors> <Prio=16> <Color=979797> <Penstyle=PS_SOLID> <Info="SRAGG23C"> <Postable=14 (372,357) (395,380) (389,386) (395,380) (418,402) (412,408) (418,402) (441,425) (435,431) (441,425) (464,447) (458,453) (464,447) (486,470) >
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-51,-61)> <Text="___1950 *"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-74,-83)> <Text="___2200"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-97,-105)> <Text="___2600  *"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-114,-134)> <Text=" 2900 5NM"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-143,-150)> <Text="___3200"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-166,-172)> <Text="___3600"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-189,-195)> <Text="___3900"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-212,-217)> <Text="___4200"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-228,-246)> <Text=" 4600 10NM"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-258,-262)> <Text="___4900"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-280,-285)> <Text="___5200"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-304,-307)> <Text="___5600"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-326,-329)> <Text="___5900"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-343,-358)> <Text=" 6000 15NM"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-372,-374)> <Text="___6000"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(76,65)> <Text="___2060  *"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(99,88)> <Text="___2400"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(122,110)> <Text="___2700  *"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(151,126)> <Text=" 3000 5NM"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(168,155)> <Text="___3300"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(190,178)> <Text="___3600"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(213,200)> <Text="___4000"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(236,222)> <Text="___4300"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(265,239)> <Text=" 4600 10NM"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(281,267)> <Text="___4900"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(304,290)> <Text="___5200"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(327,312)> <Text="___5600"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(350,335)> <Text="___5900"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(378,351)> <Text=" 6200 15NM"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(395,380)> <Text="___6500"> 
+<Item=Text> <Prio=12> <Color=626969> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(418,402)> <Text="___6800  *"> 

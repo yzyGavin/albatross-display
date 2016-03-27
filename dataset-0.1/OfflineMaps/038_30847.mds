@@ -1,0 +1,5 @@
+<Item=Title> <Text="MAP\SUP2001\SID/STAR\DEST LFSB"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BALIR\47.18.30N  07.16.53E"> <Pos=(1543,2068)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DELMO\47.15.28N  07.09.36E"> <Pos=(1386,1969)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="FLORY\46.54.31N  06.35.06E"> <Pos=(638,1291)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LPS NDB\403kHz"> <Pos=(910,1629)> <Text="X"> 

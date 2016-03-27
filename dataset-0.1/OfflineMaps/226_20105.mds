@@ -1,0 +1,14 @@
+<Item=Title> <Text="MAP\ROUTINGS\SUPPL AWY\ITICOM"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_SOLID> <Info="ITICOM_1"> <Postable=3 (-746,2108) (-761,44) (-766,-681) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_SOLID> <Info="ITICOM_2"> <Postable=3 (-761,44) (-262,-357) (873,-1496) >
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_SOLID> <Info="ITICOM_3"> <Postable=4 (-460,-682) (-766,-681) (372,-1408) (887,-1737) >
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GIRKU\46.03.05N  05.54.17E"> <Pos=(-262,-357)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LANTU\46.06.14N  05.51.43E"> <Pos=(-319,-257)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RB10\45.52.55N  05.31.48E"> <Pos=(-766,-681)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RB11\46.15.34N  05.31.48E"> <Pos=(-761,44)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RB14\45.30.15N  06.22.35E"> <Pos=(372,-1408)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="RS05"> <Pos=(-746,2108)> <Text="X"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-1034,-711)> <Text="RB10"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-716,44)> <Text="RB11"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(124,-1441)> <Text="RB14"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(-703,2108)> <Text="RS05"> 

@@ -1,0 +1,370 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>CFlSelectOther</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>CFlSelectOther</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>120</width>
+            <height>176</height>
+        </rect>
+    </property>
+    <property name="font">
+        <font>
+            <family>Liberation Mono Track</family>
+            <pointsize>11</pointsize>
+        </font>
+    </property>
+    <property name="caption">
+        <string>FlOther</string>
+    </property>
+    <property name="sizeGripEnabled">
+        <bool>false</bool>
+    </property>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pushButton7</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>1</x>
+                <y>55</y>
+                <width>38</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>7</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pushButton4</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>1</x>
+                <y>85</y>
+                <width>38</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>4</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pushButton1</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>1</x>
+                <y>115</y>
+                <width>38</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>1</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pushButton5</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>39</x>
+                <y>85</y>
+                <width>38</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>5</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pushButton9</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>77</x>
+                <y>55</y>
+                <width>38</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>9</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pushButton6</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>77</x>
+                <y>85</y>
+                <width>38</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>6</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pushButton2</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>39</x>
+                <y>115</y>
+                <width>38</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>2</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pushButton3</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>77</x>
+                <y>115</y>
+                <width>38</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>3</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pushButton0</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>39</x>
+                <y>145</y>
+                <width>38</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>0</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>pushButton8</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>39</x>
+                <y>55</y>
+                <width>38</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>8</string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Cls</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>7</x>
+                <y>5</y>
+                <width>102</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+                <family>Liberation Mono Track</family>
+                <pointsize>10</pointsize>
+                <bold>1</bold>
+            </font>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+        <property name="alignment">
+            <set>WordBreak|AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QLineEdit">
+        <property name="name">
+            <cstring>Level</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>33</x>
+                <y>28</y>
+                <width>50</width>
+                <height>22</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+                <family>Liberation Mono Track</family>
+                <pointsize>10</pointsize>
+            </font>
+        </property>
+        <property name="mouseTracking">
+            <bool>false</bool>
+        </property>
+        <property name="frameShape">
+            <enum>LineEditPanel</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Sunken</enum>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+        <property name="maxLength">
+            <number>3</number>
+        </property>
+        <property name="alignment">
+            <set>AlignRight</set>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>pushButton0</sender>
+        <signal>clicked()</signal>
+        <receiver>CFlSelectOther</receiver>
+        <slot>PushButton0Pressed()</slot>
+    </connection>
+    <connection>
+        <sender>pushButton1</sender>
+        <signal>clicked()</signal>
+        <receiver>CFlSelectOther</receiver>
+        <slot>PushButton1Pressed()</slot>
+    </connection>
+    <connection>
+        <sender>pushButton2</sender>
+        <signal>clicked()</signal>
+        <receiver>CFlSelectOther</receiver>
+        <slot>PushButton2Pressed()</slot>
+    </connection>
+    <connection>
+        <sender>pushButton3</sender>
+        <signal>clicked()</signal>
+        <receiver>CFlSelectOther</receiver>
+        <slot>PushButton3Pressed()</slot>
+    </connection>
+    <connection>
+        <sender>pushButton5</sender>
+        <signal>clicked()</signal>
+        <receiver>CFlSelectOther</receiver>
+        <slot>PushButton5Pressed()</slot>
+    </connection>
+    <connection>
+        <sender>pushButton6</sender>
+        <signal>clicked()</signal>
+        <receiver>CFlSelectOther</receiver>
+        <slot>PushButton6Pressed()</slot>
+    </connection>
+    <connection>
+        <sender>pushButton7</sender>
+        <signal>clicked()</signal>
+        <receiver>CFlSelectOther</receiver>
+        <slot>PushButton7Pressed()</slot>
+    </connection>
+    <connection>
+        <sender>pushButton8</sender>
+        <signal>clicked()</signal>
+        <receiver>CFlSelectOther</receiver>
+        <slot>PushButton8Pressed()</slot>
+    </connection>
+    <connection>
+        <sender>pushButton9</sender>
+        <signal>clicked()</signal>
+        <receiver>CFlSelectOther</receiver>
+        <slot>PushButton9Pressed()</slot>
+    </connection>
+    <connection>
+        <sender>pushButton4</sender>
+        <signal>clicked()</signal>
+        <receiver>CFlSelectOther</receiver>
+        <slot>PushButton4Pressed()</slot>
+    </connection>
+    <connection>
+        <sender>Level</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>CFlSelectOther</receiver>
+        <slot>LevelTextChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>Level</sender>
+        <signal>returnPressed()</signal>
+        <receiver>CFlSelectOther</receiver>
+        <slot>LevelReturnPressed()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>Level</tabstop>
+    <tabstop>pushButton0</tabstop>
+    <tabstop>pushButton1</tabstop>
+    <tabstop>pushButton2</tabstop>
+    <tabstop>pushButton3</tabstop>
+    <tabstop>pushButton4</tabstop>
+    <tabstop>pushButton5</tabstop>
+    <tabstop>pushButton6</tabstop>
+    <tabstop>pushButton7</tabstop>
+    <tabstop>pushButton8</tabstop>
+    <tabstop>pushButton9</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in implementation">FlSelectOther.ui.h</include>
+</includes>
+<variables>
+    <variable>int m_TimerId;</variable>
+    <variable access="public">int m_Level;</variable>
+    <variable access="public">bool ButtonPressed;</variable>
+    <variable access="private">QString m_strLevel;</variable>
+</variables>
+<slots>
+    <slot>PushButton0Pressed()</slot>
+    <slot>PushButton1Pressed()</slot>
+    <slot>PushButton2Pressed()</slot>
+    <slot>PushButton3Pressed()</slot>
+    <slot>PushButton4Pressed()</slot>
+    <slot>PushButton5Pressed()</slot>
+    <slot>PushButton6Pressed()</slot>
+    <slot>PushButton7Pressed()</slot>
+    <slot>PushButton8Pressed()</slot>
+    <slot>PushButton9Pressed()</slot>
+    <slot>LevelTextChanged( const QString &amp; textIni )</slot>
+    <slot>LevelReturnPressed()</slot>
+</slots>
+<functions>
+    <function>ComputeChar( char btn )</function>
+    <function access="private">mouseMoveEvent( QMouseEvent * )</function>
+    <function access="private">timerEvent( QTimerEvent * e )</function>
+    <function access="private">mousePressEvent( QMouseEvent * e )</function>
+    <function>Init( int cfl )</function>
+    <function>destroy()</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

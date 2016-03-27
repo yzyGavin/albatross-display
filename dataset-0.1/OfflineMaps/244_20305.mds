@@ -1,0 +1,2 @@
+<Item=Title> <Text="MAP\ROUTINGS\HOLDINGS\NEMOS"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="NEMOS\POSITION 46.54.43 N / 006.54.24 E \INBOUND TRACK 232 \RIGHT HAND \OUTBOUND LEG 9 NM \MNM HLD FL110 \MAX HLD FL230 \MAX IAS 230 KTS"> <Pos=(1061,1301)> <Text="p"> 

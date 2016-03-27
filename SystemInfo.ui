@@ -1,0 +1,385 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>CSystemInfo</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>CSystemInfo</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>434</width>
+            <height>176</height>
+        </rect>
+    </property>
+    <property name="font">
+        <font>
+            <family>Liberation Mono Track</family>
+            <pointsize>11</pointsize>
+        </font>
+    </property>
+    <property name="caption">
+        <string>System Information</string>
+    </property>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel1</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>19</x>
+                <y>10</y>
+                <width>80</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Username : </string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>pUsername</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>101</x>
+                <y>10</y>
+                <width>80</width>
+                <height>21</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>pSystemMode</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>311</x>
+                <y>10</y>
+                <width>110</width>
+                <height>21</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel12</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>206</x>
+                <y>10</y>
+                <width>101</width>
+                <height>21</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>System Mode : </string>
+        </property>
+    </widget>
+    <widget class="Line">
+        <property name="name">
+            <cstring>line2_4</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>30</y>
+                <width>430</width>
+                <height>16</height>
+            </rect>
+        </property>
+        <property name="frameShape">
+            <enum>HLine</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Sunken</enum>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel14</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>16</x>
+                <y>50</y>
+                <width>102</width>
+                <height>21</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Track Service : </string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>pTrackService</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>121</x>
+                <y>50</y>
+                <width>110</width>
+                <height>21</height>
+            </rect>
+        </property>
+        <property name="backgroundMode">
+            <enum>PaletteBackground</enum>
+        </property>
+        <property name="backgroundOrigin">
+            <enum>ParentOrigin</enum>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel16</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>283</x>
+                <y>50</y>
+                <width>87</width>
+                <height>21</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Wx Service : </string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>pWeather</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>372</x>
+                <y>50</y>
+                <width>50</width>
+                <height>21</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="Line">
+        <property name="name">
+            <cstring>line2</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>70</y>
+                <width>430</width>
+                <height>16</height>
+            </rect>
+        </property>
+        <property name="frameShape">
+            <enum>HLine</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Sunken</enum>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel22_2</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>221</x>
+                <y>150</y>
+                <width>141</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Adaptation Data Set :</string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>AdaDataSetVersion</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>364</x>
+                <y>150</y>
+                <width>70</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel19</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>144</x>
+                <y>130</y>
+                <width>130</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Software Versions</string>
+        </property>
+    </widget>
+    <widget class="Line">
+        <property name="name">
+            <cstring>line2_3_2</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>110</y>
+                <width>430</width>
+                <height>16</height>
+            </rect>
+        </property>
+        <property name="frameShape">
+            <enum>HLine</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Sunken</enum>
+        </property>
+        <property name="orientation">
+            <enum>Horizontal</enum>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel20_2</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>5</x>
+                <y>150</y>
+                <width>52</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Viewer :</string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>pASDVersion</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>60</x>
+                <y>150</y>
+                <width>70</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel18</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>20</x>
+                <y>90</y>
+                <width>86</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>ROC/D Unit :</string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>pRocd</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>111</x>
+                <y>88</y>
+                <width>50</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>pAPPACC</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>360</x>
+                <y>88</y>
+                <width>70</width>
+                <height>21</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string></string>
+        </property>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>textLabel18_2</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>280</x>
+                <y>90</y>
+                <width>70</width>
+                <height>18</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>DB Type :</string>
+        </property>
+    </widget>
+</widget>
+<includes>
+    <include location="local" impldecl="in declaration">CommonDataTypes.h</include>
+    <include location="local" impldecl="in implementation">SystemInfo.ui.h</include>
+</includes>
+<variables>
+    <variable>QValueList&lt;ExtLineEdit&gt; m_ExtLineTable;</variable>
+</variables>
+<slots>
+    <slot>init()</slot>
+    <slot>closeEvent( QCloseEvent * )</slot>
+</slots>
+<functions>
+    <function>Update()</function>
+    <function access="private">mousePressEvent( QMouseEvent * e )</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

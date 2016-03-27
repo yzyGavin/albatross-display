@@ -1,0 +1,81 @@
+<Item=Title> <Text="MAP\AERODROMES\AIRFIELDS\FOREIGN"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDNL/LEUTKIRCH\INFO:122.87"> <Pos=(5060,3238)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDNL/LEUTKIRCH\INFO:122.87"> <Pos=(5060,3238)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDSA/ALBSTADT\AFIS:128.950"> <Pos=(3799,3937)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDSA/ALBSTADT\AFIS:128.950"> <Pos=(3799,3937)> <Text="Š"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDSB/KARLSRUHE/BADEN-BADEN\TWR:125.87"> <Pos=(2518,4926)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDSB/KARLSRUHE/BADEN-BADEN\TWR:125.87"> <Pos=(2518,4926)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDSI/BINNINGEN (D)\INFO:130.60"> <Pos=(3393,3057)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDSI/BINNINGEN (D)\INFO:130.60"> <Pos=(3393,3057)> <Text="Œ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDSL/BLUMBERG\INFO:123.05"> <Pos=(3190,3139)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDSL/BLUMBERG\INFO:123.05"> <Pos=(3190,3139)> <Text="Œ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDSZ/ROTTWEIL-ZEPFENHAHN\VDF:120.07\INFO:120.07"> <Pos=(3370,3802)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDSZ/ROTTWEIL-ZEPFENHAHN\VDF:120.07\INFO:120.07"> <Pos=(3370,3802)> <Text="‹"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTB/BADEN-BADEN/OOS\INFO:121.00 122.50"> <Pos=(2652,4945)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTB/BADEN-BADEN/OOS\INFO:121.00 122.50"> <Pos=(2652,4945)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTF/FREIBURG I.BR.\INFO:118.25"> <Pos=(2236,3451)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTF/FREIBURG I.BR.\INFO:118.25"> <Pos=(2236,3451)> <Text="ƒ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTM/MENGEN\INFO:122.37"> <Pos=(4218,3578)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTM/MENGEN\INFO:122.37"> <Pos=(4218,3578)> <Text="‹"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTO/OFFENBURG\INFO:122.60"> <Pos=(2334,4279)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTO/OFFENBURG\INFO:122.60"> <Pos=(2334,4279)> <Text="‘"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTP/PFULLENDORF\INFO:123.25"> <Pos=(4072,3293)> <Text="4"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTP/PFULLENDORF\INFO:123.25"> <Pos=(4072,3293)> <Text="‘"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTR/HERTEN-RHEINFELDEN\INFO:123.25"> <Pos=(2135,2559)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTR/HERTEN-RHEINFELDEN\INFO:123.25"> <Pos=(2135,2559)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTS/SCHWENNINGEN/NECKAR\INFO:122.85"> <Pos=(3184,3564)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTS/SCHWENNINGEN/NECKAR\INFO:122.85"> <Pos=(3184,3564)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTU/SAULGAU\INFO:123.60"> <Pos=(4393,3538)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTU/SAULGAU\INFO:123.60"> <Pos=(4393,3538)> <Text="†"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTZ/KONSTANZ\INFO:119.90"> <Pos=(3941,2852)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="EDTZ/KONSTANZ\INFO:119.90"> <Pos=(3941,2852)> <Text="‡"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="ETHL/LAUPHEIM"> <Pos=(4891,3924)> <Text="6"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="ETHL/LAUPHEIM"> <Pos=(4891,3924)> <Text="Š"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LF_HABERE/HABERE POCHE"> <Pos=(486,75)> <Text="7"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LF_HABERE/HABERE POCHE"> <Pos=(486,75)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGD/ARBOIS\AFIS:123.50"> <Pos=(-450,1309)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGD/ARBOIS\AFIS:123.50"> <Pos=(-450,1309)> <Text="…"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGL/LONS-LE-SAUNIER\AFIS:123.50"> <Pos=(-833,843)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGL/LONS-LE-SAUNIER\AFIS:123.50"> <Pos=(-833,843)> <Text="‹"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGX/CHAMPAGNOLE\TWR:NIL"> <Pos=(-370,1010)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFGX/CHAMPAGNOLE\TWR:NIL"> <Pos=(-370,1010)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHM/MEGEVE\AFIS:118.50"> <Pos=(739,-801)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHM/MEGEVE\AFIS:118.50"> <Pos=(739,-801)> <Text="„"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHN/BELLEGARDE\AFIS:123.50"> <Pos=(-395,-220)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHN/BELLEGARDE\AFIS:123.50"> <Pos=(-395,-220)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHS/BOURG CEYZERIAT\AFIS:118.45"> <Pos=(-1078,-57)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHS/BOURG CEYZERIAT\AFIS:118.45"> <Pos=(-1078,-57)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHZ/SALLANCHES\AFIS:123.50"> <Pos=(720,-545)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFHZ/SALLANCHES\AFIS:123.50"> <Pos=(720,-545)> <Text="‚"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKA/ALBERTVILLE\AFIS:123.50"> <Pos=(307,-1175)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKA/ALBERTVILLE\AFIS:123.50"> <Pos=(307,-1175)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKL/LYON-BRYNDAS\TWR LFLY:118.10\CLUB:123.50"> <Pos=(-1889,-996)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKL/LYON-BRYNDAS\TWR LFLY:118.10\CLUB:123.50"> <Pos=(-1889,-996)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKX/MERIBEL\AFIS:118.75"> <Pos=(648,-1596)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKX/MERIBEL\AFIS:118.75"> <Pos=(648,-1596)> <Text="„"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKY/BELLEY\AFIS:123.50"> <Pos=(-550,-1043)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKY/BELLEY\AFIS:123.50"> <Pos=(-550,-1043)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKZ/ST-CLAUDE\AFIS:123.50"> <Pos=(-438,283)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFKZ/ST-CLAUDE\AFIS:123.50"> <Pos=(-438,283)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLE/CHALLES-LES-EAUX\INFO:118.40"> <Pos=(-168,-1301)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLE/CHALLES-LES-EAUX\INFO:118.40"> <Pos=(-168,-1301)> <Text="„"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLG/GRENOBLE LE VERSOUD\TWR:121.00"> <Pos=(-342,-1958)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLG/GRENOBLE LE VERSOUD\TWR:121.00"> <Pos=(-342,-1958)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLJ/COURCHEVEL\AFIS:120.07"> <Pos=(720,-1615)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLJ/COURCHEVEL\AFIS:120.07"> <Pos=(720,-1615)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLK/OYONNAX\AFIS:123.50"> <Pos=(-578,79)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLK/OYONNAX\AFIS:123.50"> <Pos=(-578,79)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLP/ANNECY\APP:123.70\TWR:118.20"> <Pos=(8,-590)> <Text="1"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLP/ANNECY\APP:123.70\TWR:118.20"> <Pos=(8,-590)> <Text=""> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLY/LYON-BRON\LYON APP:128.50 125.80\BRON APP:119.45\TWR:118.10"> <Pos=(-1563,-966)> <Text="0"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFLY/LYON-BRON\LYON APP:128.50 125.80\BRON APP:119.45\TWR:118.10"> <Pos=(-1563,-966)> <Text="ƒ"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFSP/PONTARLIER\AFIS:123.50"> <Pos=(301,1288)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFSP/PONTARLIER\AFIS:123.50"> <Pos=(301,1288)> <Text="‘"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFXA/AMBERIEU\APP:119.25 128.50\TWR:129.75"> <Pos=(-1021,-491)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LFXA/AMBERIEU\APP:119.25 128.50\TWR:129.75"> <Pos=(-1021,-491)> <Text="’"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LIMW/AOSTA\RADIO:119.95"> <Pos=(1696,-948)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LIMW/AOSTA\RADIO:119.95"> <Pos=(1696,-948)> <Text="Š"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LOIH/HOHENEMS\INFO:121.20"> <Pos=(4697,2311)> <Text="2"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="LOIH/HOHENEMS\INFO:121.20"> <Pos=(4697,2311)> <Text="Ž"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="MASERA/MASERA\AFIS:130.0"> <Pos=(2964,-145)> <Text="3"> 
+<Item=Beacon> <Prio=4> <Color=505150> <Font="GraphicsGva"> <Size=200 > <Info="MASERA/MASERA\AFIS:130.0"> <Pos=(2964,-145)> <Text="’"> 

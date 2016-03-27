@@ -1,0 +1,15 @@
+<Item=Title> <Text="MAP\MILITARY\MIL MISC\NAVAIDS"> <Mode=Manual Off> <Info=""> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DJL VOR/DME\111.45"> <Pos=(-1312,1993)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="FRI VOR/DME\110.85/CH45Y\DME ELEV 2659 FT"> <Pos=(1482,1047)> <Text="Z"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="FRI VOR/DME\110.85/CH45Y\DME ELEV 2659 FT"> <Pos=(1482,1047)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="HOCHWALD\113.20/CH79X"> <Pos=(2039,2381)> <Text="Z"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="HOCHWALD\113.20/CH79X"> <Pos=(2039,2381)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="HERICOURT GE\289kHz"> <Pos=(821,2547)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LUXEUIL\117.10"> <Pos=(253,2787)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MOT VOR/DME\115.85"> <Pos=(1867,162)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="PASSEIRY\116.60\DME ELEV 1418 FT"> <Pos=(-133,-142)> <Text="Z"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="PASSEIRY\116.60\DME ELEV 1418 FT"> <Pos=(-133,-142)> <Text="Y"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ST-PREX DME\113.90/CH86X\DME ELEV 1252 FT"> <Pos=(461,445)> <Text="Z"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SPR VOR/DME\113.90"> <Pos=(461,445)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="WIL\116.90/CH116X"> <Pos=(2365,1834)> <Text="Z"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="WIL\116.90/CH116X"> <Pos=(2365,1834)> <Text="Y"> 

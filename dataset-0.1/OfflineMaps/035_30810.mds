@@ -1,0 +1,50 @@
+<Item=Title> <Text="MAP\SUP2001\SID/STAR\STARs"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="BANKO_ARR"> <Postable=2 (1281,-795) (618,-356) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="BENOT_ARR"> <Postable=2 (1407,1585) (1061,1301) >
+<Item=Vectors> <Prio=19> <Color=004c23> <Penstyle=PS_DASHDOT> <Info="CBP4ATR"> <Postable=2 (-460,-682) (-270,-545) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="DIJ_ARR"> <Postable=3 (-1312,1993) (-380,641) (-279,495) >
+<Item=Vectors> <Prio=19> <Color=004c23> <Penstyle=PS_DASHDOT> <Info="DIN2ATR"> <Postable=2 (-279,495) (-70,191) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="FRI_ARR"> <Postable=2 (1482,1047) (1150,858) >
+<Item=Vectors> <Prio=19> <Color=004c23> <Penstyle=PS_DASHDOT> <Info="GOL2ATR"> <Postable=2 (618,-356) (204,-78) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="KINES_ARR"> <Postable=3 (887,-1737) (733,-944) (618,-356) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="LUSAR_ARR"> <Postable=3 (-1218,835) (-380,641) (-279,495) >
+<Item=Vectors> <Prio=19> <Color=004c23> <Penstyle=PS_DASHDOT> <Info="NEM2PTR"> <Postable=2 (1061,1301) (326,581) >
+<Item=Vectors> <Prio=19> <Color=004c23> <Penstyle=PS_DASHDOT> <Info="NEM3ATR"> <Postable=2 (1061,1301) (863,809) >
+<Item=Vectors> <Prio=19> <Color=004c23> <Penstyle=PS_DASHDOT> <Info="NEM3NTR"> <Postable=2 (1061,1301) (863,809) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="ODIGA_ARR"> <Postable=3 (718,1877) (-380,641) (-279,495) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="TDP_ARR"> <Postable=3 (-894,-1435) (-683,-1078) (-460,-682) >
+<Item=Vectors> <Prio=16> <Color=004c23> <Penstyle=PS_SOLID> <Info="ULMES_ARR"> <Postable=2 (1568,1390) (863,809) >
+<Item=Vectors> <Prio=19> <Color=004c23> <Penstyle=PS_DASHDOT> <Info="VAD2ATR"> <Postable=2 (863,809) (461,445) >
+<Item=Vectors> <Prio=19> <Color=004c23> <Penstyle=PS_DASHDOT> <Info="VAD2NTR"> <Postable=2 (863,809) (596,308) >
+<Item=Vectors> <Prio=19> <Color=004c23> <Penstyle=PS_DASHDOT> <Info="VAD2PTR"> <Postable=2 (863,809) (326,581) >
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BANKO\45.49.12N  07.03.18E"> <Pos=(1281,-795)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BELKA\46.03.45N  05.50.50E"> <Pos=(-339,-336)> <Text="m"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="BELUS\45.40.31N  05.35.38E"> <Pos=(-683,-1078)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="CBP NDB/DME PROVIS.\332 KHz/115.9 MHz"> <Pos=(-460,-682)> <Text="X"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DINIG\46.29.43N  05.53.26E"> <Pos=(-279,495)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="DJL VOR/DME\111.45"> <Pos=(-1312,1993)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ESEVA\46.48.08N  07.00.53E"> <Pos=(1206,1091)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="FRI VOR/DME\110.85"> <Pos=(1482,1047)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG502\45.57.14N  05.53.57E"> <Pos=(-270,-545)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG503\46.05.45N  05.41.49E"> <Pos=(-540,-271)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG510\45.46.23N  05.48.11E"> <Pos=(-400,-892)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG511\46.11.50N  06.15.14E"> <Pos=(204,-78)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG512\46.23.50N  06.32.56E"> <Pos=(596,308)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG513\46.20.15N  06.02.54E"> <Pos=(-70,191)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG514\46.32.25N  06.20.49E"> <Pos=(326,581)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GG601\46.21.28N  06.17.00E"> <Pos=(243,231)> <Text="c"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="GOLEB\46.03.06N  06.33.45E"> <Pos=(618,-356)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="INDIS\46.01.33N  05.47.48E"> <Pos=(-407,-407)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="KERAD\46.14.07N  05.53.57E"> <Pos=(-269,-4)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="KINES\45.19.53N  06.45.19E"> <Pos=(887,-1737)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LIRKO\R326 D23 GVA / D27 SPR\46.34.15N  05.48.51E"> <Pos=(-380,641)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="LUSAR\46.40.08N  05.10.46E"> <Pos=(-1218,835)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ODIGA\47.12.48N  06.38.56E"> <Pos=(718,1877)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="OMETO\45.43.47N  08.03.11E"> <Pos=(2626,-944)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="PITOM\46.05.41N  06.06.07E"> <Pos=(2,-275)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ROCCA\45.44.43N  06.38.44E"> <Pos=(733,-944)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ROMOM\46.40.52N  06.58.14E"> <Pos=(1150,858)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="SPR VOR/DME\113.90"> <Pos=(461,445)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="TDP VOR\110.60"> <Pos=(-894,-1435)> <Text="^"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="ULMES\46.57.18N  07.17.33E"> <Pos=(1568,1390)> <Text="l"> 
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="VADAR\46.39.26N  06.45.13E"> <Pos=(863,809)> <Text="l"> 

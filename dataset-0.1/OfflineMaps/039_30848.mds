@@ -1,0 +1,5 @@
+<Item=Title> <Text="MAP\SUP2001\SID/STAR\Z 68"> <Mode=Manual Off> <Info=""> 
+<Item=Vectors> <Prio=18> <Color=004c23> <Penstyle=PS_USERSTYLE 0505> <Info="Z68"> <Postable=3 (795,627) (1412,1133) (1731,1191) >
+<Item=Beacon> <Prio=4> <Color=808080> <Font="GraphicsGva"> <Size=200 > <Info="MORAX\46.49.21N  07.10.17E"> <Pos=(1412,1133)> <Text="l"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(1412,1133)> <Text="__MORAX"> 
+<Item=Text> <Prio=12> <Color=4b7d91> <Font="MS Sans Serif"> <Size=110 > <Info=""> <Pos=(795,627)> <Text="__SUGOR"> 
